@@ -1,0 +1,80 @@
+---
+title: "Web Scraping - News"
+author: "Lisa Halmschlager (1902224)"
+date: "11/12/2019"
+output:
+  pdf_document: default
+  html_document: default
+---
+
+**Task: Download news data from any websites for a given keyword:**  
+- The outcome should be a dataframe  
+- Apply your function to at least 3 page  
+- Write function, use lapply and rbindlist  
+
+## R Setup
+
+```{r setup, warning=FALSE, message=FALSE}
+library(rvest)
+library(stringr)
+library(data.table)
+
+# Have your SelectorGadget on Google Chrome: https://selectorgadget.com/
+```
+
+## Write function to scrape website
+
+```{r function_diepresse}
+# my_url <- "https://www.diepresse.com/suche?s=Rauchverbot"
+
+scrape_diepresse <- function(my_url) {
+  
+  page_html <- read_html(my_url, encoding="ISO-8859-1") # reads html document from URL
+
+  page_titles <- page_html %>% 
+    html_nodes('.card__link') %>% 
+    html_text() %>%
+    trimws()
+  
+  page_summary <- page_html %>% 
+    html_nodes(".card__text") %>% 
+    html_text() %>%
+    trimws()
+  
+  page_links <- page_html %>% 
+    html_nodes('.card__link') %>% 
+    html_attr("href") 
+  
+  page_kicker <- page_html %>% 
+    html_nodes(".card__kicker") %>% 
+    html_text() %>% 
+    sapply(function(txt){
+      return(str_sub(strsplit(txt,"\n", fixed =T)[[1]][3],start = -10))
+      }) %>% 
+    as.Date("%d.%m.%Y")
+  
+  page_df <- data.frame(title = page_titles, 
+                        teaser = page_summary, 
+                        links = page_links, 
+                        date = page_kicker, 
+                        stringsAsFactors = FALSE)
+  return(page_df)
+}
+```
+
+
+## Scrape website (first 5 pages)
+```{r scrape}
+# links for first 5 pages
+presse_links <- paste0('https://www.diepresse.com/suche?s=Rauchverbot&p=', 1:5)
+
+# Scrape website 
+listofdf_presse <- lapply(presse_links, scrape_diepresse)
+presse_df <- rbindlist(listofdf_presse)
+
+# Save to file
+write.table(presse_df,file="presse_df.csv")
+
+# print head
+head(presse_df)
+```
