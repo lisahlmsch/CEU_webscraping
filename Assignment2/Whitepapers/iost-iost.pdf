@@ -1,0 +1,1130 @@
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+  <link rel="dns-prefetch" href="https://github.githubassets.com">
+  <link rel="dns-prefetch" href="https://avatars0.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://avatars1.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://avatars2.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://avatars3.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://github-cloud.s3.amazonaws.com">
+  <link rel="dns-prefetch" href="https://user-images.githubusercontent.com/">
+
+
+
+  <link crossorigin="anonymous" media="all" integrity="sha512-/YEVWs7BzxfKyUd6zVxjEQcXRWsLbcEjv045Rq8DSoipySmQblhVKxlXLva2GtNd5DhwCxHwW1RM0N9I7S2Vew==" rel="stylesheet" href="https://github.githubassets.com/assets/frameworks-481a47a96965f6706fb41bae0d14b09a.css" />
+  <link crossorigin="anonymous" media="all" integrity="sha512-xod5+iick6st6a0tvmfiqwCFLFTRzOkGLX0SAqY7SQFl0Q3sWxKUB2rm1Kw4Vz/57FMg7chtfVYeUB/Yr/xmFQ==" rel="stylesheet" href="https://github.githubassets.com/assets/site-d3c48f1b58ea95d9efb184fd4592b411.css" />
+    <link crossorigin="anonymous" media="all" integrity="sha512-dDnCHJtEv2Hu49bx+DrWxu249TjieZ9um/g3uHqaXDSd2eNDLfSooD46uiGU3IJXiaMNJ6W0IoCcTjq6gTh8QA==" rel="stylesheet" href="https://github.githubassets.com/assets/github-3d951771a4ed5753620b461a24fd4154.css" />
+    
+    
+    
+    
+
+
+  <meta name="viewport" content="width=device-width">
+  
+  <title>Documents/Tech_white_paper_EN.md at master · iost-official/Documents · GitHub</title>
+    <meta name="description" content="IOST Documents. Contribute to iost-official/Documents development by creating an account on GitHub.">
+    <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
+  <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
+  <meta property="fb:app_id" content="1401488693436528">
+
+    <meta name="twitter:image:src" content="https://avatars3.githubusercontent.com/u/36929206?s=400&amp;v=4" /><meta name="twitter:site" content="@github" /><meta name="twitter:card" content="summary" /><meta name="twitter:title" content="iost-official/Documents" /><meta name="twitter:description" content="IOST Documents. Contribute to iost-official/Documents development by creating an account on GitHub." />
+    <meta property="og:image" content="https://avatars3.githubusercontent.com/u/36929206?s=400&amp;v=4" /><meta property="og:site_name" content="GitHub" /><meta property="og:type" content="object" /><meta property="og:title" content="iost-official/Documents" /><meta property="og:url" content="https://github.com/iost-official/Documents" /><meta property="og:description" content="IOST Documents. Contribute to iost-official/Documents development by creating an account on GitHub." />
+
+  <link rel="assets" href="https://github.githubassets.com/">
+  
+  
+
+    <meta name="request-id" content="49C4:1B44C:72133D:AAE619:5DD7A02B" data-pjax-transient>
+
+
+  
+
+  <meta name="selected-link" value="repo_source" data-pjax-transient>
+
+      <meta name="google-site-verification" content="KT5gs8h0wvaagLKAVWq8bbeNwnZZK1r1XQysX3xurLU">
+    <meta name="google-site-verification" content="ZzhVyEFwb7w3e0-uOTltm8Jsck2F5StVihD0exw2fsA">
+    <meta name="google-site-verification" content="GXs5KoUUkNCoaAZn7wPN-t01Pywp9M3sEjnt_3_ZWPc">
+
+    <meta name="octolytics-host" content="collector.githubapp.com" /><meta name="octolytics-app-id" content="github" /><meta name="octolytics-event-url" content="https://collector.githubapp.com/github-external/browser_event" /><meta name="octolytics-dimension-request_id" content="49C4:1B44C:72133D:AAE619:5DD7A02B" /><meta name="octolytics-dimension-region_edge" content="ams" /><meta name="octolytics-dimension-region_render" content="iad" /><meta name="octolytics-dimension-ga_id" content="" class="js-octo-ga-id" /><meta name="octolytics-dimension-visitor_id" content="4191995933394182187" />
+
+<meta name="analytics-location" content="/&lt;user-name&gt;/&lt;repo-name&gt;/blob/show" data-pjax-transient="true" />
+
+
+
+    <meta name="google-analytics" content="UA-3769691-2">
+
+
+<meta class="js-ga-set" name="dimension1" content="Logged Out">
+
+
+
+  
+
+      <meta name="hostname" content="github.com">
+    <meta name="user-login" content="">
+
+      <meta name="expected-hostname" content="github.com">
+
+      <meta name="js-proxy-site-detection-payload" content="MWY5M2M5YTE4MDIzZTU1NTVmNmQ5MmQ5ZGUzYmRlNWM2NTUxOTA4ZTJjMzJkYmJkNTVlZjRmMzVmY2JjYWI1Mnx7InJlbW90ZV9hZGRyZXNzIjoiMjEzLjE0Mi45Ni42OSIsInJlcXVlc3RfaWQiOiI0OUM0OjFCNDRDOjcyMTMzRDpBQUU2MTk6NUREN0EwMkIiLCJ0aW1lc3RhbXAiOjE1NzQ0MTIzMzEsImhvc3QiOiJnaXRodWIuY29tIn0=">
+
+    <meta name="enabled-features" content="ACTIONS_V2_ON_MARKETPLACE,MARKETPLACE_FEATURED_BLOG_POSTS,MARKETPLACE_INVOICED_BILLING,MARKETPLACE_SOCIAL_PROOF_CUSTOMERS,MARKETPLACE_TRENDING_SOCIAL_PROOF,MARKETPLACE_RECOMMENDATIONS,MARKETPLACE_PENDING_INSTALLATIONS">
+
+    <meta name="html-safe-nonce" content="b9d3fd6a02d0a73f286c15e751a5d063fd59797d">
+
+  <meta http-equiv="x-pjax-version" content="4b72c447ac1fe287ba22f879e622e715">
+  
+
+      <link href="https://github.com/iost-official/Documents/commits/master.atom" rel="alternate" title="Recent Commits to Documents:master" type="application/atom+xml">
+
+  <meta name="go-import" content="github.com/iost-official/Documents git https://github.com/iost-official/Documents.git">
+
+  <meta name="octolytics-dimension-user_id" content="36929206" /><meta name="octolytics-dimension-user_login" content="iost-official" /><meta name="octolytics-dimension-repository_id" content="128076530" /><meta name="octolytics-dimension-repository_nwo" content="iost-official/Documents" /><meta name="octolytics-dimension-repository_public" content="true" /><meta name="octolytics-dimension-repository_is_fork" content="false" /><meta name="octolytics-dimension-repository_network_root_id" content="128076530" /><meta name="octolytics-dimension-repository_network_root_nwo" content="iost-official/Documents" /><meta name="octolytics-dimension-repository_explore_github_marketplace_ci_cta_shown" content="false" />
+
+
+    <link rel="canonical" href="https://github.com/iost-official/Documents/blob/master/Technical_White_Paper/EN/Tech_white_paper_EN.md" data-pjax-transient>
+
+
+  <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
+
+  <meta name="browser-errors-url" content="https://api.github.com/_private/browser/errors">
+
+  <link rel="mask-icon" href="https://github.githubassets.com/pinned-octocat.svg" color="#000000">
+  <link rel="icon" type="image/x-icon" class="js-site-favicon" href="https://github.githubassets.com/favicon.ico">
+
+<meta name="theme-color" content="#1e2327">
+
+
+
+
+
+  <link rel="manifest" href="/manifest.json" crossOrigin="use-credentials">
+
+  </head>
+
+  <body class="logged-out env-production page-responsive page-blob">
+    
+
+  <div class="position-relative js-header-wrapper ">
+    <a href="#start-of-content" tabindex="1" class="px-2 py-4 bg-blue text-white show-on-focus js-skip-to-content">Skip to content</a>
+    <span class="Progress progress-pjax-loader position-fixed width-full js-pjax-loader-bar">
+      <span class="progress-pjax-loader-bar top-0 left-0" style="width: 0%;"></span>
+    </span>
+
+    
+    
+    
+
+
+        <header class="Header-old header-logged-out js-details-container Details position-relative f4 py-2" role="banner">
+  <div class="container-lg d-lg-flex flex-items-center p-responsive">
+    <div class="d-flex flex-justify-between flex-items-center">
+        <a class="mr-4" href="https://github.com/" aria-label="Homepage" data-ga-click="(Logged out) Header, go to homepage, icon:logo-wordmark">
+          <svg height="32" class="octicon octicon-mark-github text-white" viewBox="0 0 16 16" version="1.1" width="32" aria-hidden="true"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>
+        </a>
+
+          <div class="d-lg-none css-truncate css-truncate-target width-fit p-2">
+            
+              <svg class="octicon octicon-repo" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z"/></svg>
+    <a class="Header-link" href="/iost-official">iost-official</a>
+    /
+    <a class="Header-link" href="/iost-official/Documents">Documents</a>
+
+
+          </div>
+
+        <div class="d-flex flex-items-center">
+            <a href="/join?source=header-repo"
+              class="d-inline-block d-lg-none f5 text-white no-underline border border-gray-dark rounded-2 px-2 py-1 mr-3 mr-sm-5"
+              data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;site header&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;SIGN_UP&quot;,&quot;client_id&quot;:null,&quot;originating_request_id&quot;:&quot;49C4:1B44C:72133D:AAE619:5DD7A02B&quot;,&quot;originating_url&quot;:&quot;https://github.com/iost-official/Documents/blob/master/Technical_White_Paper/EN/Tech_white_paper_EN.md&quot;,&quot;referrer&quot;:null,&quot;user_id&quot;:null}}" data-hydro-click-hmac="c42e1a4dfd341838da8940e919d9c6380926fd234b8babb555be1f72660c495f"
+              data-ga-click="(Logged out) Header, clicked Sign up, text:sign-up">
+              Sign&nbsp;up
+            </a>
+
+          <button class="btn-link d-lg-none mt-1 js-details-target" type="button" aria-label="Toggle navigation" aria-expanded="false">
+            <svg height="24" class="octicon octicon-three-bars text-white" viewBox="0 0 12 16" version="1.1" width="18" aria-hidden="true"><path fill-rule="evenodd" d="M11.41 9H.59C0 9 0 8.59 0 8c0-.59 0-1 .59-1H11.4c.59 0 .59.41.59 1 0 .59 0 1-.59 1h.01zm0-4H.59C0 5 0 4.59 0 4c0-.59 0-1 .59-1H11.4c.59 0 .59.41.59 1 0 .59 0 1-.59 1h.01zM.59 11H11.4c.59 0 .59.41.59 1 0 .59 0 1-.59 1H.59C0 13 0 12.59 0 12c0-.59 0-1 .59-1z"/></svg>
+          </button>
+        </div>
+    </div>
+
+    <div class="HeaderMenu HeaderMenu--logged-out position-fixed top-0 right-0 bottom-0 height-fit position-lg-relative d-lg-flex flex-justify-between flex-items-center flex-auto">
+      <div class="d-flex d-lg-none flex-justify-end border-bottom bg-gray-light p-3">
+        <button class="btn-link js-details-target" type="button" aria-label="Toggle navigation" aria-expanded="false">
+          <svg height="24" class="octicon octicon-x text-gray" viewBox="0 0 12 16" version="1.1" width="18" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z"/></svg>
+        </button>
+      </div>
+
+        <nav class="mt-0 px-3 px-lg-0 mb-5 mb-lg-0" aria-label="Global">
+          <ul class="d-lg-flex list-style-none">
+              <li class="d-block d-lg-flex flex-lg-nowrap flex-lg-items-center border-bottom border-lg-bottom-0 mr-0 mr-lg-3 edge-item-fix position-relative flex-wrap flex-justify-between d-flex flex-items-center ">
+                <details class="HeaderMenu-details details-overlay details-reset width-full">
+                  <summary class="HeaderMenu-summary HeaderMenu-link px-0 py-3 border-0 no-wrap d-block d-lg-inline-block">
+                    Why GitHub?
+                    <svg x="0px" y="0px" viewBox="0 0 14 8" xml:space="preserve" fill="none" class="icon-chevon-down-mktg position-absolute position-lg-relative">
+                      <path d="M1,1l6.2,6L13,1"></path>
+                    </svg>
+                  </summary>
+                  <div class="dropdown-menu flex-auto rounded-1 bg-white px-0 mt-0 pb-4 p-lg-4 position-relative position-lg-absolute left-0 left-lg-n4">
+                    <a href="/features" class="py-2 lh-condensed-ultra d-block link-gray-dark no-underline h5 Bump-link--hover" data-ga-click="(Logged out) Header, go to Features">Features <span class="Bump-link-symbol float-right text-normal text-gray-light">&rarr;</span></a>
+                    <ul class="list-style-none f5 pb-3">
+                      <li class="edge-item-fix"><a href="/features/code-review/" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Code review">Code review</a></li>
+                      <li class="edge-item-fix"><a href="/features/project-management/" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Project management">Project management</a></li>
+                      <li class="edge-item-fix"><a href="/features/integrations" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Integrations">Integrations</a></li>
+                      <li class="edge-item-fix"><a href="/features/actions" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Actions">Actions</a></li>
+                          <li class="edge-item-fix"><a href="/features/packages" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to GitHub Packages">Packages</a></li>
+                      <li class="edge-item-fix"><a href="/features/security" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Security">Security</a></li>
+                      <li class="edge-item-fix"><a href="/features#team-management" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Team management">Team management</a></li>
+                      <li class="edge-item-fix"><a href="/features#social-coding" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Social coding">Social coding</a></li>
+                      <li class="edge-item-fix"><a href="/features#documentation" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Documentation">Documentation</a></li>
+                      <li class="edge-item-fix"><a href="/features#code-hosting" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Code hosting">Code hosting</a></li>
+                    </ul>
+
+                    <ul class="list-style-none mb-0 border-lg-top pt-lg-3">
+                      <li class="edge-item-fix"><a href="/customer-stories" class="py-2 lh-condensed-ultra d-block no-underline link-gray-dark no-underline h5 Bump-link--hover" data-ga-click="(Logged out) Header, go to Customer stories">Customer stories <span class="Bump-link-symbol float-right text-normal text-gray-light">&rarr;</span></a></li>
+                      <li class="edge-item-fix"><a href="/security" class="py-2 lh-condensed-ultra d-block no-underline link-gray-dark no-underline h5 Bump-link--hover" data-ga-click="(Logged out) Header, go to Security">Security <span class="Bump-link-symbol float-right text-normal text-gray-light">&rarr;</span></a></li>
+                    </ul>
+                  </div>
+                </details>
+              </li>
+              <li class="border-bottom border-lg-bottom-0 mr-0 mr-lg-3">
+                <a href="/enterprise" class="HeaderMenu-link no-underline py-3 d-block d-lg-inline-block" data-ga-click="(Logged out) Header, go to Enterprise">Enterprise</a>
+              </li>
+
+              <li class="d-block d-lg-flex flex-lg-nowrap flex-lg-items-center border-bottom border-lg-bottom-0 mr-0 mr-lg-3 edge-item-fix position-relative flex-wrap flex-justify-between d-flex flex-items-center ">
+                <details class="HeaderMenu-details details-overlay details-reset width-full">
+                  <summary class="HeaderMenu-summary HeaderMenu-link px-0 py-3 border-0 no-wrap d-block d-lg-inline-block">
+                    Explore
+                    <svg x="0px" y="0px" viewBox="0 0 14 8" xml:space="preserve" fill="none" class="icon-chevon-down-mktg position-absolute position-lg-relative">
+                      <path d="M1,1l6.2,6L13,1"></path>
+                    </svg>
+                  </summary>
+
+                  <div class="dropdown-menu flex-auto rounded-1 bg-white px-0 pt-2 pb-0 mt-0 pb-4 p-lg-4 position-relative position-lg-absolute left-0 left-lg-n4">
+                    <ul class="list-style-none mb-3">
+                      <li class="edge-item-fix"><a href="/explore" class="py-2 lh-condensed-ultra d-block link-gray-dark no-underline h5 Bump-link--hover" data-ga-click="(Logged out) Header, go to Explore">Explore GitHub <span class="Bump-link-symbol float-right text-normal text-gray-light">&rarr;</span></a></li>
+                    </ul>
+
+                    <h4 class="text-gray-light text-normal text-mono f5 mb-2 border-lg-top pt-lg-3">Learn &amp; contribute</h4>
+                    <ul class="list-style-none mb-3">
+                      <li class="edge-item-fix"><a href="/topics" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Topics">Topics</a></li>
+                        <li class="edge-item-fix"><a href="/collections" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Collections">Collections</a></li>
+                      <li class="edge-item-fix"><a href="/trending" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Trending">Trending</a></li>
+                      <li class="edge-item-fix"><a href="https://lab.github.com/" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Learning lab">Learning Lab</a></li>
+                      <li class="edge-item-fix"><a href="https://opensource.guide" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Open source guides">Open source guides</a></li>
+                    </ul>
+
+                    <h4 class="text-gray-light text-normal text-mono f5 mb-2 border-lg-top pt-lg-3">Connect with others</h4>
+                    <ul class="list-style-none mb-0">
+                      <li class="edge-item-fix"><a href="https://github.com/events" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Events">Events</a></li>
+                      <li class="edge-item-fix"><a href="https://github.community" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Community forum">Community forum</a></li>
+                      <li class="edge-item-fix"><a href="https://education.github.com" class="py-2 pb-0 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to GitHub Education">GitHub Education</a></li>
+                    </ul>
+                  </div>
+                </details>
+              </li>
+
+              <li class="border-bottom border-lg-bottom-0 mr-0 mr-lg-3">
+                <a href="/marketplace" class="HeaderMenu-link no-underline py-3 d-block d-lg-inline-block" data-ga-click="(Logged out) Header, go to Marketplace">Marketplace</a>
+              </li>
+
+              <li class="d-block d-lg-flex flex-lg-nowrap flex-lg-items-center border-bottom border-lg-bottom-0 mr-0 mr-lg-3 edge-item-fix position-relative flex-wrap flex-justify-between d-flex flex-items-center ">
+                <details class="HeaderMenu-details details-overlay details-reset width-full">
+                  <summary class="HeaderMenu-summary HeaderMenu-link px-0 py-3 border-0 no-wrap d-block d-lg-inline-block">
+                    Pricing
+                    <svg x="0px" y="0px" viewBox="0 0 14 8" xml:space="preserve" fill="none" class="icon-chevon-down-mktg position-absolute position-lg-relative">
+                       <path d="M1,1l6.2,6L13,1"></path>
+                    </svg>
+                  </summary>
+
+                  <div class="dropdown-menu flex-auto rounded-1 bg-white px-0 pt-2 pb-4 mt-0 p-lg-4 position-relative position-lg-absolute left-0 left-lg-n4">
+                    <a href="/pricing" class="pb-2 lh-condensed-ultra d-block link-gray-dark no-underline h5 Bump-link--hover" data-ga-click="(Logged out) Header, go to Pricing">Plans <span class="Bump-link-symbol float-right text-normal text-gray-light">&rarr;</span></a>
+
+                    <ul class="list-style-none mb-3">
+                      <li class="edge-item-fix"><a href="/pricing#feature-comparison" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Compare plans">Compare plans</a></li>
+                      <li class="edge-item-fix"><a href="https://enterprise.github.com/contact" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Contact Sales">Contact Sales</a></li>
+                    </ul>
+
+                    <ul class="list-style-none mb-0 border-lg-top pt-lg-3">
+                      <li class="edge-item-fix"><a href="/nonprofit" class="py-2 lh-condensed-ultra d-block no-underline link-gray-dark no-underline h5 Bump-link--hover" data-ga-click="(Logged out) Header, go to Nonprofits">Nonprofit <span class="Bump-link-symbol float-right text-normal text-gray-light">&rarr;</span></a></li>
+                      <li class="edge-item-fix"><a href="https://education.github.com" class="py-2 pb-0 lh-condensed-ultra d-block no-underline link-gray-dark no-underline h5 Bump-link--hover"  data-ga-click="(Logged out) Header, go to Education">Education <span class="Bump-link-symbol float-right text-normal text-gray-light">&rarr;</span></a></li>
+                    </ul>
+                  </div>
+                </details>
+              </li>
+          </ul>
+        </nav>
+
+      <div class="d-lg-flex flex-items-center px-3 px-lg-0 text-center text-lg-left">
+          <div class="d-lg-flex mb-3 mb-lg-0">
+            <div class="header-search flex-self-stretch flex-lg-self-auto mr-0 mr-lg-3 mb-3 mb-lg-0 scoped-search site-scoped-search js-site-search position-relative js-jump-to"
+  role="combobox"
+  aria-owns="jump-to-results"
+  aria-label="Search or jump to"
+  aria-haspopup="listbox"
+  aria-expanded="false"
+>
+  <div class="position-relative">
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="js-site-search-form" role="search" aria-label="Site" data-scope-type="Repository" data-scope-id="128076530" data-scoped-search-url="/iost-official/Documents/search" data-unscoped-search-url="/search" action="/iost-official/Documents/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
+      <label class="form-control input-sm header-search-wrapper p-0 header-search-wrapper-jump-to position-relative d-flex flex-justify-between flex-items-center js-chromeless-input-container">
+        <input type="text"
+          class="form-control input-sm header-search-input jump-to-field js-jump-to-field js-site-search-focus js-site-search-field is-clearable"
+          data-hotkey="s,/"
+          name="q"
+          value=""
+          placeholder="Search"
+          data-unscoped-placeholder="Search GitHub"
+          data-scoped-placeholder="Search"
+          autocapitalize="off"
+          aria-autocomplete="list"
+          aria-controls="jump-to-results"
+          aria-label="Search"
+          data-jump-to-suggestions-path="/_graphql/GetSuggestedNavigationDestinations#csrf-token=RVa2OvxIGVv20KpimKJqDdUsOSYGuw8HHm8wNXTOEtn9wvPHtOX+VQQmPmNpZ73Lus08+esr72idfjYWMkqljQ=="
+          spellcheck="false"
+          autocomplete="off"
+          >
+          <input type="hidden" class="js-site-search-type-field" name="type" >
+            <img src="https://github.githubassets.com/images/search-key-slash.svg" alt="" class="mr-2 header-search-key-slash">
+
+            <div class="Box position-absolute overflow-hidden d-none jump-to-suggestions js-jump-to-suggestions-container">
+              
+<ul class="d-none js-jump-to-suggestions-template-container">
+  
+
+<li class="d-flex flex-justify-start flex-items-center p-0 f5 navigation-item js-navigation-item js-jump-to-suggestion" role="option">
+  <a tabindex="-1" class="no-underline d-flex flex-auto flex-items-center jump-to-suggestions-path js-jump-to-suggestion-path js-navigation-open p-2" href="">
+    <div class="jump-to-octicon js-jump-to-octicon flex-shrink-0 mr-2 text-center d-none">
+      <svg height="16" width="16" class="octicon octicon-repo flex-shrink-0 js-jump-to-octicon-repo d-none" title="Repository" aria-label="Repository" viewBox="0 0 12 16" version="1.1" role="img"><path fill-rule="evenodd" d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z"/></svg>
+      <svg height="16" width="16" class="octicon octicon-project flex-shrink-0 js-jump-to-octicon-project d-none" title="Project" aria-label="Project" viewBox="0 0 15 16" version="1.1" role="img"><path fill-rule="evenodd" d="M10 12h3V2h-3v10zm-4-2h3V2H6v8zm-4 4h3V2H2v12zm-1 1h13V1H1v14zM14 0H1a1 1 0 00-1 1v14a1 1 0 001 1h13a1 1 0 001-1V1a1 1 0 00-1-1z"/></svg>
+      <svg height="16" width="16" class="octicon octicon-search flex-shrink-0 js-jump-to-octicon-search d-none" title="Search" aria-label="Search" viewBox="0 0 16 16" version="1.1" role="img"><path fill-rule="evenodd" d="M15.7 13.3l-3.81-3.83A5.93 5.93 0 0013 6c0-3.31-2.69-6-6-6S1 2.69 1 6s2.69 6 6 6c1.3 0 2.48-.41 3.47-1.11l3.83 3.81c.19.2.45.3.7.3.25 0 .52-.09.7-.3a.996.996 0 000-1.41v.01zM7 10.7c-2.59 0-4.7-2.11-4.7-4.7 0-2.59 2.11-4.7 4.7-4.7 2.59 0 4.7 2.11 4.7 4.7 0 2.59-2.11 4.7-4.7 4.7z"/></svg>
+    </div>
+
+    <img class="avatar mr-2 flex-shrink-0 js-jump-to-suggestion-avatar d-none" alt="" aria-label="Team" src="" width="28" height="28">
+
+    <div class="jump-to-suggestion-name js-jump-to-suggestion-name flex-auto overflow-hidden text-left no-wrap css-truncate css-truncate-target">
+    </div>
+
+    <div class="border rounded-1 flex-shrink-0 bg-gray px-1 text-gray-light ml-1 f6 d-none js-jump-to-badge-search">
+      <span class="js-jump-to-badge-search-text-default d-none" aria-label="in this repository">
+        In this repository
+      </span>
+      <span class="js-jump-to-badge-search-text-global d-none" aria-label="in all of GitHub">
+        All GitHub
+      </span>
+      <span aria-hidden="true" class="d-inline-block ml-1 v-align-middle">↵</span>
+    </div>
+
+    <div aria-hidden="true" class="border rounded-1 flex-shrink-0 bg-gray px-1 text-gray-light ml-1 f6 d-none d-on-nav-focus js-jump-to-badge-jump">
+      Jump to
+      <span class="d-inline-block ml-1 v-align-middle">↵</span>
+    </div>
+  </a>
+</li>
+
+</ul>
+
+<ul class="d-none js-jump-to-no-results-template-container">
+  <li class="d-flex flex-justify-center flex-items-center f5 d-none js-jump-to-suggestion p-2">
+    <span class="text-gray">No suggested jump to results</span>
+  </li>
+</ul>
+
+<ul id="jump-to-results" role="listbox" class="p-0 m-0 js-navigation-container jump-to-suggestions-results-container js-jump-to-suggestions-results-container">
+  
+
+<li class="d-flex flex-justify-start flex-items-center p-0 f5 navigation-item js-navigation-item js-jump-to-scoped-search d-none" role="option">
+  <a tabindex="-1" class="no-underline d-flex flex-auto flex-items-center jump-to-suggestions-path js-jump-to-suggestion-path js-navigation-open p-2" href="">
+    <div class="jump-to-octicon js-jump-to-octicon flex-shrink-0 mr-2 text-center d-none">
+      <svg height="16" width="16" class="octicon octicon-repo flex-shrink-0 js-jump-to-octicon-repo d-none" title="Repository" aria-label="Repository" viewBox="0 0 12 16" version="1.1" role="img"><path fill-rule="evenodd" d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z"/></svg>
+      <svg height="16" width="16" class="octicon octicon-project flex-shrink-0 js-jump-to-octicon-project d-none" title="Project" aria-label="Project" viewBox="0 0 15 16" version="1.1" role="img"><path fill-rule="evenodd" d="M10 12h3V2h-3v10zm-4-2h3V2H6v8zm-4 4h3V2H2v12zm-1 1h13V1H1v14zM14 0H1a1 1 0 00-1 1v14a1 1 0 001 1h13a1 1 0 001-1V1a1 1 0 00-1-1z"/></svg>
+      <svg height="16" width="16" class="octicon octicon-search flex-shrink-0 js-jump-to-octicon-search d-none" title="Search" aria-label="Search" viewBox="0 0 16 16" version="1.1" role="img"><path fill-rule="evenodd" d="M15.7 13.3l-3.81-3.83A5.93 5.93 0 0013 6c0-3.31-2.69-6-6-6S1 2.69 1 6s2.69 6 6 6c1.3 0 2.48-.41 3.47-1.11l3.83 3.81c.19.2.45.3.7.3.25 0 .52-.09.7-.3a.996.996 0 000-1.41v.01zM7 10.7c-2.59 0-4.7-2.11-4.7-4.7 0-2.59 2.11-4.7 4.7-4.7 2.59 0 4.7 2.11 4.7 4.7 0 2.59-2.11 4.7-4.7 4.7z"/></svg>
+    </div>
+
+    <img class="avatar mr-2 flex-shrink-0 js-jump-to-suggestion-avatar d-none" alt="" aria-label="Team" src="" width="28" height="28">
+
+    <div class="jump-to-suggestion-name js-jump-to-suggestion-name flex-auto overflow-hidden text-left no-wrap css-truncate css-truncate-target">
+    </div>
+
+    <div class="border rounded-1 flex-shrink-0 bg-gray px-1 text-gray-light ml-1 f6 d-none js-jump-to-badge-search">
+      <span class="js-jump-to-badge-search-text-default d-none" aria-label="in this repository">
+        In this repository
+      </span>
+      <span class="js-jump-to-badge-search-text-global d-none" aria-label="in all of GitHub">
+        All GitHub
+      </span>
+      <span aria-hidden="true" class="d-inline-block ml-1 v-align-middle">↵</span>
+    </div>
+
+    <div aria-hidden="true" class="border rounded-1 flex-shrink-0 bg-gray px-1 text-gray-light ml-1 f6 d-none d-on-nav-focus js-jump-to-badge-jump">
+      Jump to
+      <span class="d-inline-block ml-1 v-align-middle">↵</span>
+    </div>
+  </a>
+</li>
+
+  
+
+<li class="d-flex flex-justify-start flex-items-center p-0 f5 navigation-item js-navigation-item js-jump-to-global-search d-none" role="option">
+  <a tabindex="-1" class="no-underline d-flex flex-auto flex-items-center jump-to-suggestions-path js-jump-to-suggestion-path js-navigation-open p-2" href="">
+    <div class="jump-to-octicon js-jump-to-octicon flex-shrink-0 mr-2 text-center d-none">
+      <svg height="16" width="16" class="octicon octicon-repo flex-shrink-0 js-jump-to-octicon-repo d-none" title="Repository" aria-label="Repository" viewBox="0 0 12 16" version="1.1" role="img"><path fill-rule="evenodd" d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z"/></svg>
+      <svg height="16" width="16" class="octicon octicon-project flex-shrink-0 js-jump-to-octicon-project d-none" title="Project" aria-label="Project" viewBox="0 0 15 16" version="1.1" role="img"><path fill-rule="evenodd" d="M10 12h3V2h-3v10zm-4-2h3V2H6v8zm-4 4h3V2H2v12zm-1 1h13V1H1v14zM14 0H1a1 1 0 00-1 1v14a1 1 0 001 1h13a1 1 0 001-1V1a1 1 0 00-1-1z"/></svg>
+      <svg height="16" width="16" class="octicon octicon-search flex-shrink-0 js-jump-to-octicon-search d-none" title="Search" aria-label="Search" viewBox="0 0 16 16" version="1.1" role="img"><path fill-rule="evenodd" d="M15.7 13.3l-3.81-3.83A5.93 5.93 0 0013 6c0-3.31-2.69-6-6-6S1 2.69 1 6s2.69 6 6 6c1.3 0 2.48-.41 3.47-1.11l3.83 3.81c.19.2.45.3.7.3.25 0 .52-.09.7-.3a.996.996 0 000-1.41v.01zM7 10.7c-2.59 0-4.7-2.11-4.7-4.7 0-2.59 2.11-4.7 4.7-4.7 2.59 0 4.7 2.11 4.7 4.7 0 2.59-2.11 4.7-4.7 4.7z"/></svg>
+    </div>
+
+    <img class="avatar mr-2 flex-shrink-0 js-jump-to-suggestion-avatar d-none" alt="" aria-label="Team" src="" width="28" height="28">
+
+    <div class="jump-to-suggestion-name js-jump-to-suggestion-name flex-auto overflow-hidden text-left no-wrap css-truncate css-truncate-target">
+    </div>
+
+    <div class="border rounded-1 flex-shrink-0 bg-gray px-1 text-gray-light ml-1 f6 d-none js-jump-to-badge-search">
+      <span class="js-jump-to-badge-search-text-default d-none" aria-label="in this repository">
+        In this repository
+      </span>
+      <span class="js-jump-to-badge-search-text-global d-none" aria-label="in all of GitHub">
+        All GitHub
+      </span>
+      <span aria-hidden="true" class="d-inline-block ml-1 v-align-middle">↵</span>
+    </div>
+
+    <div aria-hidden="true" class="border rounded-1 flex-shrink-0 bg-gray px-1 text-gray-light ml-1 f6 d-none d-on-nav-focus js-jump-to-badge-jump">
+      Jump to
+      <span class="d-inline-block ml-1 v-align-middle">↵</span>
+    </div>
+  </a>
+</li>
+
+
+</ul>
+
+            </div>
+      </label>
+</form>  </div>
+</div>
+
+          </div>
+
+        <a href="/login?return_to=%2Fiost-official%2FDocuments%2Fblob%2Fmaster%2FTechnical_White_Paper%2FEN%2FTech_white_paper_EN.md"
+          class="HeaderMenu-link no-underline mr-3"
+          data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;site header menu&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;SIGN_UP&quot;,&quot;client_id&quot;:null,&quot;originating_request_id&quot;:&quot;49C4:1B44C:72133D:AAE619:5DD7A02B&quot;,&quot;originating_url&quot;:&quot;https://github.com/iost-official/Documents/blob/master/Technical_White_Paper/EN/Tech_white_paper_EN.md&quot;,&quot;referrer&quot;:null,&quot;user_id&quot;:null}}" data-hydro-click-hmac="c7ed8e6474f22d4752f83f3abfa82dea6a41f03f7dbf283d6bfa757e67ffb9ca"
+          data-ga-click="(Logged out) Header, clicked Sign in, text:sign-in">
+          Sign&nbsp;in
+        </a>
+          <a href="/join?source=header-repo&amp;source_repo=iost-official%2FDocuments"
+            class="HeaderMenu-link d-inline-block no-underline border border-gray-dark rounded-1 px-2 py-1"
+            data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;site header menu&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;SIGN_UP&quot;,&quot;client_id&quot;:null,&quot;originating_request_id&quot;:&quot;49C4:1B44C:72133D:AAE619:5DD7A02B&quot;,&quot;originating_url&quot;:&quot;https://github.com/iost-official/Documents/blob/master/Technical_White_Paper/EN/Tech_white_paper_EN.md&quot;,&quot;referrer&quot;:null,&quot;user_id&quot;:null}}" data-hydro-click-hmac="c7ed8e6474f22d4752f83f3abfa82dea6a41f03f7dbf283d6bfa757e67ffb9ca"
+            data-ga-click="(Logged out) Header, clicked Sign up, text:sign-up">
+            Sign&nbsp;up
+          </a>
+      </div>
+    </div>
+  </div>
+</header>
+
+  </div>
+
+  <div id="start-of-content" class="show-on-focus"></div>
+
+
+    <div id="js-flash-container">
+
+</div>
+
+
+
+  <div class="application-main " data-commit-hovercards-enabled>
+        <div itemscope itemtype="http://schema.org/SoftwareSourceCode" class="">
+    <main  >
+      
+
+
+  
+
+
+
+  
+
+
+
+
+
+
+
+
+
+  <div class=" pagehead repohead instapaper_ignore readability-menu experiment-repo-nav pt-0 pt-lg-4 ">
+    <div class="repohead-details-container clearfix container-lg p-responsive d-none d-lg-block">
+
+      <ul class="pagehead-actions">
+
+
+
+
+  <li>
+    
+  <a class="tooltipped tooltipped-s btn btn-sm btn-with-count" aria-label="You must be signed in to watch a repository" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;notification subscription menu watch&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;client_id&quot;:null,&quot;originating_request_id&quot;:&quot;49C4:1B44C:72133D:AAE619:5DD7A02B&quot;,&quot;originating_url&quot;:&quot;https://github.com/iost-official/Documents/blob/master/Technical_White_Paper/EN/Tech_white_paper_EN.md&quot;,&quot;referrer&quot;:null,&quot;user_id&quot;:null}}" data-hydro-click-hmac="55c0937a27188b7743802c9f2536e852d48e15e6ea5c1572cc73adbe3ac42a7c" href="/login?return_to=%2Fiost-official%2FDocuments">
+    <svg class="octicon octicon-eye v-align-text-bottom" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.06 2C3 2 0 8 0 8s3 6 8.06 6C13 14 16 8 16 8s-3-6-7.94-6zM8 12c-2.2 0-4-1.78-4-4 0-2.2 1.8-4 4-4 2.22 0 4 1.8 4 4 0 2.22-1.78 4-4 4zm2-4c0 1.11-.89 2-2 2-1.11 0-2-.89-2-2 0-1.11.89-2 2-2 1.11 0 2 .89 2 2z"/></svg>
+    Watch
+</a>    <a class="social-count" href="/iost-official/Documents/watchers"
+       aria-label="9 users are watching this repository">
+      9
+    </a>
+
+  </li>
+
+  <li>
+        <a class="btn btn-sm btn-with-count tooltipped tooltipped-s" aria-label="You must be signed in to star a repository" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:128076530,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;client_id&quot;:null,&quot;originating_request_id&quot;:&quot;49C4:1B44C:72133D:AAE619:5DD7A02B&quot;,&quot;originating_url&quot;:&quot;https://github.com/iost-official/Documents/blob/master/Technical_White_Paper/EN/Tech_white_paper_EN.md&quot;,&quot;referrer&quot;:null,&quot;user_id&quot;:null}}" data-hydro-click-hmac="c9594fac98f782cf02547251a558e50f9e7b4ffb2100608fd33261b3d9540811" href="/login?return_to=%2Fiost-official%2FDocuments">
+      <svg class="octicon octicon-star v-align-text-bottom" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
+      Star
+</a>
+    <a class="social-count js-social-count" href="/iost-official/Documents/stargazers"
+      aria-label="41 users starred this repository">
+      41
+    </a>
+
+  </li>
+
+  <li>
+      <a class="btn btn-sm btn-with-count tooltipped tooltipped-s" aria-label="You must be signed in to fork a repository" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;repo details fork button&quot;,&quot;repository_id&quot;:128076530,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;client_id&quot;:null,&quot;originating_request_id&quot;:&quot;49C4:1B44C:72133D:AAE619:5DD7A02B&quot;,&quot;originating_url&quot;:&quot;https://github.com/iost-official/Documents/blob/master/Technical_White_Paper/EN/Tech_white_paper_EN.md&quot;,&quot;referrer&quot;:null,&quot;user_id&quot;:null}}" data-hydro-click-hmac="affa5eec03ab8a5a30eda0e38002cd5a205e7c05db5a386542409f192e3685ee" href="/login?return_to=%2Fiost-official%2FDocuments">
+        <svg class="octicon octicon-repo-forked v-align-text-bottom" viewBox="0 0 10 16" version="1.1" width="10" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 1a1.993 1.993 0 00-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 002 1a1.993 1.993 0 00-1 3.72V6.5l3 3v1.78A1.993 1.993 0 005 15a1.993 1.993 0 001-3.72V9.5l3-3V4.72A1.993 1.993 0 008 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
+        Fork
+</a>
+    <a href="/iost-official/Documents/network/members" class="social-count"
+       aria-label="15 users forked this repository">
+      15
+    </a>
+  </li>
+</ul>
+
+      <h1 class="public ">
+    <svg class="octicon octicon-repo" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z"/></svg>
+  <span class="author" itemprop="author"><a class="url fn" rel="author" data-hovercard-type="organization" data-hovercard-url="/orgs/iost-official/hovercard" href="/iost-official">iost-official</a></span><!--
+--><span class="path-divider">/</span><!--
+--><strong itemprop="name"><a data-pjax="#js-repo-pjax-container" href="/iost-official/Documents">Documents</a></strong>
+  
+
+</h1>
+
+    </div>
+    
+<nav class="hx_reponav reponav js-repo-nav js-sidenav-container-pjax container-lg p-responsive d-none d-lg-block"
+     itemscope
+     itemtype="http://schema.org/BreadcrumbList"
+    aria-label="Repository"
+     data-pjax="#js-repo-pjax-container">
+
+  <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+    <a class="js-selected-navigation-item selected reponav-item" itemprop="url" data-hotkey="g c" aria-current="page" data-selected-links="repo_source repo_downloads repo_commits repo_releases repo_tags repo_branches repo_packages /iost-official/Documents" href="/iost-official/Documents">
+      <svg class="octicon octicon-code" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M9.5 3L8 4.5 11.5 8 8 11.5 9.5 13 14 8 9.5 3zm-5 0L0 8l4.5 5L6 11.5 2.5 8 6 4.5 4.5 3z"/></svg>
+      <span itemprop="name">Code</span>
+      <meta itemprop="position" content="1">
+</a>  </span>
+
+    <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+      <a itemprop="url" data-hotkey="g i" class="js-selected-navigation-item reponav-item" data-selected-links="repo_issues repo_labels repo_milestones /iost-official/Documents/issues" href="/iost-official/Documents/issues">
+        <svg class="octicon octicon-issue-opened" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 011.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"/></svg>
+        <span itemprop="name">Issues</span>
+        <span class="Counter">0</span>
+        <meta itemprop="position" content="2">
+</a>    </span>
+
+  <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+    <a data-hotkey="g p" itemprop="url" class="js-selected-navigation-item reponav-item" data-selected-links="repo_pulls checks /iost-official/Documents/pulls" href="/iost-official/Documents/pulls">
+      <svg class="octicon octicon-git-pull-request" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M11 11.28V5c-.03-.78-.34-1.47-.94-2.06C9.46 2.35 8.78 2.03 8 2H7V0L4 3l3 3V4h1c.27.02.48.11.69.31.21.2.3.42.31.69v6.28A1.993 1.993 0 0010 15a1.993 1.993 0 001-3.72zm-1 2.92c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zM4 3c0-1.11-.89-2-2-2a1.993 1.993 0 00-1 3.72v6.56A1.993 1.993 0 002 15a1.993 1.993 0 001-3.72V4.72c.59-.34 1-.98 1-1.72zm-.8 10c0 .66-.55 1.2-1.2 1.2-.65 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
+      <span itemprop="name">Pull requests</span>
+      <span class="Counter">2</span>
+      <meta itemprop="position" content="3">
+</a>  </span>
+
+
+    <a data-hotkey="g b" class="js-selected-navigation-item reponav-item" data-selected-links="repo_projects new_repo_project repo_project /iost-official/Documents/projects" href="/iost-official/Documents/projects">
+      <svg class="octicon octicon-project" viewBox="0 0 15 16" version="1.1" width="15" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M10 12h3V2h-3v10zm-4-2h3V2H6v8zm-4 4h3V2H2v12zm-1 1h13V1H1v14zM14 0H1a1 1 0 00-1 1v14a1 1 0 001 1h13a1 1 0 001-1V1a1 1 0 00-1-1z"/></svg>
+      Projects
+      <span class="Counter" >0</span>
+</a>
+
+
+    <a data-skip-pjax="true" class="js-selected-navigation-item reponav-item" data-selected-links="security alerts policy code_scanning /iost-official/Documents/security/advisories" href="/iost-official/Documents/security/advisories">
+      <svg class="octicon octicon-shield" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M0 2l7-2 7 2v6.02C14 12.69 8.69 16 7 16c-1.69 0-7-3.31-7-7.98V2zm1 .75L7 1l6 1.75v5.268C13 12.104 8.449 15 7 15c-1.449 0-6-2.896-6-6.982V2.75zm1 .75L7 2v12c-1.207 0-5-2.482-5-5.985V3.5z"/></svg>
+      Security
+</a>
+    <a class="js-selected-navigation-item reponav-item" data-selected-links="repo_graphs repo_contributors dependency_graph pulse people /iost-official/Documents/pulse" href="/iost-official/Documents/pulse">
+      <svg class="octicon octicon-graph" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M16 14v1H0V0h1v14h15zM5 13H3V8h2v5zm4 0H7V3h2v10zm4 0h-2V6h2v7z"/></svg>
+      Insights
+</a>
+
+</nav>
+
+  <div class="reponav-wrapper reponav-small d-lg-none">
+  <nav class="reponav js-reponav text-center no-wrap"
+       itemscope
+       itemtype="http://schema.org/BreadcrumbList">
+
+    <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+      <a class="js-selected-navigation-item selected reponav-item" itemprop="url" aria-current="page" data-selected-links="repo_source repo_downloads repo_commits repo_releases repo_tags repo_branches repo_packages /iost-official/Documents" href="/iost-official/Documents">
+        <span itemprop="name">Code</span>
+        <meta itemprop="position" content="1">
+</a>    </span>
+
+      <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+        <a itemprop="url" class="js-selected-navigation-item reponav-item" data-selected-links="repo_issues repo_labels repo_milestones /iost-official/Documents/issues" href="/iost-official/Documents/issues">
+          <span itemprop="name">Issues</span>
+          <span class="Counter">0</span>
+          <meta itemprop="position" content="2">
+</a>      </span>
+
+    <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+      <a itemprop="url" class="js-selected-navigation-item reponav-item" data-selected-links="repo_pulls checks /iost-official/Documents/pulls" href="/iost-official/Documents/pulls">
+        <span itemprop="name">Pull requests</span>
+        <span class="Counter">2</span>
+        <meta itemprop="position" content="3">
+</a>    </span>
+
+      <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+        <a itemprop="url" class="js-selected-navigation-item reponav-item" data-selected-links="repo_projects new_repo_project repo_project /iost-official/Documents/projects" href="/iost-official/Documents/projects">
+          <span itemprop="name">Projects</span>
+          <span class="Counter">0</span>
+          <meta itemprop="position" content="4">
+</a>      </span>
+
+
+      <a itemprop="url" class="js-selected-navigation-item reponav-item" data-selected-links="security alerts policy code_scanning /iost-official/Documents/security/advisories" href="/iost-official/Documents/security/advisories">
+        <span itemprop="name">Security</span>
+        <meta itemprop="position" content="6">
+</a>
+      <a class="js-selected-navigation-item reponav-item" data-selected-links="pulse /iost-official/Documents/pulse" href="/iost-official/Documents/pulse">
+        Pulse
+</a>
+
+  </nav>
+</div>
+
+
+  </div>
+<div class="container-lg clearfix new-discussion-timeline experiment-repo-nav  p-responsive">
+  <div class="repository-content ">
+
+    
+    
+
+
+  
+
+
+    <a class="d-none js-permalink-shortcut" data-hotkey="y" href="/iost-official/Documents/blob/9d8248ad61162bf2e2f2c2fa2441be99a56a87aa/Technical_White_Paper/EN/Tech_white_paper_EN.md">Permalink</a>
+
+    <!-- blob contrib key: blob_contributors:v21:d07fdf763959c514249f2d2c5f58bb23 -->
+          <div class="signup-prompt-bg rounded-1">
+      <div class="signup-prompt p-4 text-center mb-4 rounded-1">
+        <div class="position-relative">
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form action="/prompt_dismissals/signup" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="_method" value="put" /><input type="hidden" name="authenticity_token" value="MFJQDx6AKT3GJ9/h3Ok0c0Ylc3a/kmANgnLlyldZ0RANaI2VlumbFCQ3cs9Zvs5Fx6TWE9CcQ6SiGvf768sbBA==" />
+            <button type="submit" class="position-absolute top-0 right-0 btn-link link-gray" data-ga-click="(Logged out) Sign up prompt, clicked Dismiss, text:dismiss">
+              Dismiss
+            </button>
+</form>          <h3 class="pt-2">Join GitHub today</h3>
+          <p class="col-6 mx-auto">GitHub is home to over 40 million developers working together to host and review code, manage projects, and build software together.</p>
+          <a class="btn btn-primary" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;files signup prompt&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;SIGN_UP&quot;,&quot;client_id&quot;:null,&quot;originating_request_id&quot;:&quot;49C4:1B44C:72133D:AAE619:5DD7A02B&quot;,&quot;originating_url&quot;:&quot;https://github.com/iost-official/Documents/blob/master/Technical_White_Paper/EN/Tech_white_paper_EN.md&quot;,&quot;referrer&quot;:null,&quot;user_id&quot;:null}}" data-hydro-click-hmac="cc2a3c4c443fdfc2253438131346a74d93c0ef628d925bac89846c76bc18a127" data-ga-click="(Logged out) Sign up prompt, clicked Sign up, text:sign-up" href="/join?source=prompt-blob-show&amp;source_repo=iost-official%2FDocuments">Sign up</a>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="d-flex flex-items-start flex-shrink-0 pb-3 flex-column flex-md-row">
+      <span class="d-flex flex-justify-between width-full width-md-auto">
+        
+<details class="details-reset details-overlay select-menu branch-select-menu  hx_rsm" id="branch-select-menu">
+  <summary class="btn btn-sm select-menu-button css-truncate"
+           data-hotkey="w"
+           title="Switch branches or tags">
+    <i>Branch:</i>
+    <span class="css-truncate-target" data-menu-button>master</span>
+  </summary>
+
+  <details-menu class="select-menu-modal hx_rsm-modal position-absolute" style="z-index: 99;" src="/iost-official/Documents/ref-list/master/Technical_White_Paper/EN/Tech_white_paper_EN.md?source_action=show&amp;source_controller=blob" preload>
+    <include-fragment class="select-menu-loading-overlay anim-pulse">
+      <svg height="32" class="octicon octicon-octoface" viewBox="0 0 16 16" version="1.1" width="32" aria-hidden="true"><path fill-rule="evenodd" d="M14.7 5.34c.13-.32.55-1.59-.13-3.31 0 0-1.05-.33-3.44 1.3-1-.28-2.07-.32-3.13-.32s-2.13.04-3.13.32c-2.39-1.64-3.44-1.3-3.44-1.3-.68 1.72-.26 2.99-.13 3.31C.49 6.21 0 7.33 0 8.69 0 13.84 3.33 15 7.98 15S16 13.84 16 8.69c0-1.36-.49-2.48-1.3-3.35zM8 14.02c-3.3 0-5.98-.15-5.98-3.35 0-.76.38-1.48 1.02-2.07 1.07-.98 2.9-.46 4.96-.46 2.07 0 3.88-.52 4.96.46.65.59 1.02 1.3 1.02 2.07 0 3.19-2.68 3.35-5.98 3.35zM5.49 9.01c-.66 0-1.2.8-1.2 1.78s.54 1.79 1.2 1.79c.66 0 1.2-.8 1.2-1.79s-.54-1.78-1.2-1.78zm5.02 0c-.66 0-1.2.79-1.2 1.78s.54 1.79 1.2 1.79c.66 0 1.2-.8 1.2-1.79s-.53-1.78-1.2-1.78z"/></svg>
+    </include-fragment>
+  </details-menu>
+</details>
+
+        <div class="BtnGroup flex-shrink-0 d-md-none">
+          <a href="/iost-official/Documents/find/master"
+                class="js-pjax-capture-input btn btn-sm BtnGroup-item"
+                data-pjax
+                data-hotkey="t">
+            Find file
+          </a>
+          <clipboard-copy value="Technical_White_Paper/EN/Tech_white_paper_EN.md" class="btn btn-sm BtnGroup-item">
+            Copy path
+          </clipboard-copy>
+        </div>
+      </span>
+      <h2 id="blob-path" class="breadcrumb flex-auto min-width-0 text-normal flex-md-self-center ml-md-2 mr-md-3 my-2 my-md-0">
+        <span class="js-repo-root text-bold"><span class="js-path-segment"><a data-pjax="true" href="/iost-official/Documents"><span>Documents</span></a></span></span><span class="separator">/</span><span class="js-path-segment"><a data-pjax="true" href="/iost-official/Documents/tree/master/Technical_White_Paper"><span>Technical_White_Paper</span></a></span><span class="separator">/</span><span class="js-path-segment"><a data-pjax="true" href="/iost-official/Documents/tree/master/Technical_White_Paper/EN"><span>EN</span></a></span><span class="separator">/</span><strong class="final-path">Tech_white_paper_EN.md</strong>
+      </h2>
+
+      <div class="BtnGroup flex-shrink-0 d-none d-md-inline-block">
+        <a href="/iost-official/Documents/find/master"
+              class="js-pjax-capture-input btn btn-sm BtnGroup-item"
+              data-pjax
+              data-hotkey="t">
+          Find file
+        </a>
+        <clipboard-copy value="Technical_White_Paper/EN/Tech_white_paper_EN.md" class="btn btn-sm BtnGroup-item">
+          Copy path
+        </clipboard-copy>
+      </div>
+    </div>
+
+    
+
+
+
+    
+  <div class="Box Box--condensed d-flex flex-column flex-shrink-0">
+      <div class="Box-body d-flex flex-justify-between bg-blue-light flex-column flex-md-row flex-items-start flex-md-items-center">
+        <span class="pr-md-4 f6">
+          <img class="avatar" width="20" height="20" alt="" src="https://camo.githubusercontent.com/4c6443db18b35456fbc2216158e9cb052c4cbe5c/68747470733a2f2f302e67726176617461722e636f6d2f6176617461722f34626164643139316239616166633939336261326161316464386135323161613f643d68747470732533412532462532466769746875622e6769746875626173736574732e636f6d253246696d6167657325324667726176617461727325324667726176617461722d757365722d3432302e706e6726723d6726733d313430" data-canonical-src="https://0.gravatar.com/avatar/4badd191b9aafc993ba2aa1dd8a521aa?d=https%3A%2F%2Fgithub.githubassets.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png&amp;r=g&amp;s=140" />
+          <span class="text-bold link-gray-dark lh-default v-align-middle">0xJustin</span>
+            <span class="lh-default v-align-middle">
+              <a data-pjax="true" title="updated readme" class="link-gray" href="/iost-official/Documents/commit/1141d25e9e8d4c32e42427dcc6297b564b48742a">updated readme</a>
+            </span>
+        </span>
+        <span class="d-inline-block flex-shrink-0 v-align-bottom f6 mt-2 mt-md-0">
+          <a class="pr-2 text-mono link-gray" href="/iost-official/Documents/commit/1141d25e9e8d4c32e42427dcc6297b564b48742a" data-pjax>1141d25</a>
+          <relative-time datetime="2018-04-08T15:00:09Z" class="no-wrap">Apr 8, 2018</relative-time>
+        </span>
+      </div>
+
+    <div class="Box-body d-flex flex-items-center flex-auto f6 border-bottom-0 flex-wrap" >
+      <details class="details-reset details-overlay details-overlay-dark lh-default text-gray-dark float-left mr-2" id="blob_contributors_box">
+        <summary class="btn-link">
+          <span><strong>0</strong> contributors</span>
+        </summary>
+        <details-dialog
+          class="Box Box--overlay d-flex flex-column anim-fade-in fast"
+          aria-label="Users who have contributed to this file"
+          src="/iost-official/Documents/contributors-list/master/Technical_White_Paper/EN/Tech_white_paper_EN.md" preload>
+          <div class="Box-header">
+            <button class="Box-btn-octicon btn-octicon float-right" type="button" aria-label="Close dialog" data-close-dialog>
+              <svg class="octicon octicon-x" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z"/></svg>
+            </button>
+            <h3 class="Box-title">
+              Users who have contributed to this file
+            </h3>
+          </div>
+          <include-fragment class="octocat-spinner my-3" aria-label="Loading..."></include-fragment>
+        </details-dialog>
+      </details>
+    </div>
+  </div>
+
+
+
+
+
+    <div class="Box mt-3 position-relative">
+      
+<div class="Box-header py-2 d-flex flex-column flex-shrink-0 flex-md-row flex-md-items-center">
+  <div class="text-mono f6 flex-auto pr-3 flex-order-2 flex-md-order-1 mt-2 mt-md-0">
+
+      314 lines (197 sloc)
+      <span class="file-info-divider"></span>
+    41.6 KB
+  </div>
+
+  <div class="d-flex py-1 py-md-0 flex-auto flex-order-1 flex-md-order-2 flex-sm-grow-0 flex-justify-between">
+
+    <div class="BtnGroup">
+      <a id="raw-url" class="btn btn-sm BtnGroup-item" href="/iost-official/Documents/raw/master/Technical_White_Paper/EN/Tech_white_paper_EN.md">Raw</a>
+        <a class="btn btn-sm js-update-url-with-hash BtnGroup-item" data-hotkey="b" href="/iost-official/Documents/blame/master/Technical_White_Paper/EN/Tech_white_paper_EN.md">Blame</a>
+      <a rel="nofollow" class="btn btn-sm BtnGroup-item" href="/iost-official/Documents/commits/master/Technical_White_Paper/EN/Tech_white_paper_EN.md">History</a>
+    </div>
+
+
+    <div>
+
+          <button type="button" class="btn-octicon disabled tooltipped tooltipped-nw"
+            aria-label="You must be signed in to make or propose changes">
+            <svg class="octicon octicon-pencil" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M0 12v3h3l8-8-3-3-8 8zm3 2H1v-2h1v1h1v1zm10.3-9.3L12 6 9 3l1.3-1.3a.996.996 0 011.41 0l1.59 1.59c.39.39.39 1.02 0 1.41z"/></svg>
+          </button>
+          <button type="button" class="btn-octicon btn-octicon-danger disabled tooltipped tooltipped-nw"
+            aria-label="You must be signed in to make or propose changes">
+            <svg class="octicon octicon-trashcan" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M11 2H9c0-.55-.45-1-1-1H5c-.55 0-1 .45-1 1H2c-.55 0-1 .45-1 1v1c0 .55.45 1 1 1v9c0 .55.45 1 1 1h7c.55 0 1-.45 1-1V5c.55 0 1-.45 1-1V3c0-.55-.45-1-1-1zm-1 12H3V5h1v8h1V5h1v8h1V5h1v8h1V5h1v9zm1-10H2V3h9v1z"/></svg>
+          </button>
+    </div>
+  </div>
+</div>
+
+
+
+
+      
+  <div id="readme" class="Box-body readme blob instapaper_body js-code-block-container">
+    <article class="markdown-body entry-content p-3 p-md-6" itemprop="text"><h1><a id="user-content-internet-of-services-the-next-generation-secure-highly-scalable-ecosystem-for-online-services" class="anchor" aria-hidden="true" href="#internet-of-services-the-next-generation-secure-highly-scalable-ecosystem-for-online-services"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Internet of Services: The Next-generation, Secure, Highly Scalable Ecosystem for Online Services</h1>
+<p><strong>The Internet of Services Foundation</strong></p>
+<p><strong>December 31, 2017</strong></p>
+<h2><a id="user-content-abstract" class="anchor" aria-hidden="true" href="#abstract"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Abstract</h2>
+<p>Despite the recent hype in the cryptocurrency market, the underlying blockchain technology is still at an early stage and is far from mass adoption. One of the well-recognized issues with current blockchain technologies is scalability. Without the capability of processing large volumes of transactions swiftly, heavy usage services like Facebook, Amazon, and digital asset exchanges are nearly impossible to deploy onto the blockchain.</p>
+<p>In this paper, we propose the Internet of Services (<strong>“IOS”</strong>), an innovative and secure blockchain paradigm designed to provide horizontal scalability and high transaction throughput. By implementing our novel sharding architecture and consensus mechanism, the IOS system is able to process up to 100,000 secure transactions per second.</p>
+<p>This work makes the following contributions. It introduces:</p>
+<ol>
+<li><strong>Efficient Distributed Sharding (EDS)</strong> - an innovative sharding scheme that makes shards sufficiently large and strongly bias-resistant via a combination of a client-server randomness scavenging mechanism and leader election via cryptographic sortition.</li>
+<li><strong>TransEpoch</strong> - a secure validators-to-shards assignment during epoch transitions while maintaining transaction operability.</li>
+<li><strong>Atomix</strong> - a novel two-step inter-shard atomic commit protocol that guarantees transaction atomicity in Byzantine setting.</li>
+<li><strong>Proof-of-Believability (PoB)</strong> - a groundbreaking Byzantine consensus protocol with a Believable-First approach that guarantees safety and liveness of the system while largely maximizes the transaction throughput by size-one-shard.</li>
+<li><strong>Micro State Block (MSB)</strong> - a novel mechanism to minimize the storage and bootstrapping costs for validators.</li>
+</ol>
+<p><strong>Note</strong>: the IOS is a work in progress. Active research is under way, and new versions of this paper will be updated at <a href="http://iost.io" rel="nofollow">http://iost.io</a>. For comments and suggestions, contact us at <a href="mailto:team@iost.io">team@iost.io</a>.</p>
+<h2><a id="user-content-table-of-contents" class="anchor" aria-hidden="true" href="#table-of-contents"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Table of Contents</h2>
+<ul>
+<li><a href="#background">Background</a></li>
+<li><a href="#related-work">Related Work</a>
+<ul>
+<li><a href="#state-machine-replication">State Machine Replication</a></li>
+<li><a href="#bitcoin-and-proof-of-work">Bitcoin and Proof-of-Work</a></li>
+<li><a href="#proof-of-stake">Proof-of-Stake</a></li>
+</ul>
+</li>
+<li><a href="#blockchain-architecture">Blockchain Architecture</a></li>
+<li><a href="#distributed-randomness-protocol">Distributed Randomness Protocol</a></li>
+<li><a href="#efficient-distributed-sharding">Efficient Distributed Sharding</a>
+<ul>
+<li><a href="#algorithm---leader-election-with-back-up-protocol">Algorithm - Leader Election with Back-up Protocol</a></li>
+<li><a href="#analysis">Analysis</a></li>
+</ul>
+</li>
+<li><a href="#operability-during-epoch-transitions">Operability During Epoch Transitions</a>
+<ul>
+<li><a href="#node-to-shard-transition-assignment-algorithm---transepoch">Node-to-shard Transition Assignment Algorithm - TransEpoch</a></li>
+<li><a href="#analysis-1">Analysis</a></li>
+</ul>
+</li>
+<li><a href="#inter-shard-transactions">Inter-Shard Transactions</a></li>
+<li><a href="#consensus-mechanism">Consensus Mechanism</a>
+<ul>
+<li><a href="#tokens-and-motivations">Tokens and Motivations</a></li>
+<li><a href="#proof-of-believability">Proof-of-Believability</a></li>
+</ul>
+</li>
+<li><a href="#blockchain-storage-pruning">Blockchain Storage Pruning</a>
+<ul>
+<li><a href="#algorithm---msb-generation-protocol">Algorithm - MSB Generation Protocol</a></li>
+<li><a href="#analysis-2">Analysis</a></li>
+</ul>
+</li>
+<li><a href="#references">REFERENCES</a></li>
+</ul>
+<h2><a id="user-content-background" class="anchor" aria-hidden="true" href="#background"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Background</h2>
+<p>Excessive commission fees, privacy violations, frauds and censorship are common issues encountered during daily interactions with centralized online service providers. Given these well-recognized problems with centralization, a wide range of blockchain technologies attempting to resolve these issues have been developed since the launch of Bitcoin [15] in 2008. Specialized projects like SteemIt [29], Bitshares [30], and Syscoin [21],  as well as more versatile projects like Ethereum [28] and EOS [11], are some of many examples. However, most of those attempts are either too specialized in certain applications, or burdened by low transaction throughput. Due to these limitations in flexibility and transaction throughput, it is impossible for developers and enterprises to bring heavy services like Facebook or Amazon onto the blockchain - not to mention something more complicated like digital asset exchanges.</p>
+<p>The heart of the scalability issue lies in the fundamental design of these existing blockchain technologies -- their consensus protocols and blockchain architectures. Most of the existing blockchain technologies face two major challenges in their way of scaling up: a) every full node must store the entire ledger in order to participate; b) every participating node in the network is obligated to handle every transaction. Since all the participating nodes are essentially conducting the same work, the number of transactions the system can process will not exceed that of a single node. Moreover, the growing size of the blockchain increases the requirements and costs of storage space, bandwidth, and computational resources for a node to fully participate in the network. The increasing mining cost will inevitably make the participation in the network become a privilege for the few, leading us straight back to the problem of centralization.</p>
+<p>The IOS is designed to fill the void. In our vision, the IOS is a next-generation blockchain technology that provides the network infrastructure to support a service-oriented ecosystem. The IOS platform not only provides its users a completely decentralized way to exchange online services and digital goods, but also enables developers to deploy large scale dApps with the ability to support massive number of users. With a series of groundbreaking innovations, such as Efficient Distributed Sharding (“EDS”) and Believable-First consensus approach, we are able to increase the system’s throughput enormously while guaranteeing security.</p>
+<p>We developed EDS based on the sharding technique. It is widely adopted in distributed systems and databases to enable parallel transaction processing. Inspired by the classic “Divide and Conquer” principle in computer science, sharding is a technique that partitions the entire IOS network into certain numbers of subspaces called shards. We can consider each shard as a miniature network that runs its own consensus protocol in parallel. Instead of having the entire network validating the same set of transactions, subsets of transactions can be handled by various consensus groups simultaneously. Therefore, the throughput of the system can be significantly enhanced even if the size of the network and number of transactions grow rapidly. Moreover, in order to ensure the network is divided homogeneously, we have developed a Bias-Resistant Distributed Randomness protocol in order to introduce unbiased and transparent randomness into the sharding process.</p>
+<p>With the EDS, the IOS is also packed in a very powerful arsenal of technologies that empowers deployment of large scale dApps with high-performance and flexibility. It allows developers to build a wide range of products: from counterparts of traditional monopolistic online service providers to brand new business models that would have been considered impossible previously. Admittedly, running such services could be quite expensive when the size of the IOS network is relatively small.  However, with increasing number of nodes and resources in the network, the cost of running such large scale dApps might be greatly reduced. Additionally, there are many benefits including: avoiding cyber attacks, high-level of data security, and the immutable property.</p>
+<p>During the development of the IOS blockchain, we thoroughly examined all currently available solutions in order to learn from previous attempts.</p>
+<h2><a id="user-content-related-work" class="anchor" aria-hidden="true" href="#related-work"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Related Work</h2>
+<h3><a id="user-content-state-machine-replication" class="anchor" aria-hidden="true" href="#state-machine-replication"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>State Machine Replication</h3>
+<p>In a nutshell, blockchain technologies are state machine replication protocols. Every state machine replication protocol has to satisfy two important properties:</p>
+<ol>
+<li><em>Safety</em>, i.e., all servers in the network have the same record of transactions;</li>
+<li><em>Liveness</em>, i.e.,  transactions of clients are submitted and documented into the log quickly.</li>
+</ol>
+<p>There are two fundamentally different ways to achieve state machine replication: classical-style consensus and blockchain-style consensus [18]. Classical-style consensus generally applies Paxos-like algorithms and is used in the permissioned setting where there is a priori knowledge of the consensus nodes known by the system. An example of this application would be the servers at software companies like Amazon, where their servers collectively use a classical way to replicate and store information, and the classical algorithm establishes the fundamentals to form a consensus of the ordering of their data.</p>
+<h3><a id="user-content-bitcoin-and-proof-of-work" class="anchor" aria-hidden="true" href="#bitcoin-and-proof-of-work"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Bitcoin and Proof-of-Work</h3>
+<p>Satoshi Nakamoto was the first to introduce Bitcoin as a solution to establish consensus in the permissionless setting , e.g. any node can freely join and leave the network without a priori knowledge of the consensus nodes. The network underlying Bitcoin, blockchain improves the scale of distributed systems without human involvement by providing economic incentives to the servers, dubbed miners in Bitcoin’s settings. Miners in the Bitcoin network form consensus by calculating partial hash collisions with a certain difficulty level. The chain with the greatest cumulative difficulty would be acknowledged by other nodes as the consensus result. This solution is named Proof-of-Work (PoW), which in essence is to have all the nodes in the network contribute their computing power as a way to earn incentives and thus determine the ordering of transactions for the whole system. A benefit of PoW is its ability to defend against Sybil attack in a permissionless setting [15]. Despite its advancements in scale and security, Bitcoin has a few major drawbacks:  (1) unlike other modern cryptocurrencies, it takes more than an hour to confirm a transaction according its configuration; (2) it is difficult to develop various applications upon Bitcoin network; (3) the consensus mechanism wastes too much energy, i.e., it costs more than two million dollars per day in electricity. More importantly, earlier works show that Bitcoin-style blockchain must have a sufficiently large interval to retain security [16] [17]. Therefore, Bitcoin would not be a good replacement for the current centralized system to support day-to-day applications and large transaction volume.</p>
+<h3><a id="user-content-proof-of-stake" class="anchor" aria-hidden="true" href="#proof-of-stake"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Proof-of-Stake</h3>
+<p>The concept of Proof-of-Stake was first discussed on an online blockchain forum [31] and was adopted by a few cryptocurrencies like PPcoin [22], PeerCoins[23] and Nxt [5]. The idea of PoS is essentially one vote per unit of stake, such that for each validator, owning more stake will have higher voting power. Therefore, validators have no economic incentive to harm the whole blockchain network. For attackers, the cost of attack is huge because they have to own the majority of the stakes. In the early development, Proof-of-Stake consensus mechanism is known for being vulnerable to “nothing-at-stake” attacks, where servers are able to vote on multiple blocks at the same time with no incentive to converge, damaging the security of the blockchain. Later work solves the problem using slasher [3], which enforces a punishment for violating nodes. Many other work are also described as the ad hoc application of Proof-of-Stake [1–3,26][12][10]. Although PoS fulfills the liveness of the replicated state machine protocol, it still faces challenges like centralization and security problems. For instance, validators possessing more tokens will be more likely to generate new blocks and get richer, leading to a potential centralization problem. Furthermore, previous work shows that Proof-of-Stake protocol can only be a provably secure and robustly configured consensus protocol if its token is not being exchanged too frequently [19] , which potentially implies that there is a ceiling throughput for Proof-of-Stake in order to preserve security.</p>
+<h2><a id="user-content-blockchain-architecture" class="anchor" aria-hidden="true" href="#blockchain-architecture"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Blockchain Architecture</h2>
+<p>The infrastructure of IOSChain is similar to existing well-known blockchains like Bitcoin and Ethereum, where nodes disseminate data through gossip protocol. The system split its data and state into shards. Each node is responsible for one shard of the system. Unspent transactions (UTXOs) are stored in the memory of the nodes in the corresponding shards.  This raises several new challenges.</p>
+<ul>
+<li>How to divide the system into shards.</li>
+<li>How to reach consensus in each shard.</li>
+<li>How to perform inter-shard transactions.</li>
+</ul>
+<p>In order to solve the above challenges in a fair and secure manner, we have to perform many random operations, for example, assigning nodes into shards, electing leaders in each shard. As a result, we have to first design an unforgeable and unbiased (uniformly random) distributed random number generation protocol. With the random number generation protocol, the above challenges can be addressed one by one.</p>
+<p>In the rest of this paper, we present the techniques and methods used to address these challenges.</p>
+<ul>
+<li>In Section 4, we present <em><strong>Distributed Randomness Protocol</strong></em> (DRP), which is unforgeable and unbiased when the ratio of malicious nodes are below some certain predefined threshold.  The random numbers generated by DRP is used to divide the system into shards, assign nodes to different shards, and elect leaders in each shard.</li>
+<li>In Section 5, we present <em><strong>Efficient Distributed Sharding</strong></em> (EDS) - a novel scheme to form shards (subsets of validators to record state and process transactions) that are both sufficiently large and strongly bias-resistant using a combination of DRP and a VRF-based leader election via cryptographic sortition.</li>
+<li>In Section 6, we present <em><strong>TransEpoch</strong></em> - a secure validators-to-shards assignment protocol during epoch transitions while maintaining system operability.</li>
+<li>In Section 7, we present <em><strong>Atomix</strong></em> - a novel two-step inter-shard atomic commit protocol that guarantees transaction atomicity in Byzantine setting.</li>
+<li>In Section 8, we present <em><strong>Proof-of-Believability</strong></em> (PoB) - a novel Byzantine consensus protocol with a Believable-First approach that guarantees safety and liveness of the system while largely maximizing the transaction throughput by size-one-shard.</li>
+<li>In Section 9, we present <em><strong>Micro State Blocks</strong></em> (MSB) - a novel mechanism to minimize the storage and bootstrapping costs for validators.</li>
+</ul>
+<h2><a id="user-content-distributed-randomness-protocol" class="anchor" aria-hidden="true" href="#distributed-randomness-protocol"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Distributed Randomness Protocol</h2>
+<p>Traditional approach to generate randomness like Proof-of-Work based mechanism [13] or a trusted beacon [6] have computational wastes and centralization concerns. It is desirable to use cryptographic tools to generate distributed random numbers, which not only saves resources but also is provably secure.</p>
+<p>There are multiple algorithms to generate distributed random numbers for the purpose of node-shard assignment and leader election in IOSChain. Here we present the one that, to our knowledge, the best fits the requirement in the IOSChain scenario. In IOSChain, the distributed random number generator has the following requirements.</p>
+<ol>
+<li>It has to be resistant to dishonest participants (including clients and servers) with in a certain ratio. To be detailed, the system is able to make progress when the ratio of dishonest participants are below the threshold, and nothing bad happens when making progress.</li>
+<li>The final random number must be unforgeable and unbiased (uniformly random), except negligible probability.</li>
+<li>Dishonest participant is not able to try multiple times to generate the random number that favors the participant, even multiple dishonest participants collude.</li>
+<li>Third parties are able to verify the output is generated by faithfully running the protocol (i.e., verify that it satisfies all the above requirements).</li>
+</ol>
+<p>In order to achieve these requirements, we propose to use a client-server protocol, called Distributed Randomness Protocol (DRP) [24], where a client communicates with a set of servers to generate an unforgeable, uniformly random value through non-interactive zero-knowledge proof (NIZK) and publicly verifiable secret sharing (PVSS). In a certain protocol run, before the protocol finishes and the final random output is revealed, no entity in the protocol is able to learn any information about the final output, which makes sure a dishonest client is not able to try multiple runs to generate the random number that favors the dishonest client.</p>
+<p>The protocol consists of two phases - randomness generation and randomness verification. It works as follows. Initially, the client starts a protocol run by broadcasting to all the servers a message including a randomly generated balanced grouping. In the first phase, each server generates a random input value and creates shares only for other members of the same group using PVSS. Upon receiving encrypted shares with the NIZK [25] proofs from all the servers (or timeout), the client chooses a subset of server inputs from each group. This allows the client fix each group’s secret and the output of the protocol. In the second phase, the servers decrypt and send their shares to the client as soon as the client receives a sign-off on input values in a global run of collective signature (CoSi) [25]. Then the client combines the recovered group secrets to reveal the final random output.</p>
+<h2><a id="user-content-efficient-distributed-sharding" class="anchor" aria-hidden="true" href="#efficient-distributed-sharding"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Efficient Distributed Sharding</h2>
+<p>With the distributed randomness protocol (DRP) presented above, it is not difficult to implement efficient distributed sharding.  However, the protocol only works well without malicious or failure nodes, since it is performed by validators collectively. Therefore,  we have to design backup protocols for scenarios with malicious or failure nodes. To conquer this problem, we propose a solution that uses Algorand [9] and Omniledger [8] to elect a leader.</p>
+<h3><a id="user-content-algorithm---leader-election-with-back-up-protocol" class="anchor" aria-hidden="true" href="#algorithm---leader-election-with-back-up-protocol"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Algorithm - Leader Election with Back-up Protocol</h3>
+<hr>
+<p><strong>Inputs:</strong></p>
+<ol>
+<li><a target="_blank" rel="noopener noreferrer" href="https://camo.githubusercontent.com/2acc040a9f99ec359a22b16d04f4d341e1cef7f8/687474703a2f2f6c617465782e636f6465636f67732e636f6d2f6769662e6c617465783f247624"><img src="https://camo.githubusercontent.com/2acc040a9f99ec359a22b16d04f4d341e1cef7f8/687474703a2f2f6c617465782e636f6465636f67732e636f6d2f6769662e6c617465783f247624" alt="" data-canonical-src="http://latex.codecogs.com/gif.latex?$v$" style="max-width:100%;"></a> is a view counter</li>
+<li><a target="_blank" rel="noopener noreferrer" href="https://camo.githubusercontent.com/bc5a70ffd6b4cd98eedf3369d0db1ebacd1e74d2/687474703a2f2f6c617465782e636f6465636f67732e636f6d2f6769662e6c617465783f246924"><img src="https://camo.githubusercontent.com/bc5a70ffd6b4cd98eedf3369d0db1ebacd1e74d2/687474703a2f2f6c617465782e636f6465636f67732e636f6d2f6769662e6c617465783f246924" alt="" data-canonical-src="http://latex.codecogs.com/gif.latex?$i$" style="max-width:100%;"></a> is a validator</li>
+<li><a target="_blank" rel="noopener noreferrer" href="https://camo.githubusercontent.com/2722b0d658e07656db6a7e6374f6fd6f4637ed1f/687474703a2f2f6c617465782e636f6465636f67732e636f6d2f6769662e6c617465783f24736b5f6924"><img src="https://camo.githubusercontent.com/2722b0d658e07656db6a7e6374f6fd6f4637ed1f/687474703a2f2f6c617465782e636f6465636f67732e636f6d2f6769662e6c617465783f24736b5f6924" alt="" data-canonical-src="http://latex.codecogs.com/gif.latex?$sk_i$" style="max-width:100%;"></a> is the private key for <a target="_blank" rel="noopener noreferrer" href="https://camo.githubusercontent.com/bc5a70ffd6b4cd98eedf3369d0db1ebacd1e74d2/687474703a2f2f6c617465782e636f6465636f67732e636f6d2f6769662e6c617465783f246924"><img src="https://camo.githubusercontent.com/bc5a70ffd6b4cd98eedf3369d0db1ebacd1e74d2/687474703a2f2f6c617465782e636f6465636f67732e636f6d2f6769662e6c617465783f246924" alt="" data-canonical-src="http://latex.codecogs.com/gif.latex?$i$" style="max-width:100%;"></a></li>
+<li><a target="_blank" rel="noopener noreferrer" href="https://camo.githubusercontent.com/93f28da07b25b006ffd29695506289a95618410f/687474703a2f2f6c617465782e636f6465636f67732e636f6d2f6769662e6c617465783f246524"><img src="https://camo.githubusercontent.com/93f28da07b25b006ffd29695506289a95618410f/687474703a2f2f6c617465782e636f6465636f67732e636f6d2f6769662e6c617465783f246524" alt="" data-canonical-src="http://latex.codecogs.com/gif.latex?$e$" style="max-width:100%;"></a> is the current epoch</li>
+<li><a target="_blank" rel="noopener noreferrer" href="https://camo.githubusercontent.com/f3567efd1415deb104c845af0c76345ec56cf17e/687474703a2f2f6c617465782e636f6465636f67732e636f6d2f6769662e6c617465783f2425354344656c746124"><img src="https://camo.githubusercontent.com/f3567efd1415deb104c845af0c76345ec56cf17e/687474703a2f2f6c617465782e636f6465636f67732e636f6d2f6769662e6c617465783f2425354344656c746124" alt="" data-canonical-src="http://latex.codecogs.com/gif.latex?$%5CDelta$" style="max-width:100%;"></a> is the synchrony bound</li>
+</ol>
+<p><strong>Output:</strong> a validator <a target="_blank" rel="noopener noreferrer" href="https://camo.githubusercontent.com/bc5a70ffd6b4cd98eedf3369d0db1ebacd1e74d2/687474703a2f2f6c617465782e636f6465636f67732e636f6d2f6769662e6c617465783f246924"><img src="https://camo.githubusercontent.com/bc5a70ffd6b4cd98eedf3369d0db1ebacd1e74d2/687474703a2f2f6c617465782e636f6465636f67732e636f6d2f6769662e6c617465783f246924" alt="" data-canonical-src="http://latex.codecogs.com/gif.latex?$i$" style="max-width:100%;"></a> which has the minimum-value valid lottery to run DRP</p>
+<ol>
+<li>For each <a target="_blank" rel="noopener noreferrer" href="https://camo.githubusercontent.com/93f28da07b25b006ffd29695506289a95618410f/687474703a2f2f6c617465782e636f6465636f67732e636f6d2f6769662e6c617465783f246524"><img src="https://camo.githubusercontent.com/93f28da07b25b006ffd29695506289a95618410f/687474703a2f2f6c617465782e636f6465636f67732e636f6d2f6769662e6c617465783f246524" alt="" data-canonical-src="http://latex.codecogs.com/gif.latex?$e$" style="max-width:100%;"></a>, each <a target="_blank" rel="noopener noreferrer" href="https://camo.githubusercontent.com/bc5a70ffd6b4cd98eedf3369d0db1ebacd1e74d2/687474703a2f2f6c617465782e636f6465636f67732e636f6d2f6769662e6c617465783f246924"><img src="https://camo.githubusercontent.com/bc5a70ffd6b4cd98eedf3369d0db1ebacd1e74d2/687474703a2f2f6c617465782e636f6465636f67732e636f6d2f6769662e6c617465783f246924" alt="" data-canonical-src="http://latex.codecogs.com/gif.latex?$i$" style="max-width:100%;"></a> computes a lottery <a target="_blank" rel="noopener noreferrer" href="https://camo.githubusercontent.com/8961b26b87c92d6145fc1e772de7b24b6cdee7f9/687474703a2f2f6c617465782e636f6465636f67732e636f6d2f6769662e6c617465783f246c6f74746572795f253742692c652c7625374424"><img src="https://camo.githubusercontent.com/8961b26b87c92d6145fc1e772de7b24b6cdee7f9/687474703a2f2f6c617465782e636f6465636f67732e636f6d2f6769662e6c617465783f246c6f74746572795f253742692c652c7625374424" alt="" data-canonical-src="http://latex.codecogs.com/gif.latex?$lottery_%7Bi,e,v%7D$" style="max-width:100%;"></a> using Verifiable Random Function with its view <a target="_blank" rel="noopener noreferrer" href="https://camo.githubusercontent.com/2acc040a9f99ec359a22b16d04f4d341e1cef7f8/687474703a2f2f6c617465782e636f6465636f67732e636f6d2f6769662e6c617465783f247624"><img src="https://camo.githubusercontent.com/2acc040a9f99ec359a22b16d04f4d341e1cef7f8/687474703a2f2f6c617465782e636f6465636f67732e636f6d2f6769662e6c617465783f247624" alt="" data-canonical-src="http://latex.codecogs.com/gif.latex?$v$" style="max-width:100%;"></a> and the node’s private key <a target="_blank" rel="noopener noreferrer" href="https://camo.githubusercontent.com/2722b0d658e07656db6a7e6374f6fd6f4637ed1f/687474703a2f2f6c617465782e636f6465636f67732e636f6d2f6769662e6c617465783f24736b5f6924"><img src="https://camo.githubusercontent.com/2722b0d658e07656db6a7e6374f6fd6f4637ed1f/687474703a2f2f6c617465782e636f6465636f67732e636f6d2f6769662e6c617465783f24736b5f6924" alt="" data-canonical-src="http://latex.codecogs.com/gif.latex?$sk_i$" style="max-width:100%;"></a>.</li>
+<li>Then for a time bound <a target="_blank" rel="noopener noreferrer" href="https://camo.githubusercontent.com/f3567efd1415deb104c845af0c76345ec56cf17e/687474703a2f2f6c617465782e636f6465636f67732e636f6d2f6769662e6c617465783f2425354344656c746124"><img src="https://camo.githubusercontent.com/f3567efd1415deb104c845af0c76345ec56cf17e/687474703a2f2f6c617465782e636f6465636f67732e636f6d2f6769662e6c617465783f2425354344656c746124" alt="" data-canonical-src="http://latex.codecogs.com/gif.latex?$%5CDelta$" style="max-width:100%;"></a>, the validators gossip these lotteries with each other. Each validator collects the top 3 minimum-value lottery in the gossip process.</li>
+<li>After the time bound <a target="_blank" rel="noopener noreferrer" href="https://camo.githubusercontent.com/f3567efd1415deb104c845af0c76345ec56cf17e/687474703a2f2f6c617465782e636f6465636f67732e636f6d2f6769662e6c617465783f2425354344656c746124"><img src="https://camo.githubusercontent.com/f3567efd1415deb104c845af0c76345ec56cf17e/687474703a2f2f6c617465782e636f6465636f67732e636f6d2f6769662e6c617465783f2425354344656c746124" alt="" data-canonical-src="http://latex.codecogs.com/gif.latex?$%5CDelta$" style="max-width:100%;"></a>, the validators fix the minimum-value valid lottery they have seen so far.</li>
+<li>The validator corresponding to the minimum-value valid lottery is elected as the leader, while the other two validators corresponding to the second and third minimum-value valid lottery are  used as the pool for back-up leaders.</li>
+<li>If the elected validator successfully runs the DRP, it broadcasts the output <a target="_blank" rel="noopener noreferrer" href="https://camo.githubusercontent.com/933947f574869ae41c2e5468b1e7aa8b4d3d5cab/687474703a2f2f6c617465782e636f6465636f67732e636f6d2f6769662e6c617465783f24726e645f6524"><img src="https://camo.githubusercontent.com/933947f574869ae41c2e5468b1e7aa8b4d3d5cab/687474703a2f2f6c617465782e636f6465636f67732e636f6d2f6769662e6c617465783f24726e645f6524" alt="" data-canonical-src="http://latex.codecogs.com/gif.latex?$rnd_e$" style="max-width:100%;"></a> to all other validators with its correctness proof.</li>
+<li>Each <a target="_blank" rel="noopener noreferrer" href="https://camo.githubusercontent.com/bc5a70ffd6b4cd98eedf3369d0db1ebacd1e74d2/687474703a2f2f6c617465782e636f6465636f67732e636f6d2f6769662e6c617465783f246924"><img src="https://camo.githubusercontent.com/bc5a70ffd6b4cd98eedf3369d0db1ebacd1e74d2/687474703a2f2f6c617465782e636f6465636f67732e636f6d2f6769662e6c617465783f246924" alt="" data-canonical-src="http://latex.codecogs.com/gif.latex?$i$" style="max-width:100%;"></a> can use <a target="_blank" rel="noopener noreferrer" href="https://camo.githubusercontent.com/933947f574869ae41c2e5468b1e7aa8b4d3d5cab/687474703a2f2f6c617465782e636f6465636f67732e636f6d2f6769662e6c617465783f24726e645f6524"><img src="https://camo.githubusercontent.com/933947f574869ae41c2e5468b1e7aa8b4d3d5cab/687474703a2f2f6c617465782e636f6465636f67732e636f6d2f6769662e6c617465783f24726e645f6524" alt="" data-canonical-src="http://latex.codecogs.com/gif.latex?$rnd_e$" style="max-width:100%;"></a> to compute a permutation and divide the result into <a target="_blank" rel="noopener noreferrer" href="https://camo.githubusercontent.com/49bc3db7c03f2707ededf41ac0430a6db9d1e67a/687474703a2f2f6c617465782e636f6465636f67732e636f6d2f6769662e6c617465783f246d24"><img src="https://camo.githubusercontent.com/49bc3db7c03f2707ededf41ac0430a6db9d1e67a/687474703a2f2f6c617465782e636f6465636f67732e636f6d2f6769662e6c617465783f246d24" alt="" data-canonical-src="http://latex.codecogs.com/gif.latex?$m$" style="max-width:100%;"></a> buckets with same size, thus the mapping from nodes to shards is determined.</li>
+<li>After the time bound <a target="_blank" rel="noopener noreferrer" href="https://camo.githubusercontent.com/f3567efd1415deb104c845af0c76345ec56cf17e/687474703a2f2f6c617465782e636f6465636f67732e636f6d2f6769662e6c617465783f2425354344656c746124"><img src="https://camo.githubusercontent.com/f3567efd1415deb104c845af0c76345ec56cf17e/687474703a2f2f6c617465782e636f6465636f67732e636f6d2f6769662e6c617465783f2425354344656c746124" alt="" data-canonical-src="http://latex.codecogs.com/gif.latex?$%5CDelta$" style="max-width:100%;"></a>, if the elected validator fails to start DRP, validators mark the current run as failed and exclude this leader in the rest of the epoch <a target="_blank" rel="noopener noreferrer" href="https://camo.githubusercontent.com/93f28da07b25b006ffd29695506289a95618410f/687474703a2f2f6c617465782e636f6465636f67732e636f6d2f6769662e6c617465783f246524"><img src="https://camo.githubusercontent.com/93f28da07b25b006ffd29695506289a95618410f/687474703a2f2f6c617465782e636f6465636f67732e636f6d2f6769662e6c617465783f246524" alt="" data-canonical-src="http://latex.codecogs.com/gif.latex?$e$" style="max-width:100%;"></a>. In this case,the back-up leader will be used to run DRP. If the two backup leaders fail continuously, the lottery will roll back to step 1 and the whole protocol will be rerun.</li>
+</ol>
+<hr>
+<h3><a id="user-content-analysis" class="anchor" aria-hidden="true" href="#analysis"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Analysis</h3>
+<p>The leader election mechanism provides required properties which is the same as those described in Section 4. Each validator can produce only a single valid lottery per view <a target="_blank" rel="noopener noreferrer" href="https://camo.githubusercontent.com/2acc040a9f99ec359a22b16d04f4d341e1cef7f8/687474703a2f2f6c617465782e636f6465636f67732e636f6d2f6769662e6c617465783f247624"><img src="https://camo.githubusercontent.com/2acc040a9f99ec359a22b16d04f4d341e1cef7f8/687474703a2f2f6c617465782e636f6465636f67732e636f6d2f6769662e6c617465783f247624" alt="" data-canonical-src="http://latex.codecogs.com/gif.latex?$v$" style="max-width:100%;"></a> in a epoch <a target="_blank" rel="noopener noreferrer" href="https://camo.githubusercontent.com/93f28da07b25b006ffd29695506289a95618410f/687474703a2f2f6c617465782e636f6465636f67732e636f6d2f6769662e6c617465783f246524"><img src="https://camo.githubusercontent.com/93f28da07b25b006ffd29695506289a95618410f/687474703a2f2f6c617465782e636f6465636f67732e636f6d2f6769662e6c617465783f246524" alt="" data-canonical-src="http://latex.codecogs.com/gif.latex?$e$" style="max-width:100%;"></a>. The DRP design provides scalability. Since the private key <a target="_blank" rel="noopener noreferrer" href="https://camo.githubusercontent.com/2722b0d658e07656db6a7e6374f6fd6f4637ed1f/687474703a2f2f6c617465782e636f6465636f67732e636f6d2f6769662e6c617465783f24736b5f6924"><img src="https://camo.githubusercontent.com/2722b0d658e07656db6a7e6374f6fd6f4637ed1f/687474703a2f2f6c617465782e636f6465636f67732e636f6d2f6769662e6c617465783f24736b5f6924" alt="" data-canonical-src="http://latex.codecogs.com/gif.latex?$sk_i$" style="max-width:100%;"></a> is kept secret, the output of VRF is unpredictable. Given our synchrony time bound <a target="_blank" rel="noopener noreferrer" href="https://camo.githubusercontent.com/f3567efd1415deb104c845af0c76345ec56cf17e/687474703a2f2f6c617465782e636f6465636f67732e636f6d2f6769662e6c617465783f2425354344656c746124"><img src="https://camo.githubusercontent.com/f3567efd1415deb104c845af0c76345ec56cf17e/687474703a2f2f6c617465782e636f6465636f67732e636f6d2f6769662e6c617465783f2425354344656c746124" alt="" data-canonical-src="http://latex.codecogs.com/gif.latex?$%5CDelta$" style="max-width:100%;"></a>, the lottery will be seen by all other validators within <a target="_blank" rel="noopener noreferrer" href="https://camo.githubusercontent.com/f3567efd1415deb104c845af0c76345ec56cf17e/687474703a2f2f6c617465782e636f6465636f67732e636f6d2f6769662e6c617465783f2425354344656c746124"><img src="https://camo.githubusercontent.com/f3567efd1415deb104c845af0c76345ec56cf17e/687474703a2f2f6c617465782e636f6465636f67732e636f6d2f6769662e6c617465783f2425354344656c746124" alt="" data-canonical-src="http://latex.codecogs.com/gif.latex?$%5CDelta$" style="max-width:100%;"></a>. If malicious nodes win the lottery, it cannot perform arbitrary behaviors -- either choose to cooperate and run the DRP protocol, or decide to fail the epoch. If any of the malicious/abnormal cases happens, the malicious nodes would be excluded from participating in the rest of the epoch.</p>
+<h2><a id="user-content-operability-during-epoch-transitions" class="anchor" aria-hidden="true" href="#operability-during-epoch-transitions"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Operability During Epoch Transitions</h2>
+<p>There are many shard configuration schemes, such as static configuration and some different rolling schemes. IOSChain uses a dynamical rolling scheme - it swaps out and in validators in batches for each epoch <a target="_blank" rel="noopener noreferrer" href="https://camo.githubusercontent.com/93f28da07b25b006ffd29695506289a95618410f/687474703a2f2f6c617465782e636f6465636f67732e636f6d2f6769662e6c617465783f246524"><img src="https://camo.githubusercontent.com/93f28da07b25b006ffd29695506289a95618410f/687474703a2f2f6c617465782e636f6465636f67732e636f6d2f6769662e6c617465783f246524" alt="" data-canonical-src="http://latex.codecogs.com/gif.latex?$e$" style="max-width:100%;"></a>. This configuration will give IOSChain an idle period that only after enough validators have bootstrapped appropriately, the network can begin processing transactions. Many designs of the blockchain did not take the issue that how to make sure the system is operational during this period into consideration.</p>
+<p>A key factor of the issue during the transition is the batch size, which is is highly relevant to the safety of the system. When the swap batch size grows, the risk increases as the number of remaining honest validators will not be sufficient to reach consensus. Another disadvantage of growing swap batch size is that the downloading and bootstrapping information will cause network stress increases. Given our threat model that there are at most <a target="_blank" rel="noopener noreferrer" href="https://camo.githubusercontent.com/c6453356a5315ee4dda286c7ba4501b2e6425332/687474703a2f2f6c617465782e636f6465636f67732e636f6d2f6769662e6c617465783f24312f3324"><img src="https://camo.githubusercontent.com/c6453356a5315ee4dda286c7ba4501b2e6425332/687474703a2f2f6c617465782e636f6465636f67732e636f6d2f6769662e6c617465783f24312f3324" alt="" data-canonical-src="http://latex.codecogs.com/gif.latex?$1/3$" style="max-width:100%;"></a> malicious nodes, the maximum size of the swap batch should be less than <a target="_blank" rel="noopener noreferrer" href="https://camo.githubusercontent.com/c6453356a5315ee4dda286c7ba4501b2e6425332/687474703a2f2f6c617465782e636f6465636f67732e636f6d2f6769662e6c617465783f24312f3324"><img src="https://camo.githubusercontent.com/c6453356a5315ee4dda286c7ba4501b2e6425332/687474703a2f2f6c617465782e636f6465636f67732e636f6d2f6769662e6c617465783f24312f3324" alt="" data-canonical-src="http://latex.codecogs.com/gif.latex?$1/3$" style="max-width:100%;"></a> nodes.</p>
+<p>To maintain full operability during transition/idle phases, we use the method of selecting a subset of the validators to be swapped out and replaced with new members [8,24]. This is based on Omniledger’s approach [8]. It enables the remaining validators to continue offering services while the newly joined nodes are downloading history data and bootstrapping.  We present the node-to-shard transition assignment protocol - TransEpoch as follows.</p>
+<h3><a id="user-content-node-to-shard-transition-assignment-algorithm---transepoch" class="anchor" aria-hidden="true" href="#node-to-shard-transition-assignment-algorithm---transepoch"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Node-to-shard Transition Assignment Algorithm - TransEpoch</h3>
+<hr>
+<p><strong>Inputs:</strong></p>
+<ol>
+<li><a target="_blank" rel="noopener noreferrer" href="https://camo.githubusercontent.com/782c9e7d9d6a77e182f50533f16bbea1a6ce8c35/687474703a2f2f6c617465782e636f6465636f67732e636f6d2f6769662e6c617465783f246e24"><img src="https://camo.githubusercontent.com/782c9e7d9d6a77e182f50533f16bbea1a6ce8c35/687474703a2f2f6c617465782e636f6465636f67732e636f6d2f6769662e6c617465783f246e24" alt="" data-canonical-src="http://latex.codecogs.com/gif.latex?$n$" style="max-width:100%;"></a> is the total number of nodes</li>
+<li><a target="_blank" rel="noopener noreferrer" href="https://camo.githubusercontent.com/49bc3db7c03f2707ededf41ac0430a6db9d1e67a/687474703a2f2f6c617465782e636f6465636f67732e636f6d2f6769662e6c617465783f246d24"><img src="https://camo.githubusercontent.com/49bc3db7c03f2707ededf41ac0430a6db9d1e67a/687474703a2f2f6c617465782e636f6465636f67732e636f6d2f6769662e6c617465783f246d24" alt="" data-canonical-src="http://latex.codecogs.com/gif.latex?$m$" style="max-width:100%;"></a> is the size of each shard</li>
+<li><a target="_blank" rel="noopener noreferrer" href="https://camo.githubusercontent.com/db8cad5ff4351b3b5a3d89cfb69be9a2408873ad/687474703a2f2f6c617465782e636f6465636f67732e636f6d2f6769662e6c617465783f246b24"><img src="https://camo.githubusercontent.com/db8cad5ff4351b3b5a3d89cfb69be9a2408873ad/687474703a2f2f6c617465782e636f6465636f67732e636f6d2f6769662e6c617465783f246b24" alt="" data-canonical-src="http://latex.codecogs.com/gif.latex?$k$" style="max-width:100%;"></a> is the the swap-out batch size, i.e., the number of validators that will be swapped out at a given time in a given epoch.</li>
+</ol>
+<p><strong>Outputs:</strong></p>
+<ol>
+<li>Set <a target="_blank" rel="noopener noreferrer" href="https://camo.githubusercontent.com/545c3780bb7ba0061d6afce671070bc1251cb226/687474703a2f2f6c617465782e636f6465636f67732e636f6d2f6769662e6c617465783f6b3d2535436c6f672537426e2535436f7665722535432535436d253744"><img src="https://camo.githubusercontent.com/545c3780bb7ba0061d6afce671070bc1251cb226/687474703a2f2f6c617465782e636f6465636f67732e636f6d2f6769662e6c617465783f6b3d2535436c6f672537426e2535436f7665722535432535436d253744" alt="" data-canonical-src="http://latex.codecogs.com/gif.latex?k=%5Clog%7Bn%5Cover%5C%5Cm%7D" style="max-width:100%;"></a></li>
+<li>For each shard <a target="_blank" rel="noopener noreferrer" href="https://camo.githubusercontent.com/95d1dadc5b0cd64ce7b09ac4b11e57e4303f47c5/687474703a2f2f6c617465782e636f6465636f67732e636f6d2f6769662e6c617465783f246a24"><img src="https://camo.githubusercontent.com/95d1dadc5b0cd64ce7b09ac4b11e57e4303f47c5/687474703a2f2f6c617465782e636f6465636f67732e636f6d2f6769662e6c617465783f246a24" alt="" data-canonical-src="http://latex.codecogs.com/gif.latex?$j$" style="max-width:100%;"></a>,</li>
+</ol>
+<ul>
+<li>Generate two seeds <a target="_blank" rel="noopener noreferrer" href="https://camo.githubusercontent.com/0323a4d0878a61fc22ba936e048e71da41e0d9fb/687474703a2f2f6c617465782e636f6465636f67732e636f6d2f6769662e6c617465783f24735f2537426a2c726e645f6525374424"><img src="https://camo.githubusercontent.com/0323a4d0878a61fc22ba936e048e71da41e0d9fb/687474703a2f2f6c617465782e636f6465636f67732e636f6d2f6769662e6c617465783f24735f2537426a2c726e645f6525374424" alt="" data-canonical-src="http://latex.codecogs.com/gif.latex?$s_%7Bj,rnd_e%7D$" style="max-width:100%;"></a> and <a target="_blank" rel="noopener noreferrer" href="https://camo.githubusercontent.com/fc23addcaa81f62ba227ab8f26092985580ff975/687474703a2f2f6c617465782e636f6465636f67732e636f6d2f6769662e6c617465783f24735f253742302c726e646525374424"><img src="https://camo.githubusercontent.com/fc23addcaa81f62ba227ab8f26092985580ff975/687474703a2f2f6c617465782e636f6465636f67732e636f6d2f6769662e6c617465783f24735f253742302c726e646525374424" alt="" data-canonical-src="http://latex.codecogs.com/gif.latex?$s_%7B0,rnde%7D$" style="max-width:100%;"></a> using the generated random output from DRP.</li>
+<li>Use <a target="_blank" rel="noopener noreferrer" href="https://camo.githubusercontent.com/0323a4d0878a61fc22ba936e048e71da41e0d9fb/687474703a2f2f6c617465782e636f6465636f67732e636f6d2f6769662e6c617465783f24735f2537426a2c726e645f6525374424"><img src="https://camo.githubusercontent.com/0323a4d0878a61fc22ba936e048e71da41e0d9fb/687474703a2f2f6c617465782e636f6465636f67732e636f6d2f6769662e6c617465783f24735f2537426a2c726e645f6525374424" alt="" data-canonical-src="http://latex.codecogs.com/gif.latex?$s_%7Bj,rnd_e%7D$" style="max-width:100%;"></a> and <a target="_blank" rel="noopener noreferrer" href="https://camo.githubusercontent.com/fc23addcaa81f62ba227ab8f26092985580ff975/687474703a2f2f6c617465782e636f6465636f67732e636f6d2f6769662e6c617465783f24735f253742302c726e646525374424"><img src="https://camo.githubusercontent.com/fc23addcaa81f62ba227ab8f26092985580ff975/687474703a2f2f6c617465782e636f6465636f67732e636f6d2f6769662e6c617465783f24735f253742302c726e646525374424" alt="" data-canonical-src="http://latex.codecogs.com/gif.latex?$s_%7B0,rnde%7D$" style="max-width:100%;"></a> to get the permutation <a target="_blank" rel="noopener noreferrer" href="https://camo.githubusercontent.com/289f487c1a115c19b8be013ee672ed2c1ee5b668/687474703a2f2f6c617465782e636f6465636f67732e636f6d2f6769662e6c617465783f2425354370695f2537426a2c6525374424"><img src="https://camo.githubusercontent.com/289f487c1a115c19b8be013ee672ed2c1ee5b668/687474703a2f2f6c617465782e636f6465636f67732e636f6d2f6769662e6c617465783f2425354370695f2537426a2c6525374424" alt="" data-canonical-src="http://latex.codecogs.com/gif.latex?$%5Cpi_%7Bj,e%7D$" style="max-width:100%;"></a> and <a target="_blank" rel="noopener noreferrer" href="https://camo.githubusercontent.com/6ba46e19eb806a8b7b4b1c629874d817731f9582/687474703a2f2f6c617465782e636f6465636f67732e636f6d2f6769662e6c617465783f2425354370695f253742302c6525374424"><img src="https://camo.githubusercontent.com/6ba46e19eb806a8b7b4b1c629874d817731f9582/687474703a2f2f6c617465782e636f6465636f67732e636f6d2f6769662e6c617465783f2425354370695f253742302c6525374424" alt="" data-canonical-src="http://latex.codecogs.com/gif.latex?$%5Cpi_%7B0,e%7D$" style="max-width:100%;"></a> and divide nodes into buckets of size <a target="_blank" rel="noopener noreferrer" href="https://camo.githubusercontent.com/db8cad5ff4351b3b5a3d89cfb69be9a2408873ad/687474703a2f2f6c617465782e636f6465636f67732e636f6d2f6769662e6c617465783f246b24"><img src="https://camo.githubusercontent.com/db8cad5ff4351b3b5a3d89cfb69be9a2408873ad/687474703a2f2f6c617465782e636f6465636f67732e636f6d2f6769662e6c617465783f246b24" alt="" data-canonical-src="http://latex.codecogs.com/gif.latex?$k$" style="max-width:100%;"></a> . In this way, the node to swap-batch mapping is determined.</li>
+<li><a target="_blank" rel="noopener noreferrer" href="https://camo.githubusercontent.com/289f487c1a115c19b8be013ee672ed2c1ee5b668/687474703a2f2f6c617465782e636f6465636f67732e636f6d2f6769662e6c617465783f2425354370695f2537426a2c6525374424"><img src="https://camo.githubusercontent.com/289f487c1a115c19b8be013ee672ed2c1ee5b668/687474703a2f2f6c617465782e636f6465636f67732e636f6d2f6769662e6c617465783f2425354370695f2537426a2c6525374424" alt="" data-canonical-src="http://latex.codecogs.com/gif.latex?$%5Cpi_%7Bj,e%7D$" style="max-width:100%;"></a> is used for current nodes and <a target="_blank" rel="noopener noreferrer" href="https://camo.githubusercontent.com/6ba46e19eb806a8b7b4b1c629874d817731f9582/687474703a2f2f6c617465782e636f6465636f67732e636f6d2f6769662e6c617465783f2425354370695f253742302c6525374424"><img src="https://camo.githubusercontent.com/6ba46e19eb806a8b7b4b1c629874d817731f9582/687474703a2f2f6c617465782e636f6465636f67732e636f6d2f6769662e6c617465783f2425354370695f253742302c6525374424" alt="" data-canonical-src="http://latex.codecogs.com/gif.latex?$%5Cpi_%7B0,e%7D$" style="max-width:100%;"></a> is used for the newly joined nodes.</li>
+<li>Each batch waits <a target="_blank" rel="noopener noreferrer" href="https://camo.githubusercontent.com/f3567efd1415deb104c845af0c76345ec56cf17e/687474703a2f2f6c617465782e636f6465636f67732e636f6d2f6769662e6c617465783f2425354344656c746124"><img src="https://camo.githubusercontent.com/f3567efd1415deb104c845af0c76345ec56cf17e/687474703a2f2f6c617465782e636f6465636f67732e636f6d2f6769662e6c617465783f2425354344656c746124" alt="" data-canonical-src="http://latex.codecogs.com/gif.latex?$%5CDelta$" style="max-width:100%;"></a>  and then starts the swap.</li>
+</ul>
+<hr>
+<h3><a id="user-content-analysis-1" class="anchor" aria-hidden="true" href="#analysis-1"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Analysis</h3>
+<p>In the algorithm presented above, we ensured safety of Byzantine Fault Tolerance (BFT) consensus in each shard transition. The reasons are in two folds. Firstly,  we made sure the size of the group. There are least <a target="_blank" rel="noopener noreferrer" href="https://camo.githubusercontent.com/9ef66da22eddc48dad0101f30d90a3a0263319ea/687474703a2f2f6c617465782e636f6465636f67732e636f6d2f6769662e6c617465783f24322f3324"><img src="https://camo.githubusercontent.com/9ef66da22eddc48dad0101f30d90a3a0263319ea/687474703a2f2f6c617465782e636f6465636f67732e636f6d2f6769662e6c617465783f24322f3324" alt="" data-canonical-src="http://latex.codecogs.com/gif.latex?$2/3$" style="max-width:100%;"></a> shard size validators running consensus. Secondly, safety against adversary is also guaranteed as per epoch randomness is used to generate the permutation of validators batches.</p>
+<h2><a id="user-content-inter-shard-transactions" class="anchor" aria-hidden="true" href="#inter-shard-transactions"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Inter-Shard Transactions</h2>
+<p>The mechanism that supports inter-shard transactions is critical in the system, since transactions are likely to happen cross shards. We introduce a Byzantine Shard Atomic Commit (Atomix) protocol to ensures the atomicity cross shards. This protocol prevents double spending and keeps the consistency of transactions. Our design is a variant of the Omniledger algorithm. [8]</p>
+<p>We first present Atomix in the UTXO state model. Previous work has proved that the Atomix can ensure that the smart contract is also supported by our inter-shard transaction mechanism [27] , if the UTXO model is supported.</p>
+<p>In a nutshell, when a cross-shard transaction from node a at shard A to node b at shard B happens, the algorithm does the following:</p>
+<hr>
+<ol>
+<li>
+<p>Create the TX within the shard <strong>A</strong> and let all nodes validate the transaction.</p>
+</li>
+<li>
+<p>If the TX is approved by all nodes in shard <strong>A</strong>, the transaction is logged in <strong>A</strong>’s blockchain. At the same time, the client will gossip a proof-of-acceptance to endorse the transaction,lock the fund of <strong>a</strong> in to a UTXO, and send it to <strong>B</strong>.</p>
+<ul>
+<li>If the TX is rejected by nodes in <strong>A</strong>, the fund gets returned to <strong>a</strong>.</li>
+</ul>
+</li>
+<li>
+<p><strong>A</strong>’s blockchain commits the TX to the <strong>B</strong>’s blockchain and have nodes in the receiver’s shard validating the TX.</p>
+<ul>
+<li>If the TX is rejected by nodes in <strong>B</strong>, the fund gets returned to <strong>a</strong>.</li>
+</ul>
+</li>
+<li>
+<p>If the TX gets approved by all nodes in the <strong>B</strong>’s blockchain, the fund is released to <strong>b</strong>.</p>
+<ul>
+<li>If the TX is rejected by all nodes, the fund gets returned to <strong>a</strong>.</li>
+</ul>
+</li>
+</ol>
+<hr>
+<h2><a id="user-content-consensus-mechanism" class="anchor" aria-hidden="true" href="#consensus-mechanism"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Consensus Mechanism</h2>
+<h3><a id="user-content-tokens-and-motivations" class="anchor" aria-hidden="true" href="#tokens-and-motivations"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Tokens and Motivations</h3>
+<p>In the IOS system, IOS Token, like tokens in other blockchain systems, serves as the medium of exchange for all transactions and commission fees. More importantly, IOS also plays a important role in calculating a user’s believability score. All IOS tokens will be generated in the Genesis Block. In the IOS ecosystem, IOS tokens can be used for:</p>
+<ul>
+<li><strong>Payment</strong>: Payments for services and goods provided by merchants or other community members.</li>
+<li><strong>Commission</strong>: Payment to validators as compensation for running smart contracts, processing messages and transactions, and using resources shared by the general ecosystem including but not limited to storage space, computing power, etc. The commission fee incentivizes the validators and prevents malicious users from damaging the interests of the community through excessive deployment of smart contracts.</li>
+<li><strong>Believability</strong>: IOS tokens will be used to calculate users' believability scores (will be explained in the following section).</li>
+</ul>
+<p>In addition, as a member of the IOS ecosystem, each user can acquire IOS tokens through validating transactions and contributing resources (e.g., running smart contracts, providing storage space, etc.).</p>
+<p>As mentioned in previous sections, A major challenge faced by traditional Proof-of-Stake consensus mechanism is the tendency towards centralization. In order to mitigate this risk, we introduce Servi as both a measurement of users' contribution to the community and a way to encourage members to contribute to the continued development of the IOSChain. It has the following attributes:</p>
+<ul>
+<li><strong>Non-tradable</strong>: Since Servi is not designed as a medium of exchange, Servi can not be traded or exchanged in any way.</li>
+<li><strong>Self-destructive</strong>: After validating a block, the system will automatically clear the Servi balance owned by the validator. In this way, nodes with high believability scores can take turns in validating blocks, to ensure a fair block generation process.</li>
+<li><strong>Self-issuance</strong>: Servi will be generated and deposited to user accounts automatically after certain contributions, such as providing community services, evaluating services provided by another entities, and/or making other special contributions.</li>
+</ul>
+<h3><a id="user-content-proof-of-believability" class="anchor" aria-hidden="true" href="#proof-of-believability"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Proof-of-Believability</h3>
+<p>Traditional blockchain systems have an inherent trade-off between safety and throughput, depending on shard size. A system with a large number of small shards delivers better performance but provides less resiliency against bad actors, and vice versa. In order to break the trade-off in a way that keeps safety and increases throughput, we propose an innovative Proof-of-Believability (PoB) consensus protocol for IOSChain. PoB guarantees that the nodes are with negligible probability to misbehave, while significantly increasing the transaction throughput by size-one-shard.</p>
+<p>The Proof-of-Believability consensus protocol uses an intra-shard Believable-First approach. The protocol divides all validators into two groups, a believable league and a normal league. Believable validators process transactions quickly in the first phase. Afterwards, normal validators sample and verify the transactions in the second phase to provide finality and ensure verifiability. The chance of a node being elected into the believable league is determined by  believability score which is calculated by multiple factors (e.g., token balance, contributions to the community, reviews, etc). One with higher believability score is more likely to be elected into the believable league. Believable validators follow the procedures to decide the set of committed transactions and their order, as well as process them in order. Believable validators also form smaller groups - one validator per group. Transactions will be randomly distributed among these believable validators. Consequently, they produce smaller blocks with extremely low latency.</p>
+<p>However, it may introduce security problem as only one node is performing the verification. As a result, some corrupted transactions might be committed by misbehaved validators. In order to solve this security problem, we specify a sampling probability pthat normal validators will sample transactions and detect inconsistencies. If a validator is detected as misbehaviour, it will lose all the tokens and reputation in the system while the defrauded users will be compensated for any loss. The believable-first approach makes processing transactions extremely fast as only a single (believable) validator is doing the verification and it is unlikely to misbehave.</p>
+<p>In the IOS system, the sharding policy file specifies the sizes of the believable and normal league, respectively, and the sampling probability p. Upon the inception of an epoch, all validators will be assigned to shards using the distributed randomness generation protocol. Their states will be bootstrapped from the corresponding shard’s last Micro State Blocks (MSB). Depending on the believability score , validators will be assigned to either believable group (small) or the normal group (large) within a shard.</p>
+<p>In the first phase, transactions that are processed by the believable league produce optimistically validated blocks. These blocks serve as input for sampling re-validation by the normal league who runs concurrently. The normal league also combines inputs from multiple optimistic processing groups. This could maximize the throughput of the system. If transactions are validated successfully, they will be included in a finalized block, added to the shard’s blockchain, and finally included in the MSB. However, when the normal league detects any inconsistency, the corresponding validated transaction would be excluded from the blockchain and the validator who signed the invalid block would be detected and held accountable. We designed the punishment scheme to be powerfully harsh so that the validator has no incentive to misbehave under any circumstances. If a validator is detected as misbehaving, that validator will lose all tokens and reputation in the system and all its previously validated transactions will be re-checked. Given the minimal incentive to be at fault and the quantifiable confidence in the security of validation, clients can achieve real-time processing speed with assurance.</p>
+<p>The normal league runs the Byzantine consensus scheme based on ByzCoin [7], because it scales efficiently to thousands of consensus group members. ByzCoin uses collective signature (CoSi) [25], a scalable cryptographic primitive that uses multi-signatures [20], to make traditional consensus algorithms such as PBFT [4] scale. ByzCoin distributes blocks using multicast trees for performance, and falls back to a star topology for fault tolerance. It ensures that all the honest members of a shard agree on a specific common sequence of actions, despite some malicious nodes are in the shard, while guaranteeing safety and liveness.</p>
+<p>To ensure robustness, we use a fall-back scheme in Believable-first protocol. When a shard doesn’t have enough believable validators to form the league, due to either temporary downtime or being in the bootstrapping phase of the ecosystem, two-league committees would fall back to one-league. All transactions are directly processed by the normal league following the PBFT consensus protocol.</p>
+<h2><a id="user-content-blockchain-storage-pruning" class="anchor" aria-hidden="true" href="#blockchain-storage-pruning"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Blockchain Storage Pruning</h2>
+<p>Another issue current blockchains are facing is the rapid expanding size of the blockchain storage [8], which puts on new validators heavy workload for bootstrapping. Blockchains follow the same pattern to store historical data from the beginning. However, this is a crucial concern for the high-throughput blockchain systems as the the storage will explode. To minimize the storage and bootstrapping costs for validators, we use a blockchain storage pruning approach to summarize the full state of a shard’s blockchain. We use Micro State Blocks (MSB), which is based on the State Block [8]. We present the MSB generation protocol below.</p>
+<h3><a id="user-content-algorithm---msb-generation-protocol" class="anchor" aria-hidden="true" href="#algorithm---msb-generation-protocol"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Algorithm - MSB Generation Protocol</h3>
+<hr>
+<p><strong>Inputs:</strong></p>
+<ul>
+<li><a target="_blank" rel="noopener noreferrer" href="https://camo.githubusercontent.com/93f28da07b25b006ffd29695506289a95618410f/687474703a2f2f6c617465782e636f6465636f67732e636f6d2f6769662e6c617465783f246524"><img src="https://camo.githubusercontent.com/93f28da07b25b006ffd29695506289a95618410f/687474703a2f2f6c617465782e636f6465636f67732e636f6d2f6769662e6c617465783f246524" alt="" data-canonical-src="http://latex.codecogs.com/gif.latex?$e$" style="max-width:100%;"></a> is the current epoch</li>
+<li><a target="_blank" rel="noopener noreferrer" href="https://camo.githubusercontent.com/95d1dadc5b0cd64ce7b09ac4b11e57e4303f47c5/687474703a2f2f6c617465782e636f6465636f67732e636f6d2f6769662e6c617465783f246a24"><img src="https://camo.githubusercontent.com/95d1dadc5b0cd64ce7b09ac4b11e57e4303f47c5/687474703a2f2f6c617465782e636f6465636f67732e636f6d2f6769662e6c617465783f246a24" alt="" data-canonical-src="http://latex.codecogs.com/gif.latex?$j$" style="max-width:100%;"></a> is the current shard</li>
+</ul>
+<p><strong>Output:</strong> the micro state block <a target="_blank" rel="noopener noreferrer" href="https://camo.githubusercontent.com/eca7374826c7bd221f9baeea2358e74f27e31b3b/687474703a2f2f6c617465782e636f6465636f67732e636f6d2f6769662e6c617465783f246d73625f2537426a2c6525374424"><img src="https://camo.githubusercontent.com/eca7374826c7bd221f9baeea2358e74f27e31b3b/687474703a2f2f6c617465782e636f6465636f67732e636f6d2f6769662e6c617465783f246d73625f2537426a2c6525374424" alt="" data-canonical-src="http://latex.codecogs.com/gif.latex?$msb_%7Bj,e%7D$" style="max-width:100%;"></a> for <a target="_blank" rel="noopener noreferrer" href="https://camo.githubusercontent.com/95d1dadc5b0cd64ce7b09ac4b11e57e4303f47c5/687474703a2f2f6c617465782e636f6465636f67732e636f6d2f6769662e6c617465783f246a24"><img src="https://camo.githubusercontent.com/95d1dadc5b0cd64ce7b09ac4b11e57e4303f47c5/687474703a2f2f6c617465782e636f6465636f67732e636f6d2f6769662e6c617465783f246a24" alt="" data-canonical-src="http://latex.codecogs.com/gif.latex?$j$" style="max-width:100%;"></a> in <a target="_blank" rel="noopener noreferrer" href="https://camo.githubusercontent.com/93f28da07b25b006ffd29695506289a95618410f/687474703a2f2f6c617465782e636f6465636f67732e636f6d2f6769662e6c617465783f246524"><img src="https://camo.githubusercontent.com/93f28da07b25b006ffd29695506289a95618410f/687474703a2f2f6c617465782e636f6465636f67732e636f6d2f6769662e6c617465783f246524" alt="" data-canonical-src="http://latex.codecogs.com/gif.latex?$e$" style="max-width:100%;"></a></p>
+<ol>
+<li>When the epoch <a target="_blank" rel="noopener noreferrer" href="https://camo.githubusercontent.com/93f28da07b25b006ffd29695506289a95618410f/687474703a2f2f6c617465782e636f6465636f67732e636f6d2f6769662e6c617465783f246524"><img src="https://camo.githubusercontent.com/93f28da07b25b006ffd29695506289a95618410f/687474703a2f2f6c617465782e636f6465636f67732e636f6d2f6769662e6c617465783f246524" alt="" data-canonical-src="http://latex.codecogs.com/gif.latex?$e$" style="max-width:100%;"></a> ends, the shard leader stores all transactions of <a target="_blank" rel="noopener noreferrer" href="https://camo.githubusercontent.com/93f28da07b25b006ffd29695506289a95618410f/687474703a2f2f6c617465782e636f6465636f67732e636f6d2f6769662e6c617465783f246524"><img src="https://camo.githubusercontent.com/93f28da07b25b006ffd29695506289a95618410f/687474703a2f2f6c617465782e636f6465636f67732e636f6d2f6769662e6c617465783f246524" alt="" data-canonical-src="http://latex.codecogs.com/gif.latex?$e$" style="max-width:100%;"></a> in a Merkle tree [14].</li>
+<li>The shard leader hashes the Merkle tree’s root, denoted by <a target="_blank" rel="noopener noreferrer" href="https://camo.githubusercontent.com/aeea30c5eccc22d4dac8e0aeb914a2a9df7b9c35/687474703a2f2f6c617465782e636f6465636f67732e636f6d2f6769662e6c617465783f246824"><img src="https://camo.githubusercontent.com/aeea30c5eccc22d4dac8e0aeb914a2a9df7b9c35/687474703a2f2f6c617465782e636f6465636f67732e636f6d2f6769662e6c617465783f246824" alt="" data-canonical-src="http://latex.codecogs.com/gif.latex?$h$" style="max-width:100%;"></a>, and puts <a target="_blank" rel="noopener noreferrer" href="https://camo.githubusercontent.com/aeea30c5eccc22d4dac8e0aeb914a2a9df7b9c35/687474703a2f2f6c617465782e636f6465636f67732e636f6d2f6769662e6c617465783f246824"><img src="https://camo.githubusercontent.com/aeea30c5eccc22d4dac8e0aeb914a2a9df7b9c35/687474703a2f2f6c617465782e636f6465636f67732e636f6d2f6769662e6c617465783f246824" alt="" data-canonical-src="http://latex.codecogs.com/gif.latex?$h$" style="max-width:100%;"></a> in <a target="_blank" rel="noopener noreferrer" href="https://camo.githubusercontent.com/c6a2139fd1d1906670c5c4d9864a9a7e0809b559/687474703a2f2f6c617465782e636f6465636f67732e636f6d2f6769662e6c617465783f24486561646572286d73625f2537426a2c652537442924"><img src="https://camo.githubusercontent.com/c6a2139fd1d1906670c5c4d9864a9a7e0809b559/687474703a2f2f6c617465782e636f6465636f67732e636f6d2f6769662e6c617465783f24486561646572286d73625f2537426a2c652537442924" alt="" data-canonical-src="http://latex.codecogs.com/gif.latex?$Header(msb_%7Bj,e%7D)$" style="max-width:100%;"></a>.</li>
+<li>Validators run consensus on the <a target="_blank" rel="noopener noreferrer" href="https://camo.githubusercontent.com/c6a2139fd1d1906670c5c4d9864a9a7e0809b559/687474703a2f2f6c617465782e636f6465636f67732e636f6d2f6769662e6c617465783f24486561646572286d73625f2537426a2c652537442924"><img src="https://camo.githubusercontent.com/c6a2139fd1d1906670c5c4d9864a9a7e0809b559/687474703a2f2f6c617465782e636f6465636f67732e636f6d2f6769662e6c617465783f24486561646572286d73625f2537426a2c652537442924" alt="" data-canonical-src="http://latex.codecogs.com/gif.latex?$Header(msb_%7Bj,e%7D)$" style="max-width:100%;"></a>, while there is not any regular blocks pending.</li>
+<li>If the correctness of <a target="_blank" rel="noopener noreferrer" href="https://camo.githubusercontent.com/c6a2139fd1d1906670c5c4d9864a9a7e0809b559/687474703a2f2f6c617465782e636f6465636f67732e636f6d2f6769662e6c617465783f24486561646572286d73625f2537426a2c652537442924"><img src="https://camo.githubusercontent.com/c6a2139fd1d1906670c5c4d9864a9a7e0809b559/687474703a2f2f6c617465782e636f6465636f67732e636f6d2f6769662e6c617465783f24486561646572286d73625f2537426a2c652537442924" alt="" data-canonical-src="http://latex.codecogs.com/gif.latex?$Header(msb_%7Bj,e%7D)$" style="max-width:100%;"></a> is verified, the shard leader stores the approved header in the shard’s blockchain.</li>
+<li>At the end of epoch <a target="_blank" rel="noopener noreferrer" href="https://camo.githubusercontent.com/d8d6b39fcd4fe6c1b801c45ad2e9f0e14f439f77/687474703a2f2f6c617465782e636f6465636f67732e636f6d2f6769662e6c617465783f24652b3124"><img src="https://camo.githubusercontent.com/d8d6b39fcd4fe6c1b801c45ad2e9f0e14f439f77/687474703a2f2f6c617465782e636f6465636f67732e636f6d2f6769662e6c617465783f24652b3124" alt="" data-canonical-src="http://latex.codecogs.com/gif.latex?$e+1$" style="max-width:100%;"></a>, all the nodes drop the body of <a target="_blank" rel="noopener noreferrer" href="https://camo.githubusercontent.com/fa9f94414aa34c0d09d92e87d1575785a118f2c6/687474703a2f2f6c617465782e636f6465636f67732e636f6d2f6769662e6c617465783f246d73625f2537426a2c652d3125374424"><img src="https://camo.githubusercontent.com/fa9f94414aa34c0d09d92e87d1575785a118f2c6/687474703a2f2f6c617465782e636f6465636f67732e636f6d2f6769662e6c617465783f246d73625f2537426a2c652d3125374424" alt="" data-canonical-src="http://latex.codecogs.com/gif.latex?$msb_%7Bj,e-1%7D$" style="max-width:100%;"></a> and keep the regular blocks of <a target="_blank" rel="noopener noreferrer" href="https://camo.githubusercontent.com/93f28da07b25b006ffd29695506289a95618410f/687474703a2f2f6c617465782e636f6465636f67732e636f6d2f6769662e6c617465783f246524"><img src="https://camo.githubusercontent.com/93f28da07b25b006ffd29695506289a95618410f/687474703a2f2f6c617465782e636f6465636f67732e636f6d2f6769662e6c617465783f246524" alt="" data-canonical-src="http://latex.codecogs.com/gif.latex?$e$" style="max-width:100%;"></a>.</li>
+</ol>
+<hr>
+<h3><a id="user-content-analysis-2" class="anchor" aria-hidden="true" href="#analysis-2"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Analysis</h3>
+<p>Transactions are checked by references to past blockchains. Since each shard in IOSChain stores only the past MSB headers and blockchain state is distributed across multiple shards, a client cannot prove the existence of a past transaction by providing a check in the block. We mitigate this issue by moving the storage responsibility from past blockchains to the client. Since latest epoch’s blocks is retained, clients can ask the validators of the shard to create existence proof for transactions validated in epoch e during the next epoch.</p>
+<p>Validators are essentially creating a higher level chain for MSBs, that provides skips from an epoch’s MSB to another. This MSB Chain keeps the latest MSB with its body and all the previous MSB headers. This is important as clients that want to verify a past transaction need to have a reference point. We remark that MSBs may contain several multi-hop backpointers to headers of regular blocks in order to reduce the size of their proofs.</p>
+<p>With MSB, bootstrapping new validators and syncing crashed validators up-to-date become efficient, as validators start from the last valid MSB and replay only the last part of the blockchain, instead of replaying the full history from the first block or from the time they crashed. If Bitcoin is deployed on IOSChain, currently the bandwidth bootstrapping costs would be two orders of magnitude less. This is critical when new shards come in in IOSChain. Due to the random shard assignment mechanism, validators changes shards periodically and need to be updated frequently, which benefits a lot from the blockchain storage pruning technique.</p>
+<h2><a id="user-content-references" class="anchor" aria-hidden="true" href="#references"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>REFERENCES</h2>
+<p>[1]	Iddo Bentov, Ariel Gabizon, and Alex Mizrahi. 2016. Cryptocurrencies Without Proof of Work. In Lecture Notes in Computer Science. 142–157.</p>
+<p>[2]	Iddo Bentov, Charles Lee, Alex Mizrahi, and Meni Rosenfeld. 2014. Proof of Activity. ACM SIGMETRICS Performance Evaluation Review 42, 3 (2014), 34–37.</p>
+<p>[3]	Vitalik Buterin. 2014. Slasher: a punitive proof of stake algorithm. Retrieved January 9, 2018 from <a href="https://blog.ethereum.org/2014/01/15/slasher-a-punitive-proof-of-" rel="nofollow">https://blog.ethereum.org/2014/01/15/slasher-a-punitive-proof-of-</a> stake-algorithm/</p>
+<p>[4]	Miguel Oom Temudo de Castro. 2000. Practical Byzantine Fault Tolerance.</p>
+<p>[5]	Nxt Community. Nxt Whitepaper. Retrieved January 9, 2018 from <a href="https://bravenewcoin.com/assets/Whitepapers/NxtWhitepaper-v122-rev4.pdf" rel="nofollow">https://bravenewcoin.com/assets/Whitepapers/NxtWhitepaper-v122-rev4.pdf</a></p>
+<p>[6]	George Danezis and Sarah Meiklejohn. 2016. Centrally Banked Cryptocurrencies. In Proceedings 2016 Network and Distributed System Security Symposium. DOI:<a href="https://doi.org/10.14722/ndss.2016.23187" rel="nofollow">https://doi.org/10.14722/ndss.2016.23187</a></p>
+<p>[7]	E. Kokoris-Kogias, P. Jovanovic, N. Gailly, I. Khoffi, L. Gasser, and B. Ford. 2016. Enhancing Bitcoin Security and Performance with Strong Consistency via Collective Signing. In 25th USENIX Conference on Security Symposium.</p>
+<p>[8]	Eleftherios Kokoris-Kogias, Philipp Jovanovic, Linus Gasser†, Nicolas Gailly, Ewa Syta, Bryan Ford. 2017. OmniLedger: A Secure, Scale-Out, Decentralized Ledger via Sharding.</p>
+<p>[9]	Yossi Gilad, Rotem Hemo, Silvio Micali, Georgios Vlachos, and Nickolai Zeldovich. 2017. Algorand: Scaling Byzantine Agreements for Cryptocurrencies. In Proceedings of the 26th Symposium on Operating Systems Principles - SOSP ’17. DOI:<a href="https://doi.org/10.1145/3132747.3132757" rel="nofollow">https://doi.org/10.1145/3132747.3132757</a></p>
+<p>[10]	G Maxwell And. 2015. On Stake and Consensus. Retrieved January 9, 2018 from <a href="https://download.wpsoftware.net/bitcoin/pos.pdf" rel="nofollow">https://download.wpsoftware.net/bitcoin/pos.pdf</a></p>
+<p>[11]	Ian Grigg. EOS - An Introduction. eos.io. Retrieved from <a href="https://eos.io/documents/EOS_An_Introduction.pdf" rel="nofollow">https://eos.io/documents/EOS_An_Introduction.pdf</a></p>
+<p>[12]	J. Kwon. 2014. Tendermint: Consensus without mining. Retrieved January 9, 2018 from <a href="http://tendermint.com/docs/tendermint.pdf" rel="nofollow">http://tendermint.com/docs/tendermint.pdf</a></p>
+<p>[13]	Loi Luu, Viswesh Narayanan, Chaodong Zheng, Kunal Baweja, Seth Gilbert, and Prateek Saxena. 2016. A Secure Sharding Protocol For Open Blockchains. In Proceedings of the 2016 ACM SIGSAC Conference on Computer and Communications Security - CCS’16. DOI:<a href="https://doi.org/10.1145/2976749.2978389" rel="nofollow">https://doi.org/10.1145/2976749.2978389</a></p>
+<p>[14]	Ralph C. Merkle. A Certified Digital Signature. In Lecture Notes in Computer Science. 218–238.</p>
+<p>[15]	Satoshi Nakamoto. Bitcoin: A Peer-to-Peer Electronic Cash System. bitcoin.org. Retrieved from <a href="https://bitcoin.org/bitcoin.pdf" rel="nofollow">https://bitcoin.org/bitcoin.pdf</a></p>
+<p>[16]	Rafael Pass, Lior Seeman, and Abhi Shelat. 2017. Analysis of the Blockchain Protocol in Asynchronous Networks. In Lecture Notes in Computer Science. 643–673.</p>
+<p>[17]	Rafael Pass and Elaine Shi. 2017. The Sleepy Model of Consensus. In Lecture Notes in Computer Science. 380–409.</p>
+<p>[18]	Phil Daian and Rafael Pass and Elaine Shi. 2016. Snow White: Provably Secure Proofs of Stake. (2016).</p>
+<p>[19]	Phil Daian Rafael Pass. Snow White: Robustly Reconfigurable Consensus and Applications to Provably Secure Proofs of Stake.</p>
+<p>[20]	C. P. Schnorr. 1991. Efficient signature generation by smart cards. J. Cryptology 4, 3 (1991). DOI:<a href="https://doi.org/10.1007/bf00196725" rel="nofollow">https://doi.org/10.1007/bf00196725</a></p>
+<p>[21]	Jagdeep Sidhu. 2017. Syscoin: A Peer-to-Peer Electronic Cash System with Blockchain-Based Services for E-Business. In 2017 26th International Conference on Computer Communication and Networks (ICCCN). DOI:<a href="https://doi.org/10.1109/icccn.2017.8038518" rel="nofollow">https://doi.org/10.1109/icccn.2017.8038518</a></p>
+<p>[22]	Sunny King And. Ppcoin: Peer-to-peer crypto-currency with proof-of-stake. Retrieved 2012 from <a href="https://peercoin.net/assets/paper/peercoin-paper.pdf" rel="nofollow">https://peercoin.net/assets/paper/peercoin-paper.pdf</a></p>
+<p>[23]	Scott Nadal Sunny King. 2012. Peercoin. Retrieved January 9, 2018 from <a href="https://peercoin.net/assets/paper/peercoin-paper.pdf" rel="nofollow">https://peercoin.net/assets/paper/peercoin-paper.pdf</a></p>
+<p>[24]	Ewa Syta, Philipp Jovanovic, Eleftherios Kokoris Kogias, Nicolas Gailly, Linus Gasser, Ismail Khoffi, Michael J. Fischer, and Bryan Ford. 2017. Scalable Bias-Resistant Distributed Randomness. In 2017 IEEE Symposium on Security and Privacy (SP). DOI:<a href="https://doi.org/10.1109/sp.2017.45" rel="nofollow">https://doi.org/10.1109/sp.2017.45</a></p>
+<p>[25]	Ewa Syta, Iulia Tamas, Dylan Visher, David Isaac Wolinsky, Philipp Jovanovic, Linus Gasser, Nicolas Gailly, Ismail Khoffi, and Bryan Ford. 2016. Keeping Authorities “Honest or Bust” with Decentralized Witness Cosigning. In 2016 IEEE Symposium on Security and Privacy (SP). DOI:<a href="https://doi.org/10.1109/sp.2016.38" rel="nofollow">https://doi.org/10.1109/sp.2016.38</a></p>
+<p>[26]	V Buterin And. 2015. Casper. Retrieved January 9, 2018 from <a href="https://blog.ethereum.org/2015/08/01/" rel="nofollow">https://blog.ethereum.org/2015/08/01/</a> introducing-casper-friendly-ghost/</p>
+<p>[27]	G. Wood. 2014. Ethereum: A Secure Decentralised Generalised Transaction Ledger. Ethereum Project Yellow Paper. (2014).</p>
+<p>[28]	Gavin Wood. 2018. ETHEREUM: A SECURE DECENTRALISED GENERALISED TRANSACTION LEDGER. ethereum.github.io/yellowpaper. Retrieved from <a href="https://ethereum.github.io/yellowpaper/paper.pdf" rel="nofollow">https://ethereum.github.io/yellowpaper/paper.pdf</a></p>
+<p>[29]	2017. Steem: An incentivized, blockchain-based, public content platform. steem.io. Retrieved from <a href="https://steem.io/SteemWhitePaper.pdf" rel="nofollow">https://steem.io/SteemWhitePaper.pdf</a></p>
+<p>[30]	Whitepapers. bitshares.org. Retrieved from <a href="http://docs.bitshares.org/bitshares/papers/" rel="nofollow">http://docs.bitshares.org/bitshares/papers/</a></p>
+<p>[31]	Proof of stake instead of proof of work. Retrieved January 9, 2018 from <a href="https://bitcointalk.org/index.php?topic=27787.0" rel="nofollow">https://bitcointalk.org/index.php?topic=27787.0</a></p>
+</article>
+  </div>
+
+    </div>
+
+  
+
+  <details class="details-reset details-overlay details-overlay-dark">
+    <summary data-hotkey="l" aria-label="Jump to line"></summary>
+    <details-dialog class="Box Box--overlay d-flex flex-column anim-fade-in fast linejump" aria-label="Jump to line">
+      <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="js-jump-to-line-form Box-body d-flex" action="" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
+        <input class="form-control flex-auto mr-3 linejump-input js-jump-to-line-field" type="text" placeholder="Jump to line&hellip;" aria-label="Jump to line" autofocus>
+        <button type="submit" class="btn" data-close-dialog>Go</button>
+</form>    </details-dialog>
+  </details>
+
+
+
+  </div>
+</div>
+
+    </main>
+  </div>
+  
+
+  </div>
+
+        
+<div class="footer container-lg width-full p-responsive" role="contentinfo">
+  <div class="position-relative d-flex flex-row-reverse flex-lg-row flex-wrap flex-lg-nowrap flex-justify-center flex-lg-justify-between pt-6 pb-2 mt-6 f6 text-gray border-top border-gray-light ">
+    <ul class="list-style-none d-flex flex-wrap col-12 col-lg-5 flex-justify-center flex-lg-justify-between mb-2 mb-lg-0">
+      <li class="mr-3 mr-lg-0">&copy; 2019 GitHub, Inc.</li>
+        <li class="mr-3 mr-lg-0"><a data-ga-click="Footer, go to terms, text:terms" href="https://github.com/site/terms">Terms</a></li>
+        <li class="mr-3 mr-lg-0"><a data-ga-click="Footer, go to privacy, text:privacy" href="https://github.com/site/privacy">Privacy</a></li>
+        <li class="mr-3 mr-lg-0"><a data-ga-click="Footer, go to security, text:security" href="https://github.com/security">Security</a></li>
+        <li class="mr-3 mr-lg-0"><a href="https://githubstatus.com/" data-ga-click="Footer, go to status, text:status">Status</a></li>
+        <li><a data-ga-click="Footer, go to help, text:help" href="https://help.github.com">Help</a></li>
+    </ul>
+
+    <a aria-label="Homepage" title="GitHub" class="footer-octicon d-none d-lg-block mx-lg-4" href="https://github.com">
+      <svg height="24" class="octicon octicon-mark-github" viewBox="0 0 16 16" version="1.1" width="24" aria-hidden="true"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>
+</a>
+   <ul class="list-style-none d-flex flex-wrap col-12 col-lg-5 flex-justify-center flex-lg-justify-between mb-2 mb-lg-0">
+        <li class="mr-3 mr-lg-0"><a data-ga-click="Footer, go to contact, text:contact" href="https://github.com/contact">Contact GitHub</a></li>
+        <li class="mr-3 mr-lg-0"><a href="https://github.com/pricing" data-ga-click="Footer, go to Pricing, text:Pricing">Pricing</a></li>
+      <li class="mr-3 mr-lg-0"><a href="https://developer.github.com" data-ga-click="Footer, go to api, text:api">API</a></li>
+      <li class="mr-3 mr-lg-0"><a href="https://training.github.com" data-ga-click="Footer, go to training, text:training">Training</a></li>
+        <li class="mr-3 mr-lg-0"><a href="https://github.blog" data-ga-click="Footer, go to blog, text:blog">Blog</a></li>
+        <li><a data-ga-click="Footer, go to about, text:about" href="https://github.com/about">About</a></li>
+
+    </ul>
+  </div>
+  <div class="d-flex flex-justify-center pb-6">
+    <span class="f6 text-gray-light"></span>
+  </div>
+</div>
+
+
+
+  <div id="ajax-error-message" class="ajax-error-message flash flash-error">
+    <svg class="octicon octicon-alert" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.893 1.5c-.183-.31-.52-.5-.887-.5s-.703.19-.886.5L.138 13.499a.98.98 0 000 1.001c.193.31.53.501.886.501h13.964c.367 0 .704-.19.877-.5a1.03 1.03 0 00.01-1.002L8.893 1.5zm.133 11.497H6.987v-2.003h2.039v2.003zm0-3.004H6.987V5.987h2.039v4.006z"/></svg>
+    <button type="button" class="flash-close js-ajax-error-dismiss" aria-label="Dismiss error">
+      <svg class="octicon octicon-x" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z"/></svg>
+    </button>
+    You can’t perform that action at this time.
+  </div>
+
+
+    <script crossorigin="anonymous" integrity="sha512-MrUcN+hgChDZDTAVylV8vD9A3LsRw+BYljt0zN5Vg+W9AEJQnm9vLJOKGGpvTsTnAc7tGelwlAQOCEBFVZlZsA==" type="application/javascript" src="https://github.githubassets.com/assets/compat-bootstrap-fdda7608.js"></script>
+    <script crossorigin="anonymous" integrity="sha512-3pK6Zm+ZRKPiJxJ2ke9B0jELEKMYst0DNGEh/3SL8xWXiDH8YfiVJ76vu8uJp52EQcdDPd0MDICVpeLAGJUKxA==" type="application/javascript" src="https://github.githubassets.com/assets/frameworks-313622ea.js"></script>
+    
+    <script crossorigin="anonymous" async="async" integrity="sha512-XLBdoXeWS/EVDh2OsbLydpdoH56FDr3VBoJdaGoUdXmnfF5XYMYzyzrmQyIiMx8xOukAsl/y2scVf95zeFL7lQ==" type="application/javascript" src="https://github.githubassets.com/assets/github-bootstrap-0a0636af.js"></script>
+    
+    
+    
+  <div class="js-stale-session-flash flash flash-warn flash-banner" hidden
+    >
+    <svg class="octicon octicon-alert" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.893 1.5c-.183-.31-.52-.5-.887-.5s-.703.19-.886.5L.138 13.499a.98.98 0 000 1.001c.193.31.53.501.886.501h13.964c.367 0 .704-.19.877-.5a1.03 1.03 0 00.01-1.002L8.893 1.5zm.133 11.497H6.987v-2.003h2.039v2.003zm0-3.004H6.987V5.987h2.039v4.006z"/></svg>
+    <span class="js-stale-session-flash-signed-in" hidden>You signed in with another tab or window. <a href="">Reload</a> to refresh your session.</span>
+    <span class="js-stale-session-flash-signed-out" hidden>You signed out in another tab or window. <a href="">Reload</a> to refresh your session.</span>
+  </div>
+  <template id="site-details-dialog">
+  <details class="details-reset details-overlay details-overlay-dark lh-default text-gray-dark hx_rsm" open>
+    <summary role="button" aria-label="Close dialog"></summary>
+    <details-dialog class="Box Box--overlay d-flex flex-column anim-fade-in fast hx_rsm-dialog hx_rsm-modal">
+      <button class="Box-btn-octicon m-0 btn-octicon position-absolute right-0 top-0" type="button" aria-label="Close dialog" data-close-dialog>
+        <svg class="octicon octicon-x" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z"/></svg>
+      </button>
+      <div class="octocat-spinner my-6 js-details-dialog-spinner"></div>
+    </details-dialog>
+  </details>
+</template>
+
+  <div class="Popover js-hovercard-content position-absolute" style="display: none; outline: none;" tabindex="0">
+  <div class="Popover-message Popover-message--bottom-left Popover-message--large Box box-shadow-large" style="width:360px;">
+  </div>
+</div>
+
+  <div aria-live="polite" class="js-global-screen-reader-notice sr-only"></div>
+
+  </body>
+</html>
+

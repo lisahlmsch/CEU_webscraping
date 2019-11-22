@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" class="__meteor-css__" href="/12c3d5ff9b302eff2d5e512dd79ec12c1db41543.css?meteor_css_resource=true">
+<meta charset="UTF-8" />
+<meta name="description" content="Divi is the first, easiest, and only truly one-click masternode hosting solution. Join us, and see what the masternode buzz is all about.">
+<meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0" name="viewport" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:widgets:theme" content="light" />
+<meta name="twitter:image" content="https://preview.ibb.co/fxXk7y/hero_half_2.jpg" />
+<meta name="twitter:title" content="Divi Masternode Hosting: Deploy masternodes with one click." />
+<meta name="twitter:site" content="@DiviProject" />
+<meta name="twitter:description" content="Divi is the first, easiest, and only truly one-click masternode hosting solution. Join us, and see what the masternode buzz is all about." />
+<meta property="og:title" content="Divi Masternodes: Deployed in one click." />
+<meta property="og:site_name" content="Divi Project Official Website" />
+<meta property="og:url" content="https://diviproject.org" />
+<meta property="og:type" content="website" />
+<meta property="og:image" content="https://preview.ibb.co/fxXk7y/hero_half_2.jpg" />
+<meta property="og:description" content="Divi is the first, easiest, and only truly one-click masternode hosting solution. Join us, and see what the masternode buzz is all about." />
+<title>Divi Masternodes: Deployed in one click.</title>
+<link rel="icon" type="image/x-icon" href="/images/favicon.ico?" />
+<link rel="alternate" href="https://diviproject.org" hreflang="x-default" />
+<link rel="canonical" href="https://diviproject.org" />
+
+<link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,700%7CLato:300,400,700' rel='stylesheet' type='text/css'>
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-106348062-1"></script>
+<script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+
+	gtag('config', 'UA-106348062-1');</script>
+<meta name="google-site-verification" content="q6eUQm69PqWVg9bFPxPqN7DcB1bI5lvYS_aDNXPpvrE" />
+</head>
+<body>
+<script type="text/javascript">__meteor_runtime_config__ = JSON.parse(decodeURIComponent("%7B%22meteorRelease%22%3A%22METEOR%401.8.1%22%2C%22gitCommitHash%22%3A%22ff3687f71dac1cec679a0bfea27e799291b4729f%22%2C%22meteorEnv%22%3A%7B%22NODE_ENV%22%3A%22production%22%2C%22TEST_METADATA%22%3A%22%7B%7D%22%7D%2C%22PUBLIC_SETTINGS%22%3A%7B%7D%2C%22ROOT_URL%22%3A%22https%3A%2F%2Fdiviproject.org%22%2C%22ROOT_URL_PATH_PREFIX%22%3A%22%22%2C%22autoupdate%22%3A%7B%22versions%22%3A%7B%22web.browser%22%3A%7B%22version%22%3A%22b655882215628c899d3ce559ee8df03e3d369326%22%2C%22versionRefreshable%22%3A%2249df6e25a9d11c68d2a1af6c8fa0e0772cea6d4e%22%2C%22versionNonRefreshable%22%3A%22af96fba20bca4cee4fa53f4392dbd43d59ad266b%22%7D%2C%22web.browser.legacy%22%3A%7B%22version%22%3A%2231a46234dc02266d925ccc0577f529535c4c6569%22%2C%22versionRefreshable%22%3A%2249df6e25a9d11c68d2a1af6c8fa0e0772cea6d4e%22%2C%22versionNonRefreshable%22%3A%22bb3d01b3664303697212eaf26c4d4d36a378ddc6%22%7D%7D%2C%22autoupdateVersion%22%3Anull%2C%22autoupdateVersionRefreshable%22%3Anull%2C%22autoupdateVersionCordova%22%3Anull%2C%22appId%22%3A%22rhhz0pej19qb.zing7gv3w72n%22%7D%2C%22appId%22%3A%22rhhz0pej19qb.zing7gv3w72n%22%2C%22isModern%22%3Afalse%7D"))</script>
+<script type="text/javascript" src="/4bc3a2983976ec17994790276aa4d5e4c13f3e1b.js?meteor_js_resource=true"></script>
+</body>
+</html>

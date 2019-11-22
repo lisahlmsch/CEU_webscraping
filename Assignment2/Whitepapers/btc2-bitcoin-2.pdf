@@ -1,0 +1,287 @@
+<!doctype html>
+<html lang="en">
+<head>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112318812-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-112318812-1');
+</script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Bitcoin 2 Zerocoin protocol (zBTC2) technical information</title>
+	<meta name="description" content="How does Bitcoin 2 Zerocoin protocol work, and what is zBTC2, explained.">
+	<meta name="keywords" content="zBTC2, BTC2, Zerocoin, Bitcoin 2, Bitcoin2, private crypto, private crypto currency, anononymous bitcoin, private bitcoin"><meta name="canonical" content="https://www.bitc2.org/btc2-technical-details">  <meta property="og:image" content="https://www.bitc2.org/img/bitcoin2_logo256.png">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Bitcoin 2 Zerocoin protocol (zBTC2) technical information">
+  <meta property="og:url" content="https://www.bitc2.org/zBTC2-Bitcoin-2-Zerocoin-Protocol" />
+
+  <link rel="apple-touch-icon" sizes="180x180" href="https://www.bitc2.org/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="https://www.bitc2.org/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="https://www.bitc2.org/favicon-16x16.png">
+  <link rel="stylesheet" type="text/css" href="https://www.bitc2.org/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="https://www.bitc2.org/css/font-awesome.css">
+    <link rel="stylesheet" type="text/css" href="https://www.bitc2.org/css/style.css">
+  <link rel="stylesheet" type="text/css" href="https://www.bitc2.org/css/custom.css">
+</head>
+
+<body>
+<!-- loading -->
+<div id="loading">
+    <div id="loading-center">
+        <img src="https://www.bitc2.org/img/loader.gif" alt="Loading...">
+    </div>
+</div>
+<!-- loading End -->
+<!-- Header -->
+<div style="padding-bottom: 64px;"></div>
+<header class="menu-sticky">
+    <div class="iq-header">
+        <div class="container"><!-- can be container-fluid -->
+            <div class="row">
+                <div class="col-md-12">
+                    <a href="https://www.bitc2.org/"><img class="img-fluid logo" src="https://www.bitc2.org/img/bitcoin2_logo_horizontal.png" alt="Bitcoin 2"></a>
+
+                    <nav> <a id="resp-menu" class="responsive-menu text-right" href="#"><i class="fa fa-reorder"></i> Menu</a>
+                        <ul class="menu text-right">
+                            <li><a href="https://www.bitc2.org/#exchanges" class="innerlink">Get BTC2</a>
+                            </li>
+                            <li><a href="https://www.bitc2.org/#wallets" class="innerlink">Wallets</a>
+                            </li>
+                            <li><a href="https://www.bitc2.org/faq" class="innerlink">FAQ</a>
+                            </li>
+                            <li><a href="https://www.bitc2.org/#roadmap" class="innerlink">Road map</a>
+                            </li>
+                            <li><a href="https://www.bitc2.org/btc2-technical-details" class="innerlink">Details</a>
+                            </li>
+                            <li><a href="https://www.bitc2.org/block-explorer/" class="innerlink">Block Explorer</a>
+                            </li>
+                            <li class="sociallink"><a href="https://twitter.com/Bitc2org" target="_blank">Twitter</a></li>
+                            <li class="sociallink"><a href="https://github.com/BITC2/bitcoin2" target="_blank">Github, source code</a></li>
+                            <li class="sociallink"><a href="https://www.facebook.com/bitc2.org/" target="_blank">Facebook</a></li>
+                            <li class="sociallink"><a href="https://www.reddit.com/r/bitc2/" target="_blank">Reddit</a></li>
+                            <li class="sociallink"><a href="https://discord.gg/nKWxnXV" target="_blank">Discord</a></li>
+                            <li class="sociallink"><a href="https://bitcointalk.org/index.php?topic=2871452" target="_blank">Bitcointalk</a></li>
+                        </ul>
+                    </nav>
+                    <div id="socialicons">
+                      <a href="https://twitter.com/Bitc2org" title="Bitcoin 2 Twitter" target="_blank"><i class="fa fa-twitter"></i></a>
+                      <a href="https://github.com/BITC2/bitcoin2" title="Bitcoin 2 Source Code at Github" target="_blank"><i class="fa fa-github"></i></a>
+                      <a href="https://www.facebook.com/bitc2.org/" title="Bitcoin 2 Facebook Page" target="_blank"><i class="fa fa-facebook"></i></a>
+                      <a href="https://www.reddit.com/r/bitc2/" title="Bitcoin 2 Subreddit" target="_blank"><i class="fa fa-reddit"></i></a>
+                      <a href="https://discord.gg/nKWxnXV" title="Bitcoin 2 Discord Channel" target="_blank"><i class="fa fa-comments"></i></a>
+                      <a href="https://bitcointalk.org/index.php?topic=2871452" title="Bitcointalk thread about Bitcoin 2" target="_blank"><i class="fa fa-btc"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<!-- Header End -->
+<div class="clearfix"></div><style>
+ol li { list-style-type: decimal; }
+</style>
+<br><br>
+<section class="overview-block-ptb4">
+    <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+<h1 style="font-size: 24px; font-weight: bold;">Bitcoin 2 Technical Details</h1>
+<p><b>Bitcoin 2 OVERVIEW</b></p>
+<p>Bitcoin 2 is a Bitcoin-based community-centric cryptocurrency with a focus on decentralization, privacy, speed, scalability and real-world use. It utilizes an energy efficient custom Proof of Stake protocol and a second-tier Masternode network to handle transactions that confirm in a second.</p>
+<p>Bitcoin 2 is continuously striving to achieve instantaneous private transactions, and fungibility in order to remain as one of the most advanced cryptocurrencies.</p>
+<p>In layman’s terms, Bitcoin 2 is basically a form of online digital money that can be easily transferred all around the world in a blink of an eye with nearly non-existent transaction fees. You can convert your money into Bitcoin 2 and just hold to earn rewards similar to interest, trade on an exchange to buy other digital currencies or buy goods or services online and offline where it is accepted.</p>
+<p>It is not owned or governed by any single person or organization and its network is secured by nodes all around the world by its users.</p>
+<p>The goal of Bitcoin 2 is to be an advanced digital currency that is fast, secure, decentralized &amp; private.</p>
+
+<p><b>Bitcoin 2 Distribution and Supply information</b></p>
+<p>Initially all Bitcoin holders as of Bitcoin block number 507850 (~February 5 2018) received BTC2 on a 1 for 1 basis, without any action required to receive it and have it recorded in the Bitcoin 2 blockchain.
+<p>The Bitcoin 2 balances, addresses and supply were set to equal those of Bitcoin. So the initial distribution equals that of Bitcoin at the time of the fork.</p>
+<p>In order to prune the Bitcoin blockchain from a massive 147 GB to less than 1.5 GB, we used a snapshot forking method instead of just directly copying the Bitcoin blockchain. That original size would have severely limited masternode creation and increased staking node hardware requirements. The initial Bitcoin 2 blockchain was pre-built to achieve that.</p>
+<p>Supply of Bitcoin 2 started at 16848064.795 BTC2 on main net launch. Same as the supply of BTC on Bitcoin block number 507850 (~February 5 2018).
+<p>0.8 BTC2 is newly generated every block starting from block number 1391 until the maximum supply of 21 million BTC2 is reached. Out of the block reward amount, 0.6 BTC2 goes to the block creator, and 0.2 BTC2 goes to the masternode that ranks highest in the reward queue-like system.
+
+<p><b>CRYPTOCURRENCY TRANSACTION PRIVACY</b></p>
+<p>Most common cryptocurrencies such as Bitcoin have a well known public ledger system where all transactions are visible and traceable through its block explorer. This results in everyone having the ability to see all associated transactions and balances but more importantly its associated addresses as well. This means that the history of its previous address owner is now visible through your own address once the coins have traversed through the blockchain and end up in your own wallet address. </p>
+<p>An address may seem like it is fully anonymous but if you made a transaction with an address that is generated by the exchanges and/or other merchant services, you have essentially linked your anonymous address with an address that may lead to your identity.</p>
+<p>Such transparency may not always be an issue. But it could become a serious problem if the coin that you hold was once associated with an undesirable history or if your address was being targeted by potential thieves. </p>
+<p>For example, coin you received was from an address owned by a person or organization that has been conducting illegal activities and was being monitored and tracked by governing authorities. This now means that you may be questioned on your relationship to the previous owner of those coins that you now possess even though you received them legitimately and without knowledge. This could also mean that the coins with such history may be deemed less valuable, resulting in reduced fungibility.</p>
+<p><b>Our solution, zero-knowledge proof privacy protocol (zBTC2)</b></p>
+<p><i>NOTE: zBTC2 is currently disabled while a new privacy protocol is being worked on.</i></p>
+<p>To overcome this issue, Bitcoin 2 has implemented a well known highly-vetted protocol called Zerocoin with many custom enhancements allowing blockchain-level transaction anonymity in the way of unlinkability.</p>
+<p>We call this <b>zBTC2</b>, where BTC2 is a unit of Bitcoin 2 and z prefix is for Zerocoin.</p>
+<p>What zBTC2 provides is a protocol-level coin mixing service using zero knowledge proofs to sever the link between the sender and the receiver with 100% anonymity and untraceability. This means that each coin that gets sent using zBTC2 is now 100% fungible as it has no determinable history attached to them.</p>
+<p>The use of zBTC2 also means your balance can be masked to avoid being targeted by potential thieves. This is a very unique feature that nearly no other cryptocurrency currently in the market possesses. </p>
+<p>Bitcoin 2 zBTC2 accumulators are encrypted using RSA-2048[1] challenge generated keys which negates the need for a developer trusted setup and means that no individual knows the factors. This means that everyone’s privacy is ensured through the use of zBTC2.</p>
+<p><b>UNIQUE FACTOR</b></p>
+<p>Based on the original libzerocoin public repository that was created by academic cryptographers, with additions made by the PIVX and Bitcoin 2 development teams.</p>
+<p>Original Zerocoin Whitepaper: <a href="https://isi.jhu.edu/~mgreen/ZerocoinOakland.pdf">https://isi.jhu.edu/~mgreen/ZerocoinOakland.pdf</a></p>
+<p>Unlike most other cryptocurrencies that currently utilize a zerocoin-based protocol, Bitcoin 2 zBTC2 utilizes a very efficient accumulator checkpointing system which allows the zBTC2 spend process to utilize checkpoints that contains all mints that were made prior to the zBTC2 mint being spent, as well as a user selected amount of zBTC2 mints beyond the checkpoint. This allows for a large pool of coins in the accumulator while still having much smaller computation requirements. Bitcoin 2’s zBTC2 implementation yields minimal resource consumption and makes zBTC2 transactions one of the fastest private transfers in the market today.</p>
+<p><b>Bitcoin 2 zBTC2 TECHNICAL ADVANTAGES</b></p>
+<ol>
+<li>Smaller spend transaction sizes by an average of 25% over any other current implementation in a production environment (further optimization in the works)</li>
+<li>Fast verification and network sync performance</li>
+<li>Direct spend of zBTC2 to a Bitcoin 2 address</li>
+<li>Multiple Zerocoin denomination spends is possible in a single transaction. Up to 17.</li>
+<li>Ability to spend exact amounts and issue the remaining change to either a Bitcoin 2 address or more zBTC2.</li>
+</ol>
+<p><b>REAL LIFE BENEFITS OF USING zBTC2</b> <b></b></p>
+<ol>
+<li style="list-style-type: circle;">zBTC2 can hide your coin balance from prying eyes protecting you from being targeted.</li>
+<li style="list-style-type: circle;">So your zBTC2 balance isn’t linked to any particular address.</li>
+<li style="list-style-type: circle;">zBTC2 can hide the transaction history of the coins being sent.</li>
+<li style="list-style-type: circle;">Source &amp; target addresses aren’t visible making it private, safe &amp; fungible.</li>
+<li style="list-style-type: circle;">zBTC2 anonymous transactions are very fast.</li>
+<li style="list-style-type: circle;">It takes as little as 0.5 seconds to mint and 2.5 seconds to spend zBTC2.</li>
+<li style="list-style-type: circle;">Automatic conversion to zBTC2 is disabled by default, but can be turned on if wanted.</li>
+<li style="list-style-type: circle;">It means that you can always send a fully transparent transaction when required.</li>
+</ol>
+<p><b>HOW ANONYMITY IS ACHIEVED</b></p>
+<ol>
+<li>Mint (convert) your BTC2 into zBTC2 denominations.</li>
+<li>Spend (send) your zBTC2 as BTC2 to any internal or external Bitcoin 2 address</li>
+</ol>
+<p>Essentially the zerocoin protocol pools combine all the zBTC2 that people have converted (minted) from their BTC2 balance into set denominations and uses them to send when a spend is initiated. Keep in mind that the pooling does not mean that everyone’s zBTC2 is stored in a centralized location. Rather, the public ledger (decentralized blockchain) keeps track of how many zBTC2s have been created and the amounts are displayed by the Bitcoin 2 Core Wallet</p>
+<p>When you want to send (spent) some zBTC2 amount to a Bitcoin 2 address, your wallet sends a zero-knowledge proof to the blockchain that allows the zBTC2 to be converted back to BTC2 and sent to the target address all in a single step. </p>
+<p>Since zBTC2 spending creates brand new coins if a spender can provide zero-knowledge proof that he/she has coins in the accumulated pool (accumulator), the coin’s transaction history from its previously associated addresses become unlinked and thus results in an untraceable transaction.</p>
+<p><i>Finally, a simple analogy. </i>Think of zBTC2 as casino chips. You give your 100 dollar bill (i.e. BTC2) to the cashier and you get some 1x$10, 2x$20, 1x$50 dollar chips (i.e. zBTC2). This means that you no longer own that particular 100 dollar bill you exchanged and instead have “proof” that you still own $100. Now when you need 50 dollars of it back as fiat (BTC2), you give your chips (zBTC2) back to the cashier and the cashier delivers a brand new uncirculated 50 dollar bill to a recipient of your choosing. </p>
+<p><b>zBTC2 Minting &amp; Spending Process</b><b><br />
+</b></p>
+<p>In this example, Jack wants to send BTC2 to Jane using the Zerocoin protocol to anonymize the transaction.</p>
+<p>Step by step Minting Process</p>
+<ol>
+<li>Jack initiates a request to mint 960 zBTC2.</li>
+<li>Zerocoin Protocol converts Jack’s 960 BTC2 to the equivalent amount of zBTC2, using the largest available zBTC2 denominations. 
+<ol>
+<li>Behind the scenes, Jack has been given secret knowledge proving ownership of this mint (a unique serial number that is used by Zerocoin Protocol to track ownership of specific zBTC2 denomination amounts).</li>
+</ol>
+</li>
+<li>Jack’s balance is updated accordingly
+<ol>
+<li>With a 960 decrease in BTC2, and a 960 increase in zBTC2.</li>
+<li>Jack also sees that the 960 zBTC2 is comprised of the following denominations that have been added: 1x 500 zBTC2, 4x 100 zBTC2, 3x 20 zBTC2.</li>
+</ol>
+</li>
+</ol>
+<p>Step by step Spending Process</p>
+<ol>
+<li>Jack initiates a send of the 960 zBTC2 to Jane’s Bitcoin 2 address. </li>
+<li>Zerocoin Protocol receives and validates Jack’s secret knowledge that proves ownership. Once used, the original minted balance cannot be re-spent.</li>
+<li>Zerocoin Protocol creates 960 BTC2 at Jane’s Bitcoin 2 address.  
+<ol>
+<li>Jane receives 960 BTC2 from an anonymous sender.</li>
+<li>Jack’s balance is updated accordingly &#8212; with a 960 decrease in zBTC2.</li>
+</ol>
+</li>
+</ol>
+<p><b>Denominations Explanation</b><b></b></p>
+<p>To improve its transaction efficiency while retaining a high level of complexity, Bitcoin 2 has implemented a set of common denominators for the coin (BTC2) amounts that gets converted into a pool of coins as zBTC2. (Much like the casino chips example above.)</p>
+<p>The denominations used by zBTC2 are: 0.05, 0.20, 1, 5, 20, 100, 500 and 2000. Using this set of denominations provides a good balance of simplicity, usability, and security. The ultimate way to reduce traceability would only use 1 denomination (i.e 1 zBTC2), however, it is not very practical to do that, as large transactions would require a huge amount of coins. </p>
+<p>Using a very large set could potentially increase traceability to an insecure level, thus it was settled on a set of 8 possible coin denominations. This set is seen as a ‘sweet’ spot since it neither includes coins that are considered as too low or too high in a denomination. As the value of BTC2 changes, it’s conceivable that we will extend or change this set to meet users needs.</p>
+<p>When you spend your zBTC2, you will simply have a proof that you have a coin of that denomination which includes other zBTC2 mints of that denomination.</p>
+<p>This means that all zBTC2 redemption will be made in whole denominations (with change being issued for remaining amounts) thus making it near impossible to match before zBTC2 and after zBTC2 amount from 2 different addresses while there are many other identical zBTC2 to BTC2 transaction amounts being made.</p>
+<p><b>Denomination Logic</b></p>
+<p>When minting (converting) or spending (sending) zBTC2, each algorithm will automatically determine the denominations used.</p>
+<p>When spending (sending) zBTC2 to a Bitcoin 2 address, following algorithm will automatically determine the denominations used from the user’s</p>
+<p>1). If you have the exact amount then start with largest possible denomination and go down until you reach the total</p>
+<p>2) Otherwise : Minimize Spends (a) find the next denomination higher than the spend amount (if possible) and use that if available, (b) if not available start with the larger denominations and go down until you reach an amount just over what is needed</p>
+<p>3) Or: Minimize Change. If not exact, try to find the amount above what is needed that minimizes how many coins you receive in change</p>
+<p><b>Auto Minting</b> <b></b></p>
+<p>The privacy of zBTC2 becomes more effective when there are more of each denomination minted from many different sources. So to ensure its effectiveness, Bitcoin 2 wallet has an optional feature to auto mint (convert) a configurable amount of BTC2 from the wallet’s balance into zBTC2 without the need to manually convert. </p>
+<p>Automint starts when the wallet/daemon is started, the wallet is unlocked (either fully or staking only) and the blockchain is synced. This means that if your wallet is encrypted and locked, the auto-mint feature will not engage. When the wallet is unlocked, it will still not touch any UTXO that are locked such as those that are used as collateral for masternodes.</p>
+<p>&#8211; default percentage: 10%. Can be changed via GUI or via command-line option `-zeromintpercentage=&lt;n&gt;` or bitcoin2.conf `zeromintpercentage=&lt;n&gt;`must not be less than 10%.</p>
+<p>&#8211; default state: Disabled. Can be activated via command-line option `-enablezeromint=1` or bitcoin2.conf `enablezeromint=1` or in the options menu.</p>
+<p>User can now configure a preferred denomination for Automint via UI, command-line option `-preferredDenom=&lt;n&gt;` or bitcoin2.conf `preferredDenom=&lt;n&gt;` &lt;n&gt; is either one of the available denominations in cents `5/20/100/500/1000/5000/10000/50000/200000` or `0` (means no preference at all and let Automint do whatever it wants).</p>
+<p>If there are not enough coins available for the preferred denomination Automint waits until there are enough coins available.</p>
+<p>With each incoming new block, it does:</p>
+<ol>
+<li>Check how much mintable coins are available. 
+<ol>
+<li>This excludes immature coins and locked coins (e.g. from masternodes)</li>
+</ol>
+</li>
+<li>Check how much Zerocoin/zBTC2 is available</li>
+<li>Check if the percentage is below the target percentage</li>
+</ol>
+<p>If the percentage is below the target percentage, it does:</p>
+<ol>
+<li>Calculate how many BTC2 needs to be converted to zBTC2, e.g. 1005</li>
+<li>Use the next smaller denomination (here 500 BTC2) and mints 500 zBTC2</li>
+<li>Rinse and repeat until enough zBTC2 are minted.</li>
+</ol>
+<p>In the example above the first incoming block would trigger minting 500 zBTC2, the next one again 500 zBTC2 and the third one 5 zBTC2 (assuming that no new incoming BTC2 change the base amount of available BTC2).</p>
+<p>The reason to use the next smaller denomination, and to only use one denomination per block is performance, exact denominations do not need to be broken down into exact denominations obviously, and one single mint can be done in a reasonable time.</p>
+<p>Exception: if a large amount of BTC2 needs to be minted, we use NOT our biggest denomination of 2000 BTC2 but instead mint one of each denomination to have a more even distributions of available denominations.</p>
+<p><b>Spend Security Level</b></p>
+<p>When spending zBTC2 denominations, a user is prompted to enter a <i>Security Level</i> choosing from 1-100. In an indirect way, the Security Level parameter allows the user to choose how many coins to obfuscate their transaction with.</p>
+<p>A Security Level of 1, for example, would take all of the minted coins in the blockchain before your mint was added to the blockchain, and would then add any coins that were minted within the next 10 blocks as well. A Security Level of 2 would do the same thing, except add the next 20 blocks worth of mints. A Security Level of 100 will add the maximum amount of mints up to the current end of the blockchain.</p>
+<p>The higher the Security Level, the more computation and time it will take to spend. Although it takes longer, a level of 100 is recommended for transactions that need maximum anonymity.</p>
+<p><b>Handling of Change</b></p>
+<p>As zBTC2 is made up of fixed denominations, there will be times when the amount needed to be spent cannot be made up by existing denominations. For example, if you have a single 2000 zBTC2 denomination but you want to send 1985 BTC2 to an address, there will be a difference of 15 BTC2 that will be received back as change. This change can compromise the privacy of the transaction as it can lead back to your existing address if you mistakenly mix your change back in with your other Bitcoin 2 addresses.</p>
+<p>In order to prevent this, there are 2 methods that can be used. First option is the use of the built-in feature that automatically converts the change back into zBTC2. This will spend the zBTC2 into the required amount of BTC2 to the target address, then mint the remaining change of BTC2 back into zBTC2. This is the most convenient method. However, the amount of change that is not convertible to a denomination (the lowest denomination available is 0.05) will be converted to a fee.</p>
+<p>The second option is to issue change to a standard Bitcoin 2 address, which leaves you up to handling the segregation of that BTC2 from your day-to-day BTC2 balance. This option can lead to mistakes and is not recommended if anonymity is important for the transaction.</p>
+<p><b>zBTC2 Data Integrity</b></p>
+<p>Every minted zBTC2 denomination is associated with a unique serial number that is stored in the local wallet.dat and not on the blockchain. This means that when a new zBTC2 denomination is minted, the wallet.dat should be backed up as the previous backup will not have the serial numbers for the newly minted zBTC2 denominations.</p>
+<p>The serial number and other essential zBTC2 data are committed to the database (wallet.dat) before the transaction is completed and broadcasted to the network. This minimizes the risk of losing your freshly minted zBTC2 denominations during an unexpected event during the minting of zBTC2, such as a PC crash or internet connectivity issues.</p>
+<p>Due to its local database design, it is imperative that your wallet is backed up after every new zBTC2 mint to ensure that your denomination serial numbers are up to date.</p>
+<p><b>Technical Specs</b></p>
+<p><b>Algorithm: </b>Custom Proof of Stake. Evolved from PoS 3.</p>
+<p><b>Block time: </b>1 per minute</p>
+<p><b>Maximum block size: </b>4 MB</p>
+<p><b>Maximum Bitcoin 2 Supply: </b>21000000</p>
+<p><b>Minimum transaction fee: </b>0.00003000 BTC2 per KB.</p>
+<p><b>Difficulty adjustment: </b>every 10 blocks</p>
+<br>
+<p><i>Technical Specs for zBTC2</i></p>
+<p><b>Key Features:</b> Custom accumulator checkpointing system</p>
+<p><b>Accumulator Encryption:</b> RSA-2048 </p>
+<p><b>zBTC2 Denominations:</b> 0.05, 0.2, 1, 5, 20, 100, 500, 2000</p>
+<p><b>Mint time:</b> &gt;= 0.5 seconds<br />
+<b>Spend time:</b> &gt;= 2.5 seconds</p>
+<p><b>Maximum single Spend limit: </b>34,000 BTC2</p>
+<p><b>Maximum single Spend denomination count limit: </b>17</p>
+<p><b>Fees (mint):</b> 0.001 BTC2 per minted zBTC2 denomination. </p>
+<p><b>Fees (spend):</b> No fee to spend zBTC2 back to BTC2. (In other words no fee to send zBTC2.)</p>
+<p><b>Minimum BTC2 confirmation count required to mint zBTC2: </b>6</p>
+<p><b>Minimum zBTC2 confirmation count required before spend:</b> 20</p>
+<p><strong>Maturity requirement before zBTC2 can be spent:</strong> 1 new identical denomination mint added to accumulator after yours is added.</p>
+<p><b>REFERENCES</b></p>
+<p>[1] <a href="https://en.wikipedia.org/wiki/RSA-2048">https://en.wikipedia.org/wiki/RSA-2048</a></p>
+
+   </div></div></div>
+</section>
+    <footer class="iq-footer-2">
+      <div class="container">
+          <div class="row">
+              <div class="col-sm-12 iq-mtb-20">
+                <form action="https://bitc2.us17.list-manage.com/subscribe/post?u=abb933f85dfa8432862911b81&amp;id=48675f722b" method="post" name="mc-embedded-subscribe-form" style="color: white;" target="_blank" novalidate>
+                    <a href="https://www.bitc2.org/#exchanges" class="button" style="margin-right: 20px;">Get BTC2</a> Send me updates on Bitcoin 2 <span style="white-space: nowrap;"><input type="email" name="EMAIL" size="24" placeholder=" Enter email address" required><input value="Subscribe" name="subscribe" type="submit" class="button"></span>
+                      <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_abb933f85dfa8432862911b81_48675f722b" tabindex="-1" value=""></div>
+                </form><br>
+
+              &copy;2019 bitc2.org. <a href="https://www.bitc2.org/terms">Privacy Policy and Terms of Use</a> | <a href="https://www.bitc2.org/contact">Contact info for exchanges, press, wallets and service providers</a><br>
+              </div>
+          </div>
+      </div>
+    </footer>
+
+    <div id="back-to-top">
+        <a class="top" id="top" href="#top"> <i class="fa fa-angle-up"></i> </a>
+    </div>
+    <!-- back-to-top End -->
+    <!-- jquery-min JavaScript -->
+    <script src="https://www.bitc2.org/js/jquery-min.js"></script>
+    <!-- popper JavaScript -->
+    <script src="https://www.bitc2.org/js/popper.min.js "></script>
+    <!-- Bootstrap JavaScript -->
+    <script src="https://www.bitc2.org/js/bootstrap.min.js"></script>
+    <!-- All-plugins JavaScript -->
+    <script src="https://www.bitc2.org/js/all-plugins.js"></script>
+    <!-- Custom JavaScript -->
+    <script src="https://www.bitc2.org/js/custom.js"></script>
+    <!-- REVOLUTION JS FILES -->
+</body>
+</html>

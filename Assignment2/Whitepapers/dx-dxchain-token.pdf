@@ -1,0 +1,858 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='utf-8'>
+<title>
+DocSend
+</title>
+<meta content='DocSend helps salespeople communicate more effectively by reporting back in real time how prospects engage with sales collateral &amp; proposals after they&#39;re sent.' name='description'>
+<meta content='noindex,nofollow' name='robots'>
+<meta content='width=device-width, initial-scale=1.0, user-scalable=no' name='viewport'>
+<meta content='IE=edge' http-equiv='X-UA-Compatible'>
+<script nonce='30e82779-989e-43b9-9d52-e770f1085f2f'>window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"1aed9368e8","applicationID":"1801924","transactionName":"cA4MEEpWVVgHE0pBF1YSBwpMWE1dDQ9KRwxWFg==","queueTime":3,"applicationTime":87,"agent":""}</script>
+<script nonce='30e82779-989e-43b9-9d52-e770f1085f2f'>(window.NREUM||(NREUM={})).loader_config={licenseKey:"1aed9368e8",applicationID:"1801924"};window.NREUM||(NREUM={}),__nr_require=function(n,e,t){function r(t){if(!e[t]){var i=e[t]={exports:{}};n[t][0].call(i.exports,function(e){var i=n[t][1][e];return r(i||e)},i,i.exports)}return e[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var i=0;i<t.length;i++)r(t[i]);return r}({1:[function(n,e,t){function r(){}function i(n,e,t){return function(){return o(n,[u.now()].concat(f(arguments)),e?null:this,t),e?void 0:this}}var o=n("handle"),a=n(4),f=n(5),c=n("ee").get("tracer"),u=n("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(n,e){s[e]=i(d+e,!0,"api")}),s.addPageAction=i(d+"addPageAction",!0),s.setCurrentRouteName=i(d+"routeName",!0),e.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(n,e){var t={},r=this,i="function"==typeof e;return o(l+"tracer",[u.now(),n,t],r),function(){if(c.emit((i?"":"no-")+"fn-start",[u.now(),r,i],t),i)try{return e.apply(this,arguments)}catch(n){throw c.emit("fn-err",[arguments,this,n],t),n}finally{c.emit("fn-end",[u.now()],t)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(n,e){m[e]=i(l+e)}),newrelic.noticeError=function(n,e){"string"==typeof n&&(n=new Error(n)),o("err",[n,u.now(),!1,e])}},{}],2:[function(n,e,t){function r(n,e){var t=n.getEntries();t.forEach(function(n){"first-paint"===n.name?a("timing",["fp",Math.floor(n.startTime)]):"first-contentful-paint"===n.name&&a("timing",["fcp",Math.floor(n.startTime)])})}function i(n){if(n instanceof c&&!s){var e,t=Math.round(n.timeStamp);e=t>1e12?Date.now()-t:f.now()-t,s=!0,a("timing",["fi",t,{type:n.type,fid:e}])}}if(!("init"in NREUM&&"page_view_timing"in NREUM.init&&"enabled"in NREUM.init.page_view_timing&&NREUM.init.page_view_timing.enabled===!1)){var o,a=n("handle"),f=n("loader"),c=NREUM.o.EV;if("PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver){o=new PerformanceObserver(r);try{o.observe({entryTypes:["paint"]})}catch(u){}}if("addEventListener"in document){var s=!1,p=["click","keydown","mousedown","pointerdown","touchstart"];p.forEach(function(n){document.addEventListener(n,i,!1)})}}},{}],3:[function(n,e,t){function r(n,e){if(!i)return!1;if(n!==i)return!1;if(!e)return!0;if(!o)return!1;for(var t=o.split("."),r=e.split("."),a=0;a<r.length;a++)if(r[a]!==t[a])return!1;return!0}var i=null,o=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var f=navigator.userAgent,c=f.match(a);c&&f.indexOf("Chrome")===-1&&f.indexOf("Chromium")===-1&&(i="Safari",o=c[1])}e.exports={agent:i,version:o,match:r}},{}],4:[function(n,e,t){function r(n,e){var t=[],r="",o=0;for(r in n)i.call(n,r)&&(t[o]=e(r,n[r]),o+=1);return t}var i=Object.prototype.hasOwnProperty;e.exports=r},{}],5:[function(n,e,t){function r(n,e,t){e||(e=0),"undefined"==typeof t&&(t=n?n.length:0);for(var r=-1,i=t-e||0,o=Array(i<0?0:i);++r<i;)o[r]=n[e+r];return o}e.exports=r},{}],6:[function(n,e,t){e.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(n,e,t){function r(){}function i(n){function e(n){return n&&n instanceof r?n:n?c(n,f,o):o()}function t(t,r,i,o){if(!d.aborted||o){n&&n(t,r,i);for(var a=e(i),f=v(t),c=f.length,u=0;u<c;u++)f[u].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(n,e){h[n]=v(n).concat(e)}function m(n,e){var t=h[n];if(t)for(var r=0;r<t.length;r++)t[r]===e&&t.splice(r,1)}function v(n){return h[n]||[]}function g(n){return p[n]=p[n]||i(t)}function w(n,e){u(n,function(n,t){e=e||"feature",y[t]=e,e in s||(s[e]=[])})}var h={},y={},b={on:l,addEventListener:l,removeEventListener:m,emit:t,get:g,listeners:v,context:e,buffer:w,abort:a,aborted:!1};return b}function o(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var f="nr@context",c=n("gos"),u=n(4),s={},p={},d=e.exports=i();d.backlog=s},{}],gos:[function(n,e,t){function r(n,e,t){if(i.call(n,e))return n[e];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(n,e,{value:r,writable:!0,enumerable:!1}),r}catch(o){}return n[e]=r,r}var i=Object.prototype.hasOwnProperty;e.exports=r},{}],handle:[function(n,e,t){function r(n,e,t,r){i.buffer([n],r),i.emit(n,e,t)}var i=n("ee").get("handle");e.exports=r,r.ee=i},{}],id:[function(n,e,t){function r(n){var e=typeof n;return!n||"object"!==e&&"function"!==e?-1:n===window?0:a(n,o,function(){return i++})}var i=1,o="nr@id",a=n("gos");e.exports=r},{}],loader:[function(n,e,t){function r(){if(!x++){var n=E.info=NREUM.info,e=l.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(n&&n.licenseKey&&n.applicationID&&e))return s.abort();u(y,function(e,t){n[e]||(n[e]=t)}),c("mark",["onload",a()+E.offset],null,"api");var t=l.createElement("script");t.src="https://"+n.agent,e.parentNode.insertBefore(t,e)}}function i(){"complete"===l.readyState&&o()}function o(){c("mark",["domContent",a()+E.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(f=Math.max((new Date).getTime(),f))-E.offset}var f=(new Date).getTime(),c=n("handle"),u=n(4),s=n("ee"),p=n(3),d=window,l=d.document,m="addEventListener",v="attachEvent",g=d.XMLHttpRequest,w=g&&g.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:g,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var h=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1153.min.js"},b=g&&w&&w[m]&&!/CriOS/.test(navigator.userAgent),E=e.exports={offset:f,now:a,origin:h,features:{},xhrWrappable:b,userAgent:p};n(1),n(2),l[m]?(l[m]("DOMContentLoaded",o,!1),d[m]("load",r,!1)):(l[v]("onreadystatechange",i),d[v]("onload",r)),c("mark",["firstbyte",f],null,"api");var x=0,O=n(6)},{}],"wrap-function":[function(n,e,t){function r(n){return!(n&&n instanceof Function&&n.apply&&!n[a])}var i=n("ee"),o=n(5),a="nr@original",f=Object.prototype.hasOwnProperty,c=!1;e.exports=function(n,e){function t(n,e,t,i){function nrWrapper(){var r,a,f,c;try{a=this,r=o(arguments),f="function"==typeof t?t(r,a):t||{}}catch(u){d([u,"",[r,a,i],f])}s(e+"start",[r,a,i],f);try{return c=n.apply(a,r)}catch(p){throw s(e+"err",[r,a,p],f),p}finally{s(e+"end",[r,a,c],f)}}return r(n)?n:(e||(e=""),nrWrapper[a]=n,p(n,nrWrapper),nrWrapper)}function u(n,e,i,o){i||(i="");var a,f,c,u="-"===i.charAt(0);for(c=0;c<e.length;c++)f=e[c],a=n[f],r(a)||(n[f]=t(a,u?f+i:i,o,f))}function s(t,r,i){if(!c||e){var o=c;c=!0;try{n.emit(t,r,i,e)}catch(a){d([a,t,r,i])}c=o}}function p(n,e){if(Object.defineProperty&&Object.keys)try{var t=Object.keys(n);return t.forEach(function(t){Object.defineProperty(e,t,{get:function(){return n[t]},set:function(e){return n[t]=e,e}})}),e}catch(r){d([r])}for(var i in n)f.call(n,i)&&(e[i]=n[i]);return e}function d(e){try{n.emit("internal-error",e)}catch(t){}}return n||(n=i),t.inPlace=u,t.flag=a,t}},{}]},{},["loader"]);</script>
+<meta name="csp-nonce" content="30e82779-989e-43b9-9d52-e770f1085f2f" />
+<link rel="stylesheet" media="all" href="https://d2qvtfnm75xrxf.cloudfront.net/packs/css/stylesheets/presentation-937a0811.css" />
+<!--[if lt IE 9]>
+<script src='https://html5shim.googlecode.com/svn/trunk/html5.js'></script>
+<![endif]-->
+<!--[if IE 7]>
+<link rel="stylesheet" media="all" href="https://d2qvtfnm75xrxf.cloudfront.net/packs/css/stylesheets/ie7-17d1663a.css" />
+<![endif]-->
+<link href='https://fonts.googleapis.com/css?family=Open+Sans:700,600,400,400italic,300,300italic' rel='stylesheet' type='text/css'>
+<link href='https://d2qvtfnm75xrxf.cloudfront.net/public/respond-proxy.html' id='respond-proxy' rel='respond-proxy'>
+<link href='/respondjs/respond.proxy.gif' id='respond-redirect' rel='respond-redirect'>
+<link href='https://chrome.google.com/webstore/detail/nmkphfcebcpicnakipcmgapcckkbhppd' rel='chrome-webstore-item'>
+<script nonce='30e82779-989e-43b9-9d52-e770f1085f2f' src='//d2wy8f7a9ursnm.cloudfront.net/v6.2.0/bugsnag.min.js'></script>
+<script nonce='30e82779-989e-43b9-9d52-e770f1085f2f'>
+window.requestId = '30e82779-989e-43b9-9d52-e770f1085f2f'
+window.Bugsnag = bugsnag({
+  apiKey: '21f24c2371049273299521b66ca18bb8',
+  apiVersion: 'v1153',
+  releaseStage: 'production',
+  metaData: { request: { requestId: window.requestId } },
+  beforeSend: function(report) {
+    if (report.request && report.request.url) {
+      if (/file:\/\//.test(report.request.url)) {
+        // ignore unhandled javascript errors originating from local files
+        return false;
+      } else if (!new RegExp('^https://docsend.com').test(report.request.url)) {
+        // ignore unhandled javascript errors not originating from our domain
+        return false;
+      }
+      report.request.numDSClasses = Object.keys(window.DS || {}).length
+    }
+  }
+});
+var bugsnagNotify = window.Bugsnag.notify;
+window.Bugsnag.notify = function(err, message, _options, severity) {
+  if (typeof message !== 'undefined' && !(err instanceof Error)) {
+    bugsnagNotify(new Error(err), {
+      beforeSend: function(report) {
+        report.errorClass = err;
+        report.errorMessage = message;
+        report.severity = severity || 'warning';
+      }
+    });
+  } else {
+    bugsnagNotify(err);
+  }
+}
+
+</script>
+
+<link href='/favicon.ico?v=5' rel='shortcut icon' type='image/x-icon'>
+<link href='/apple-touch-icon-57x57.png' rel='apple-touch-icon-precomposed' sizes='57x57'>
+<link href='/apple-touch-icon-114x114.png' rel='apple-touch-icon-precomposed' sizes='114x114'>
+<link href='/apple-touch-icon-72x72.png' rel='apple-touch-icon-precomposed' sizes='72x72'>
+<link href='/apple-touch-icon-144x144.png' rel='apple-touch-icon-precomposed' sizes='144x144'>
+<link href='/apple-touch-icon-60x60.png' rel='apple-touch-icon-precomposed' sizes='60x60'>
+<link href='/apple-touch-icon-120x120.png' rel='apple-touch-icon-precomposed' sizes='120x120'>
+<link href='/apple-touch-icon-76x76.png' rel='apple-touch-icon-precomposed' sizes='76x76'>
+<link href='/apple-touch-icon-152x152.png' rel='apple-touch-icon-precomposed' sizes='152x152'>
+<link href='/favicon-196x196.png' rel='icon' sizes='196x196' type='image/png'>
+<link href='/favicon-96x96.png' rel='icon' sizes='96x96' type='image/png'>
+<link href='/favicon-32x32.png' rel='icon' sizes='32x32' type='image/png'>
+<link href='/favicon-16x16.png' rel='icon' sizes='16x16' type='image/png'>
+<link href='/favicon-128x128.png' rel='icon' sizes='128x128' type='image/png'>
+<meta content='DocSend' name='application-name'>
+<meta content='#FFFFFF' name='msapplication-TileColor'>
+<meta content='/mstile-144x144.png' name='msapplication-TileImage'>
+<meta content='/mstile-70x70.png' name='msapplication-square70x70logo'>
+<meta content='/mstile-150x150.png' name='msapplication-square150x150logo'>
+<meta content='/mstile-310x150.png' name='msapplication-wide310x150logo'>
+<meta content='/mstile-310x310.png' name='msapplication-square310x310logo'>
+
+<meta content='DocSend - Simple, intelligent, modern content sending' itemprop='name'>
+<meta content='DocSend helps you communicate more effectively by telling you what happens to content after you send them and letting you keep control in real time.' itemprop='description'>
+<meta content='https://docsend.com/favicon-1024x1024.png' itemprop='image'>
+<meta content='summary' name='twitter:card'>
+<meta content='@docsend' name='twitter:site'>
+<meta content='DocSend - Simple, intelligent, modern content sending' name='twitter:title'>
+<meta content='DocSend helps you communicate more effectively by telling you what happens to content after you send them and letting you keep control in real time.' name='twitter:description'>
+<meta content='https://d2qvtfnm75xrxf.cloudfront.net/assets/social/ds-logo-300-247d0a372a96b3f150ee9febcc07fafe5c1ccbf3d5cac5467c576b6434eb65cc.png' name='twitter:image'>
+<meta content='DocSend - Simple, intelligent, modern content sending' property='og:title'>
+<meta content='website' property='og:type'>
+<meta content='https://docsend.com' property='og:url'>
+<meta content='https://d2qvtfnm75xrxf.cloudfront.net/assets/social/ds-logo-300-247d0a372a96b3f150ee9febcc07fafe5c1ccbf3d5cac5467c576b6434eb65cc.png' property='og:image'>
+<meta content='DocSend helps you communicate more effectively by telling you what happens to content after you send them and letting you keep control in real time.' property='og:description'>
+<meta content='DocSend' property='og:site_name'>
+
+<meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="vmhwV1DiQG+iAT9E9EFlR9E39LjJrsI+OmPiJ2U9GFnWSLNYvSt54Z0wL0NkS4OFvsOZxYXoDalJzvoQrSNI0Q==" />
+<script nonce='30e82779-989e-43b9-9d52-e770f1085f2f'>
+!function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","group","track","ready","alias","page","once","off","on"];analytics.factory=function(t){return function(){var e=Array.prototype.slice.call(arguments);e.unshift(t);analytics.push(e);return analytics}};for(var t=0;t<analytics.methods.length;t++){var e=analytics.methods[t];analytics[e]=analytics.factory(e)}analytics.load=function(t){var e=document.createElement("script");e.type="text/javascript";e.async=!0;e.src=("https:"===document.location.protocol?"https://":"http://")+"cdn.segment.com/analytics.js/v1/"+t+"/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(e,n)};analytics.SNIPPET_VERSION="3.0.1";
+  analytics.load('J8a3bmdm0qYJGht3cOnzufg52HKsSVOv');
+  analytics.page();
+}}();
+
+</script>
+
+<script nonce='30e82779-989e-43b9-9d52-e770f1085f2f'>
+window.presentationConfig = {"documentId":1007569,"isVertical":true,"visitUuid":"484c2f3a-149f-44ec-8c8f-1f805fbdb961","pageViewSeed":"JXxrZbCigFSLuelNIoHHxg==","linkUrl":"8w3fman","preview":false,"prompt":true,"processing":false,"isPageTrackable":true};
+if (window.location.protocol == 'file:' && typeof window.presentationConfig.linkUrl != 'undefined')
+  window.location.replace('https://docsend.com/view/' + window.presentationConfig.linkUrl);
+
+
+</script>
+
+</head>
+
+<body class='presentation presentation' data-action='view' data-controller='presentation' data-live='false'>
+
+<div class='row flash flash-notice' style='display:none'>
+<div class='alert alert-info'>
+<div class='alert_content alert_content--with-close'>
+
+</div>
+<button class='close alert_icon alert_icon--close js-init-alert-close-button'>
+<svg width="25" height="25" viewbox="0 0 32 32" aria-hidden="true" role="img" class="ds-icon ds-icon-close-thin "><path d="M18.122 16l5.939-5.939a1.5 1.5 0 0 0-2.122-2.121L16 13.879 10.061 7.94a1.5 1.5 0 1 0-2.121 2.121l5.939 5.94L7.94 21.94a1.5 1.5 0 1 0 2.121 2.122l5.94-5.939 5.939 5.939a1.5 1.5 0 1 0 2.122-2.122l-5.939-5.939z"></path></svg>
+</button>
+</div>
+</div>
+<div class='row flash flash-warning' style='display:none'>
+<div class='alert alert-warning'>
+<div class='alert_content alert_content--with-close'>
+
+</div>
+<button class='close alert_icon alert_icon--close js-init-alert-close-button'>
+<svg width="25" height="25" viewbox="0 0 32 32" aria-hidden="true" role="img" class="ds-icon ds-icon-close-thin "><path d="M18.122 16l5.939-5.939a1.5 1.5 0 0 0-2.122-2.121L16 13.879 10.061 7.94a1.5 1.5 0 1 0-2.121 2.121l5.939 5.94L7.94 21.94a1.5 1.5 0 1 0 2.121 2.122l5.94-5.939 5.939 5.939a1.5 1.5 0 1 0 2.122-2.122l-5.939-5.939z"></path></svg>
+</button>
+</div>
+</div>
+<div class='row flash flash-alert' style='display:none'>
+<div class='alert alert-danger'>
+<svg width="25" height="25" viewbox="0 0 20 20" aria-hidden="true" role="img" class="ds-icon ds-icon-error alert_icon alert_icon--error"><path d="M10 0C4.475 0 0 4.475 0 10s4.475 10 10 10 10-4.475 10-10S15.525 0 10 0zm1.25 14.962h-2.5v-2.5h2.5v2.5zm0-3.75h-2.5v-6.25h2.5v6.25z"></path></svg>
+<div class='alert_content alert_content--with-close alert_content--with-icon'>
+
+</div>
+<button class='close alert_icon alert_icon--close js-init-alert-close-button'>
+<svg width="25" height="25" viewbox="0 0 32 32" aria-hidden="true" role="img" class="ds-icon ds-icon-close-thin "><path d="M18.122 16l5.939-5.939a1.5 1.5 0 0 0-2.122-2.121L16 13.879 10.061 7.94a1.5 1.5 0 1 0-2.121 2.121l5.939 5.94L7.94 21.94a1.5 1.5 0 1 0 2.121 2.122l5.94-5.939 5.939 5.939a1.5 1.5 0 1 0 2.122-2.122l-5.939-5.939z"></path></svg>
+</button>
+</div>
+</div>
+
+<div class='presentation-toolbar' id='toolbar'>
+<div class='toolbar-logo'>
+<a target="_blank" rel="noopener noreferrer" href="https://docsend.com/"><!--[if lte IE 8]>
+<img class="png-icon--docsend-logo " src="https://d2qvtfnm75xrxf.cloudfront.net/assets/docsend-wordmark--color-on-black-990c804d1fb00d736b49db440bc7f9e00bfb02c6b8fdfa80eb6959ee67053c6c.png" />
+<![endif]-->
+<!--[if gte IE 9 | !IE]><!--><svg width="126" height="30" viewbox="0 0 148 35" aria-hidden="true" role="img" class="ds-icon ds-icon-docsend-wordmark--color-on-black hidden-xs-down toolbar-logo-image "><g fill="none" fill-rule="evenodd"><path fill="#FFF" d="M57.6 17.128c0-5.063-1.64-8.812-5.636-8.812l-2.08.22v17.842l2.244.219c3.339 0 5.473-3.859 5.473-9.469zM43.81 26.597l1.833-.22V8.536l-1.833-.219V7.88h9.03c5.993 0 9.277 3.475 9.277 9.14 0 5.637-2.9 9.578-9.359 10.016h-8.948v-.438zm28.78-5.2c0-4.707-1.313-6.978-2.873-6.978-1.423 0-2.244 1.642-2.244 5.364 0 4.488 1.259 6.923 2.846 6.923 1.45 0 2.271-1.697 2.271-5.309zm-9.195-.52c0-4.515 3.202-6.266 7.143-7.224 3.53 0 6.13 2.654 6.13 6.54 0 4.515-3.175 6.322-7.17 7.252-3.475 0-6.103-2.654-6.103-6.568zm14.436.274c0-4.379 3.31-6.841 6.924-7.498 1.285 0 2.9.657 3.995 1.477v3.011h-3.093l-.93-3.667a1.609 1.609 0 0 0-.684-.137c-1.341 0-2.791 1.177-2.791 4.46 0 3.366 1.86 5.83 4.597 5.83 1.177 0 1.943-.274 2.983-.931l.137.246c-1.642 1.615-2.847 2.518-4.79 3.503-3.612 0-6.348-2.436-6.348-6.294zm12.613 4.68v-5.09h.437l1.478 3.53c1.095 1.286 2.436 2.408 4.214 2.408 1.998 0 3.34-1.204 3.34-3.065 0-1.505-.713-2.545-2.655-3.749l-3.613-2.408c-1.86-1.232-3.12-2.354-3.12-4.598 0-2.572 1.78-4.597 6.623-5.446 2.272 0 3.42.246 5.391.985v4.981h-.438l-1.751-3.968c-.848-.876-1.86-1.396-3.12-1.396-1.806 0-3.12 1.04-3.12 2.819 0 1.505.958 2.38 2.491 3.339l3.53 2.353c2.217 1.396 3.174 2.737 3.174 4.899 0 2.764-1.915 4.898-7.115 6.075-2.244 0-3.886-.52-5.746-1.67zm17.585-7.06v.41h4.214v-1.15c0-2.27-.438-3.557-1.97-3.557-1.478 0-2.244 1.368-2.244 4.296zm8.237 5.062c-1.752 1.751-3.065 2.654-5.145 3.612-3.53 0-6.486-2.326-6.486-6.294 0-4.242 3.038-6.787 6.623-7.498 2.791 0 4.98 1.642 4.98 4.926v1.04h-8.182c.3 2.955 2.08 4.87 4.761 4.87 1.232 0 2.162-.383 3.202-.985l.247.329zm.897 2.764l1.45-.219v-11.33l-1.477.247-.055-.466 4.898-1.04h.438v2.847l4.844-2.983c2.736 0 3.284 1.231 3.284 3.995v8.73l1.587.219v.438h-6.595v-.438l1.04-.219v-8.867c0-1.177-.438-1.67-1.259-1.67s-1.34.357-2.135.822l-.766.465v9.25l1.04.219v.438h-6.294v-.438zm23.863-2.162l.383-.274v-9.003a1.965 1.965 0 0 0-1.505-.684c-2.08.027-3.038 2.134-3.038 5.336 0 3.065.903 5.254 2.545 5.254.602 0 .876-.137 1.615-.63zm-8.347-3.23c0-3.667 1.67-6.677 5.966-7.552 1.04 0 1.943.218 2.764.739V8.645l-1.423.191-.055-.492 4.844-.794h.437v16.036c0 1.068.056 1.56.384 2.381l1.396-.11.054.439-4.789.985-.766-2.655-3.53 2.819c-2.983 0-5.282-2.655-5.282-6.24z"></path><path fill="#53EFCE" d="M15.804 29.235L5.621 19.05h10.183v10.184zm3.293-13.476H0v2.328l16.769 16.769h.681c.556 0 1.104-.03 1.647-.08V15.759z"></path><path fill="#6D31FF" d="M17.45 0H0v15.804h3.293V3.293H17.45c7.25 0 13.241 5.478 14.06 12.511h3.311C33.99 6.952 26.518 0 17.451 0"></path><path fill="#FFF" d="M31.599 17.41c0 7.247-5.477 13.237-12.51 14.058v3.312c8.852-.834 15.802-8.305 15.802-17.37 0-.558-.029-1.108-.08-1.651H31.5c.063.541.1 1.092.1 1.65"></path></g></svg>
+<svg width="32" height="32" viewbox="0 0 64 64" aria-hidden="true" role="img" class="ds-icon ds-icon-docsend-logo--color-on-black hidden-sm-up toolbar-logo-image "><g fill="none" fill-rule="evenodd"><path fill="#53EFCE" d="M28.9 53.458L10.277 34.836h18.621v18.622zm6.02-24.642H0v4.257l30.663 30.663h1.246c1.016 0 2.019-.053 3.011-.146V28.816z"></path><path fill="#6D31FF" d="M31.91 0H0v28.9h6.02V6.02h25.89c13.256 0 24.21 10.018 25.708 22.88h6.055C62.151 12.71 48.49 0 31.91 0"></path><path fill="#FFF" d="M57.78 31.834c0 13.254-10.014 24.207-22.873 25.707v6.056c16.186-1.525 28.894-15.186 28.894-31.763 0-1.018-.053-2.024-.146-3.018h-6.056c.115.99.182 1.997.182 3.018"></path></g></svg><!--<![endif]-->
+</a></div>
+
+<div class='presentation-toolbar_buttons pull-right'>
+<div class='toolbar-page-indicator' id='page-toolbar-controls'>
+<span id='page-number'>
+1
+</span>
+ / 59
+</div>
+<button class='toolbar-button' data-original-title='Jump to Page' data-placement='bottom' data-rel='tooltip' data-track-km='clicked on page picker in document viewer' disabled id='page-picker'>
+<!--[if lte IE 8]>
+<div class='ds-icon--stroked hidden-xs-down png-icon png-icon--grid--24'></div>
+<![endif]-->
+<!--[if gte IE 9 | !IE]><!--><svg width="15" height="15" viewbox="0 0 24 24" fill="none" aria-hidden="true" role="img" class="ds-icon ds-icon-grid--24 ds-icon--stroked hidden-xs-down  "><path stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M2 3h4v4H2zM10 3h4v4h-4zM18 3h4v4h-4zM2 10h4v4H2zM10 10h4v4h-4zM18 10h4v4h-4zM2 17h4v4H2zM10 17h4v4h-4zM18 17h4v4h-4z"></path></svg><!--<![endif]-->
+
+<!--[if lte IE 8]>
+<div class='ds-icon--stroked hidden-sm-up png-icon png-icon--grid--16'></div>
+<![endif]-->
+<!--[if gte IE 9 | !IE]><!--><svg width="15" height="15" viewbox="0 0 16 16" fill="none" aria-hidden="true" role="img" class="ds-icon ds-icon-grid--16 ds-icon--stroked hidden-sm-up  "><path stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M2 2h4v4H2zM10 2h4v4h-4zM2 10h4v4H2zM10 10h4v4h-4z"></path></svg><!--<![endif]-->
+
+
+</button>
+<div class='toolbar-rule'></div>
+<button class='toolbar-button js-document-fullscreen fullscreen' data-original-title='Full Screen' data-placement='bottom' data-rel='tooltip' disabled id='fullscreen'>
+<!--[if lte IE 8]>
+<div class='ds-icon--stroked fullscreen--expand hidden-xs-down png-icon png-icon--fullscreen-expand--24'></div>
+<![endif]-->
+<!--[if gte IE 9 | !IE]><!--><svg width="15" height="15" viewbox="0 0 24 24" fill="none" aria-hidden="true" role="img" class="ds-icon ds-icon-fullscreen-expand--24 ds-icon--stroked hidden-xs-down fullscreen--expand "><path d="M10 10L3 3M3 9V3h6M14 10l7-7M21 9V3h-6M10 14l-7 7M3 15v6h6M14 14l7 7M21 15v6h-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg><!--<![endif]-->
+
+<!--[if lte IE 8]>
+<div class='ds-icon--stroked fullscreen--expand hidden-sm-up png-icon png-icon--fullscreen-expand--16'></div>
+<![endif]-->
+<!--[if gte IE 9 | !IE]><!--><svg width="15" height="15" viewbox="0 0 16 16" fill="none" aria-hidden="true" role="img" class="ds-icon ds-icon-fullscreen-expand--16 ds-icon--stroked hidden-sm-up fullscreen--expand "><path d="M7 7L2 2M2 6V2h4M9 7l5-5M14 6V2h-4M7 9l-5 5M2 10v4h4M9 9l5 5M14 10v4h-4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg><!--<![endif]-->
+
+
+<!--[if lte IE 8]>
+<div class='ds-icon--stroked fullscreen--collapse hidden-xs-down png-icon png-icon--fullscreen-collapse--24'></div>
+<![endif]-->
+<!--[if gte IE 9 | !IE]><!--><svg width="15" height="15" viewbox="0 0 24 24" fill="none" aria-hidden="true" role="img" class="ds-icon ds-icon-fullscreen-collapse--24 ds-icon--stroked hidden-xs-down fullscreen--collapse "><path d="M4 14h6v6M20 10h-6V4M14 10l7-7M3 21l7-7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg><!--<![endif]-->
+
+<!--[if lte IE 8]>
+<div class='ds-icon--stroked fullscreen--collapse hidden-sm-up png-icon png-icon--fullscreen-collapse--16'></div>
+<![endif]-->
+<!--[if gte IE 9 | !IE]><!--><svg width="15" height="15" viewbox="0 0 16 16" fill="none" aria-hidden="true" role="img" class="ds-icon ds-icon-fullscreen-collapse--16 ds-icon--stroked hidden-sm-up fullscreen--collapse "><path d="M3 9h4v4M1 15l5-5M13 7H9V3M15 1l-5 5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg><!--<![endif]-->
+
+
+</button>
+<button class='toolbar-button js-document-zoom-in' data-original-title='Zoom In' data-placement='bottom' data-rel='tooltip' disabled id='zoom-in'>
+<!--[if lte IE 8]>
+<div class='ds-icon--stroked hidden-xs-down png-icon png-icon--plus--24'></div>
+<![endif]-->
+<!--[if gte IE 9 | !IE]><!--><svg width="15" height="15" viewbox="0 0 24 24" fill="none" aria-hidden="true" role="img" class="ds-icon ds-icon-plus--24 ds-icon--stroked hidden-xs-down  "><path stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M12 4v16M20 12H4"></path></svg><!--<![endif]-->
+
+<!--[if lte IE 8]>
+<div class='ds-icon--stroked hidden-sm-up png-icon png-icon--plus--16'></div>
+<![endif]-->
+<!--[if gte IE 9 | !IE]><!--><svg width="15" height="15" viewbox="0 0 16 16" fill="none" aria-hidden="true" role="img" class="ds-icon ds-icon-plus--16 ds-icon--stroked hidden-sm-up  "><path stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M8 3v10M13 8H3"></path></svg><!--<![endif]-->
+
+
+</button>
+<button class='toolbar-button js-document-zoom-out' data-original-title='Zoom Out' data-placement='bottom' data-rel='tooltip' disabled id='zoom-out'>
+<!--[if lte IE 8]>
+<div class='ds-icon--stroked hidden-xs-down png-icon png-icon--minus--24'></div>
+<![endif]-->
+<!--[if gte IE 9 | !IE]><!--><svg width="15" height="15" viewbox="0 0 24 24" fill="none" aria-hidden="true" role="img" class="ds-icon ds-icon-minus--24 ds-icon--stroked hidden-xs-down  "><path stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M20 12H4"></path></svg><!--<![endif]-->
+
+<!--[if lte IE 8]>
+<div class='ds-icon--stroked hidden-sm-up png-icon png-icon--minus--16'></div>
+<![endif]-->
+<!--[if gte IE 9 | !IE]><!--><svg width="15" height="15" viewbox="0 0 16 16" fill="none" aria-hidden="true" role="img" class="ds-icon ds-icon-minus--16 ds-icon--stroked hidden-sm-up  "><path stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M13 8H3"></path></svg><!--<![endif]-->
+
+
+</button>
+<div class='toolbar-rule'></div>
+<div class='positioned-context'>
+<button class='toolbar-button toolbar-button--contact-card js-contact-card_button' data-original-title='Contact DxChain' data-placement='bottom' data-rel='tooltip'>
+<!--[if lte IE 8]>
+<div class='ds-icon--stroked hidden-xs-down png-icon png-icon--chat--24'></div>
+<![endif]-->
+<!--[if gte IE 9 | !IE]><!--><svg width="15" height="15" viewbox="0 0 24 24" fill="none" aria-hidden="true" role="img" class="ds-icon ds-icon-chat--24 ds-icon--stroked hidden-xs-down  "><path d="M20.32 16.88C21.99 15.3 23 13.25 23 11c0-4.97-4.92-9-11-9S1 6.03 1 11s4.92 9 11 9c1.21 0 2.37-.17 3.46-.46L21 23l-.68-6.12zM7 9h10M7 13h7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg><!--<![endif]-->
+
+<!--[if lte IE 8]>
+<div class='ds-icon--stroked hidden-sm-up png-icon png-icon--chat--16'></div>
+<![endif]-->
+<!--[if gte IE 9 | !IE]><!--><svg width="15" height="15" fill="none" aria-hidden="true" role="img" class="ds-icon ds-icon-chat--16 ds-icon--stroked hidden-sm-up  "><path d="M12.852 10.406A5.66 5.66 0 0014 7c0-3.314-2.91-6-6.5-6S1 3.686 1 7s2.91 6 6.5 6c.506 0 1-.053 1.473-.155L14 15l-1.148-4.594zM4 7h3m3 0h1" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg><!--<![endif]-->
+
+
+</button>
+
+<div class='toolbar-popover toolbar-popover--contact-card js-contact-card_menu js-init-contact-card-controller hide' id='contact-card-menu'>
+<div class='beak'></div>
+<div class='doc-chat js-doc-chat-container' id='feedback'>
+<form class="js-doc-chat-form" id="feedback-form" data-type="json" action="/view/8w3fman/feedback" accept-charset="UTF-8" data-remote="true" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><div class='doc-chat_title ellipsize-text'>
+Ask DxChain a question
+</div>
+<div class='control-group space-stack-m'>
+<textarea id="feedback-message" class="doc-chat_feedback-message form-control" placeholder="" rows="5" name="feedback[message]">
+</textarea>
+</div>
+<div class='doc-chat_reply-email-subtitle ellipsize-text'>
+<span class='space-inline-xs'>
+DxChain will reply via email to:
+</span>
+<input type="email" id="feedback-email" placeholder="your email" class="doc-chat_reply-email need-placeholder" name="feedback[sender_email]" />
+<i class='fa fa-pencil doc-chat_reply-icon space-inset-xs'></i>
+</div>
+<div class='sender-email-errors'>
+</div>
+<input id="feedback-pagenum" class="doc-chat_feedback-page-number" type="hidden" name="feedback[page_number]" />
+<input type="submit" name="commit" value="Send" class="base-button primary-button mb-10" />
+<i class='doc-chat_error-icon fa fa-warning error' data-container='body' data-original-title='Oops! Please check your connection and try again.' data-rel='tooltip' id='feedback-error-icon'></i>
+<span class='doc-chat_success-icon' id='feedback-success'>
+<i class='fa fa-check'></i>
+<span>Sent!</span>
+</span>
+</form></div>
+
+</div>
+</div>
+<!--[if gte IE 9 | !IE]><!--><a class='toolbar-button' data-original-title='What is DocSend?' data-placement='bottom' data-rel='tooltip' data-track-km='clicked presentation learn more - toolbar question mark' href='https://help.docsend.com/hc/en-us/articles/360036630493-What-is-DocSend-' rel='noopener noreferrer' target='_blank'>
+<svg width="24" height="24" viewbox="0 0 24 24" fill="none" aria-hidden="true" role="img" class="ds-icon ds-icon-circle-question--24 ds-icon--stroked"><path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path><path d="M8.84 9.375a3 3 0 015.83 1c0 2-3 3-3 3M11.75 17.375h.01" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+</a><!--<![endif]-->
+</div>
+</div>
+
+<div class='carousel cookies-required' id='viewer'>
+<div class='carousel-inner'>
+<div class='item' data-thumb-height='150' data-thumb-width='116'>
+<img class="loading-gif" src="https://d2qvtfnm75xrxf.cloudfront.net/public/loading_images/large-loader.gif" />
+<img class="preso-view error-view" retina="true" src="https://d2qvtfnm75xrxf.cloudfront.net/assets/backgrounds/whitey-a183e5d0b46c9fa407c262ce44efe95546a2e8f07be415119d6641ec5fb19c19.png" />
+<img class="preso-view page-view" alt="" data-url="https://docsend.com/view/8w3fman/page_data/1" data-pagenum="1" usemap="#page-map-1" src="https://d2qvtfnm75xrxf.cloudfront.net/public/blank.gif" />
+<map name='page-map-1'></map>
+<div id='document-media-container'></div>
+</div>
+<div class='stats-chart'>
+<div class='page-view' data-pagenum='2' id='stats-page-container'>
+<div id='stats-content'>
+<div class='signup-modal-content'>
+<div class='stats-header'>
+Want to get analytics and have control on the content you send?
+</div>
+<div id='stats-page-sparkline'></div>
+<div id='stats-time-text'>
+<span>You spent</span>
+<span id='stats-time'></span>
+<span>on this document</span>
+</div>
+<div class='signup-section'>
+<div class='signup-text'>
+Create a free DocSend account!
+</div>
+</div>
+<div id='signup-content'>
+<div class='signup-content'>
+<div class='text-center'>
+<div class='oauth-buttons'>
+<div class='oauth-button'>
+<a class="ds-button-linkedin js-oauth-linkedin-button btn" data-type="signup" data-title="LinkedIn" rel="nofollow" data-method="post" href="/account/auth/linkedin?signup_source=viewed+stats+page"><div class='ds-linkedin-signup'></div>
+</a></div>
+<div class='oauth-button'>
+<a class="js-oauth-google-button btn" data-type="signup" data-title="Google" rel="nofollow" data-method="post" href="/account/auth/google_oauth2?signup_source=viewed+stats+page"><div class='ds-google-signup'></div>
+</a></div>
+</div>
+<div class='oauth-down-warning'></div>
+<div class='separator'>
+<hr>
+or
+<hr>
+</div>
+<form class="simple-signup-form" id="signup-form" data-type="json" action="/view/8w3fman/signup" accept-charset="UTF-8" data-remote="true" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><div class='signup-box'>
+<input type="email" class="signup-textfield form-control" placeholder="name@company.com" value="" name="user[email]" id="user_email" />
+<input type="submit" name="commit" value="SIGN UP" class="email-signup-button btn" />
+</div>
+</form>
+By signing up you agree to our
+<a target="_blank" rel="noopener noreferrer" href="https://www.docsend.com/terms-of-service">Terms of Service.</a>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+<div class='modal-hidden'>
+<div id='signup-success'>
+<h4 class='text-center'>
+Awesome!
+</h4>
+<p>
+You'll be receiving your account confirmation email shortly.
+</p>
+<p>
+For now, you can get back to your content.
+</p>
+<div class='text-center'>
+<a class='base-button primary-button' href='#' id='ok-button'>
+Ok!
+</a>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+</div>
+<a class='left carousel-control' id='prevPageButton'>
+<i class='fa fa-chevron-left' id='prevPageIcon'></i>
+</a>
+<a class='right carousel-control' id='nextPageButton'>
+<i class='fa fa-chevron-right' id='nextPageIcon'></i>
+</a>
+</div>
+
+<div class='modal fade noSlide' id='page-picker-modal' tabindex='-1'>
+<div class='modal-dialog'>
+<div class='modal-content line-height-reset'>
+<div class='modal-header modal-header--new-design flex-align--center'>
+<div class='modal-header_title ellipsize-text'>
+Select page
+</div>
+<button class='transparent-button modal-header_close pull-right' data-dismiss='modal'>
+<svg width="30" height="30" viewbox="0 0 32 32" aria-hidden="true" role="img" class="ds-icon ds-icon-close-thin "><path d="M18.122 16l5.939-5.939a1.5 1.5 0 0 0-2.122-2.121L16 13.879 10.061 7.94a1.5 1.5 0 1 0-2.121 2.121l5.939 5.94L7.94 21.94a1.5 1.5 0 1 0 2.121 2.122l5.94-5.939 5.939 5.939a1.5 1.5 0 1 0 2.122-2.122l-5.939-5.939z"></path></svg>
+</button>
+</div>
+<div class='modal-body modal-body--new-design'>
+<hr>
+<div class='page-label'>
+58 PAGES
+</div>
+<hr>
+<div class='page-grid row'>
+<div class='col-sm-4 col-xs-6'>
+<div class='document-thumb-container' data-page-num='1' data-thumbed='true' data-type='presentation' data-url='https://docsend.com/view/8w3fman/thumb/1' style='width:116px; height:150px'></div>
+<div class='page-number'>
+1
+</div>
+</div>
+<div class='col-sm-4 col-xs-6'>
+<div class='document-thumb-container' data-page-num='2' data-thumbed='true' data-type='presentation' data-url='https://docsend.com/view/8w3fman/thumb/2' style='width:116px; height:150px'></div>
+<div class='page-number'>
+2
+</div>
+</div>
+<div class='col-sm-4 col-xs-6'>
+<div class='document-thumb-container' data-page-num='3' data-thumbed='true' data-type='presentation' data-url='https://docsend.com/view/8w3fman/thumb/3' style='width:116px; height:150px'></div>
+<div class='page-number'>
+3
+</div>
+</div>
+<div class='col-sm-4 col-xs-6'>
+<div class='document-thumb-container' data-page-num='4' data-thumbed='true' data-type='presentation' data-url='https://docsend.com/view/8w3fman/thumb/4' style='width:116px; height:150px'></div>
+<div class='page-number'>
+4
+</div>
+</div>
+<div class='col-sm-4 col-xs-6'>
+<div class='document-thumb-container' data-page-num='5' data-thumbed='true' data-type='presentation' data-url='https://docsend.com/view/8w3fman/thumb/5' style='width:116px; height:150px'></div>
+<div class='page-number'>
+5
+</div>
+</div>
+<div class='col-sm-4 col-xs-6'>
+<div class='document-thumb-container' data-page-num='6' data-thumbed='true' data-type='presentation' data-url='https://docsend.com/view/8w3fman/thumb/6' style='width:116px; height:150px'></div>
+<div class='page-number'>
+6
+</div>
+</div>
+<div class='col-sm-4 col-xs-6'>
+<div class='document-thumb-container' data-page-num='7' data-thumbed='true' data-type='presentation' data-url='https://docsend.com/view/8w3fman/thumb/7' style='width:116px; height:150px'></div>
+<div class='page-number'>
+7
+</div>
+</div>
+<div class='col-sm-4 col-xs-6'>
+<div class='document-thumb-container' data-page-num='8' data-thumbed='true' data-type='presentation' data-url='https://docsend.com/view/8w3fman/thumb/8' style='width:116px; height:150px'></div>
+<div class='page-number'>
+8
+</div>
+</div>
+<div class='col-sm-4 col-xs-6'>
+<div class='document-thumb-container' data-page-num='9' data-thumbed='true' data-type='presentation' data-url='https://docsend.com/view/8w3fman/thumb/9' style='width:116px; height:150px'></div>
+<div class='page-number'>
+9
+</div>
+</div>
+<div class='col-sm-4 col-xs-6'>
+<div class='document-thumb-container' data-page-num='10' data-thumbed='true' data-type='presentation' data-url='https://docsend.com/view/8w3fman/thumb/10' style='width:116px; height:150px'></div>
+<div class='page-number'>
+10
+</div>
+</div>
+<div class='col-sm-4 col-xs-6'>
+<div class='document-thumb-container' data-page-num='11' data-thumbed='true' data-type='presentation' data-url='https://docsend.com/view/8w3fman/thumb/11' style='width:116px; height:150px'></div>
+<div class='page-number'>
+11
+</div>
+</div>
+<div class='col-sm-4 col-xs-6'>
+<div class='document-thumb-container' data-page-num='12' data-thumbed='true' data-type='presentation' data-url='https://docsend.com/view/8w3fman/thumb/12' style='width:116px; height:150px'></div>
+<div class='page-number'>
+12
+</div>
+</div>
+<div class='col-sm-4 col-xs-6'>
+<div class='document-thumb-container' data-page-num='13' data-thumbed='true' data-type='presentation' data-url='https://docsend.com/view/8w3fman/thumb/13' style='width:116px; height:150px'></div>
+<div class='page-number'>
+13
+</div>
+</div>
+<div class='col-sm-4 col-xs-6'>
+<div class='document-thumb-container' data-page-num='14' data-thumbed='true' data-type='presentation' data-url='https://docsend.com/view/8w3fman/thumb/14' style='width:116px; height:150px'></div>
+<div class='page-number'>
+14
+</div>
+</div>
+<div class='col-sm-4 col-xs-6'>
+<div class='document-thumb-container' data-page-num='15' data-thumbed='true' data-type='presentation' data-url='https://docsend.com/view/8w3fman/thumb/15' style='width:116px; height:150px'></div>
+<div class='page-number'>
+15
+</div>
+</div>
+<div class='col-sm-4 col-xs-6'>
+<div class='document-thumb-container' data-page-num='16' data-thumbed='true' data-type='presentation' data-url='https://docsend.com/view/8w3fman/thumb/16' style='width:116px; height:150px'></div>
+<div class='page-number'>
+16
+</div>
+</div>
+<div class='col-sm-4 col-xs-6'>
+<div class='document-thumb-container' data-page-num='17' data-thumbed='true' data-type='presentation' data-url='https://docsend.com/view/8w3fman/thumb/17' style='width:116px; height:150px'></div>
+<div class='page-number'>
+17
+</div>
+</div>
+<div class='col-sm-4 col-xs-6'>
+<div class='document-thumb-container' data-page-num='18' data-thumbed='true' data-type='presentation' data-url='https://docsend.com/view/8w3fman/thumb/18' style='width:116px; height:150px'></div>
+<div class='page-number'>
+18
+</div>
+</div>
+<div class='col-sm-4 col-xs-6'>
+<div class='document-thumb-container' data-page-num='19' data-thumbed='true' data-type='presentation' data-url='https://docsend.com/view/8w3fman/thumb/19' style='width:116px; height:150px'></div>
+<div class='page-number'>
+19
+</div>
+</div>
+<div class='col-sm-4 col-xs-6'>
+<div class='document-thumb-container' data-page-num='20' data-thumbed='true' data-type='presentation' data-url='https://docsend.com/view/8w3fman/thumb/20' style='width:116px; height:150px'></div>
+<div class='page-number'>
+20
+</div>
+</div>
+<div class='col-sm-4 col-xs-6'>
+<div class='document-thumb-container' data-page-num='21' data-thumbed='true' data-type='presentation' data-url='https://docsend.com/view/8w3fman/thumb/21' style='width:116px; height:150px'></div>
+<div class='page-number'>
+21
+</div>
+</div>
+<div class='col-sm-4 col-xs-6'>
+<div class='document-thumb-container' data-page-num='22' data-thumbed='true' data-type='presentation' data-url='https://docsend.com/view/8w3fman/thumb/22' style='width:116px; height:150px'></div>
+<div class='page-number'>
+22
+</div>
+</div>
+<div class='col-sm-4 col-xs-6'>
+<div class='document-thumb-container' data-page-num='23' data-thumbed='true' data-type='presentation' data-url='https://docsend.com/view/8w3fman/thumb/23' style='width:116px; height:150px'></div>
+<div class='page-number'>
+23
+</div>
+</div>
+<div class='col-sm-4 col-xs-6'>
+<div class='document-thumb-container' data-page-num='24' data-thumbed='true' data-type='presentation' data-url='https://docsend.com/view/8w3fman/thumb/24' style='width:116px; height:150px'></div>
+<div class='page-number'>
+24
+</div>
+</div>
+<div class='col-sm-4 col-xs-6'>
+<div class='document-thumb-container' data-page-num='25' data-thumbed='true' data-type='presentation' data-url='https://docsend.com/view/8w3fman/thumb/25' style='width:116px; height:150px'></div>
+<div class='page-number'>
+25
+</div>
+</div>
+<div class='col-sm-4 col-xs-6'>
+<div class='document-thumb-container' data-page-num='26' data-thumbed='true' data-type='presentation' data-url='https://docsend.com/view/8w3fman/thumb/26' style='width:116px; height:150px'></div>
+<div class='page-number'>
+26
+</div>
+</div>
+<div class='col-sm-4 col-xs-6'>
+<div class='document-thumb-container' data-page-num='27' data-thumbed='true' data-type='presentation' data-url='https://docsend.com/view/8w3fman/thumb/27' style='width:116px; height:150px'></div>
+<div class='page-number'>
+27
+</div>
+</div>
+<div class='col-sm-4 col-xs-6'>
+<div class='document-thumb-container' data-page-num='28' data-thumbed='true' data-type='presentation' data-url='https://docsend.com/view/8w3fman/thumb/28' style='width:116px; height:150px'></div>
+<div class='page-number'>
+28
+</div>
+</div>
+<div class='col-sm-4 col-xs-6'>
+<div class='document-thumb-container' data-page-num='29' data-thumbed='true' data-type='presentation' data-url='https://docsend.com/view/8w3fman/thumb/29' style='width:116px; height:150px'></div>
+<div class='page-number'>
+29
+</div>
+</div>
+<div class='col-sm-4 col-xs-6'>
+<div class='document-thumb-container' data-page-num='30' data-thumbed='true' data-type='presentation' data-url='https://docsend.com/view/8w3fman/thumb/30' style='width:116px; height:150px'></div>
+<div class='page-number'>
+30
+</div>
+</div>
+<div class='col-sm-4 col-xs-6'>
+<div class='document-thumb-container' data-page-num='31' data-thumbed='true' data-type='presentation' data-url='https://docsend.com/view/8w3fman/thumb/31' style='width:116px; height:150px'></div>
+<div class='page-number'>
+31
+</div>
+</div>
+<div class='col-sm-4 col-xs-6'>
+<div class='document-thumb-container' data-page-num='32' data-thumbed='true' data-type='presentation' data-url='https://docsend.com/view/8w3fman/thumb/32' style='width:116px; height:150px'></div>
+<div class='page-number'>
+32
+</div>
+</div>
+<div class='col-sm-4 col-xs-6'>
+<div class='document-thumb-container' data-page-num='33' data-thumbed='true' data-type='presentation' data-url='https://docsend.com/view/8w3fman/thumb/33' style='width:116px; height:150px'></div>
+<div class='page-number'>
+33
+</div>
+</div>
+<div class='col-sm-4 col-xs-6'>
+<div class='document-thumb-container' data-page-num='34' data-thumbed='true' data-type='presentation' data-url='https://docsend.com/view/8w3fman/thumb/34' style='width:116px; height:150px'></div>
+<div class='page-number'>
+34
+</div>
+</div>
+<div class='col-sm-4 col-xs-6'>
+<div class='document-thumb-container' data-page-num='35' data-thumbed='true' data-type='presentation' data-url='https://docsend.com/view/8w3fman/thumb/35' style='width:116px; height:150px'></div>
+<div class='page-number'>
+35
+</div>
+</div>
+<div class='col-sm-4 col-xs-6'>
+<div class='document-thumb-container' data-page-num='36' data-thumbed='true' data-type='presentation' data-url='https://docsend.com/view/8w3fman/thumb/36' style='width:116px; height:150px'></div>
+<div class='page-number'>
+36
+</div>
+</div>
+<div class='col-sm-4 col-xs-6'>
+<div class='document-thumb-container' data-page-num='37' data-thumbed='true' data-type='presentation' data-url='https://docsend.com/view/8w3fman/thumb/37' style='width:116px; height:150px'></div>
+<div class='page-number'>
+37
+</div>
+</div>
+<div class='col-sm-4 col-xs-6'>
+<div class='document-thumb-container' data-page-num='38' data-thumbed='true' data-type='presentation' data-url='https://docsend.com/view/8w3fman/thumb/38' style='width:116px; height:150px'></div>
+<div class='page-number'>
+38
+</div>
+</div>
+<div class='col-sm-4 col-xs-6'>
+<div class='document-thumb-container' data-page-num='39' data-thumbed='true' data-type='presentation' data-url='https://docsend.com/view/8w3fman/thumb/39' style='width:116px; height:150px'></div>
+<div class='page-number'>
+39
+</div>
+</div>
+<div class='col-sm-4 col-xs-6'>
+<div class='document-thumb-container' data-page-num='40' data-thumbed='true' data-type='presentation' data-url='https://docsend.com/view/8w3fman/thumb/40' style='width:116px; height:150px'></div>
+<div class='page-number'>
+40
+</div>
+</div>
+<div class='col-sm-4 col-xs-6'>
+<div class='document-thumb-container' data-page-num='41' data-thumbed='true' data-type='presentation' data-url='https://docsend.com/view/8w3fman/thumb/41' style='width:116px; height:150px'></div>
+<div class='page-number'>
+41
+</div>
+</div>
+<div class='col-sm-4 col-xs-6'>
+<div class='document-thumb-container' data-page-num='42' data-thumbed='true' data-type='presentation' data-url='https://docsend.com/view/8w3fman/thumb/42' style='width:116px; height:150px'></div>
+<div class='page-number'>
+42
+</div>
+</div>
+<div class='col-sm-4 col-xs-6'>
+<div class='document-thumb-container' data-page-num='43' data-thumbed='true' data-type='presentation' data-url='https://docsend.com/view/8w3fman/thumb/43' style='width:116px; height:150px'></div>
+<div class='page-number'>
+43
+</div>
+</div>
+<div class='col-sm-4 col-xs-6'>
+<div class='document-thumb-container' data-page-num='44' data-thumbed='true' data-type='presentation' data-url='https://docsend.com/view/8w3fman/thumb/44' style='width:116px; height:150px'></div>
+<div class='page-number'>
+44
+</div>
+</div>
+<div class='col-sm-4 col-xs-6'>
+<div class='document-thumb-container' data-page-num='45' data-thumbed='true' data-type='presentation' data-url='https://docsend.com/view/8w3fman/thumb/45' style='width:116px; height:150px'></div>
+<div class='page-number'>
+45
+</div>
+</div>
+<div class='col-sm-4 col-xs-6'>
+<div class='document-thumb-container' data-page-num='46' data-thumbed='true' data-type='presentation' data-url='https://docsend.com/view/8w3fman/thumb/46' style='width:116px; height:150px'></div>
+<div class='page-number'>
+46
+</div>
+</div>
+<div class='col-sm-4 col-xs-6'>
+<div class='document-thumb-container' data-page-num='47' data-thumbed='true' data-type='presentation' data-url='https://docsend.com/view/8w3fman/thumb/47' style='width:116px; height:150px'></div>
+<div class='page-number'>
+47
+</div>
+</div>
+<div class='col-sm-4 col-xs-6'>
+<div class='document-thumb-container' data-page-num='48' data-thumbed='true' data-type='presentation' data-url='https://docsend.com/view/8w3fman/thumb/48' style='width:116px; height:150px'></div>
+<div class='page-number'>
+48
+</div>
+</div>
+<div class='col-sm-4 col-xs-6'>
+<div class='document-thumb-container' data-page-num='49' data-thumbed='true' data-type='presentation' data-url='https://docsend.com/view/8w3fman/thumb/49' style='width:116px; height:150px'></div>
+<div class='page-number'>
+49
+</div>
+</div>
+<div class='col-sm-4 col-xs-6'>
+<div class='document-thumb-container' data-page-num='50' data-thumbed='true' data-type='presentation' data-url='https://docsend.com/view/8w3fman/thumb/50' style='width:116px; height:150px'></div>
+<div class='page-number'>
+50
+</div>
+</div>
+<div class='col-sm-4 col-xs-6'>
+<div class='document-thumb-container' data-page-num='51' data-thumbed='true' data-type='presentation' data-url='https://docsend.com/view/8w3fman/thumb/51' style='width:116px; height:150px'></div>
+<div class='page-number'>
+51
+</div>
+</div>
+<div class='col-sm-4 col-xs-6'>
+<div class='document-thumb-container' data-page-num='52' data-thumbed='true' data-type='presentation' data-url='https://docsend.com/view/8w3fman/thumb/52' style='width:116px; height:150px'></div>
+<div class='page-number'>
+52
+</div>
+</div>
+<div class='col-sm-4 col-xs-6'>
+<div class='document-thumb-container' data-page-num='53' data-thumbed='true' data-type='presentation' data-url='https://docsend.com/view/8w3fman/thumb/53' style='width:116px; height:150px'></div>
+<div class='page-number'>
+53
+</div>
+</div>
+<div class='col-sm-4 col-xs-6'>
+<div class='document-thumb-container' data-page-num='54' data-thumbed='true' data-type='presentation' data-url='https://docsend.com/view/8w3fman/thumb/54' style='width:116px; height:150px'></div>
+<div class='page-number'>
+54
+</div>
+</div>
+<div class='col-sm-4 col-xs-6'>
+<div class='document-thumb-container' data-page-num='55' data-thumbed='true' data-type='presentation' data-url='https://docsend.com/view/8w3fman/thumb/55' style='width:116px; height:150px'></div>
+<div class='page-number'>
+55
+</div>
+</div>
+<div class='col-sm-4 col-xs-6'>
+<div class='document-thumb-container' data-page-num='56' data-thumbed='true' data-type='presentation' data-url='https://docsend.com/view/8w3fman/thumb/56' style='width:116px; height:150px'></div>
+<div class='page-number'>
+56
+</div>
+</div>
+<div class='col-sm-4 col-xs-6'>
+<div class='document-thumb-container' data-page-num='57' data-thumbed='true' data-type='presentation' data-url='https://docsend.com/view/8w3fman/thumb/57' style='width:116px; height:150px'></div>
+<div class='page-number'>
+57
+</div>
+</div>
+<div class='col-sm-4 col-xs-6'>
+<div class='document-thumb-container' data-page-num='58' data-thumbed='true' data-type='presentation' data-url='https://docsend.com/view/8w3fman/thumb/58' style='width:116px; height:150px'></div>
+<div class='page-number'>
+58
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class='modal fade font-size-reset line-height-reset' id='prompt'>
+<div class='modal-dialog modal-dialog--sm'>
+<div class='modal-content modal-content--new-design'>
+<div class='modal-header modal-header--prompt js-prompt-modal_header'>
+<div class='profile-picture profile-picture--lg'>
+<img class='profile-picture_img modal-header_profile-picture js-prompt-modal_profile-picture' data-image-url='https://d2qvtfnm75xrxf.cloudfront.net/profile_pictures/308e7d4a-1235-4b3f-b591-ee4b8ce03c8e/7lNBe9cS1qWZbp2xy4pq_logo_dxcoin.png'>
+</div>
+</div>
+<div class='modal-body modal-body--new-design modal-body--no-footer js-prompt-modal_body'>
+<div class='text-center mt-20'>
+<div class='ellipsize-text xlarge-text font-weight-semibold ds-very-dark-blue-color'>
+DxChain shared this document with you.
+</div>
+</div>
+<form id="new_link_auth_form" action="/view/8w3fman" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="_method" value="patch" /><input type="hidden" name="authenticity_token" value="HSose/UVstrDR2aq2Bc5hapSS74jU39dMossHbQUodJ1Cu90GNyLVPx2dq1IHd9HxaYmw28VsMpBJjQqfArxWg==" /><div class='text-center ds-dark-gray-color mt-10 mb-20'>
+Please enter your info to continue.
+</div>
+<div>
+<div class='form_group'>
+<div class='form_label'>
+<label data-rel="tooltip" data-original-title="Required" for="link_auth_form_email">Email</label>
+</div>
+<div class='form_controls'>
+<input type="email" class="form-control form-control--new-design" name="link_auth_form[email]" id="link_auth_form_email" />
+<div class='ellipsize-text italic small-text mt-10 ds-gray-color'>
+This information will only be shared with DxChain.
+</div>
+</div>
+</div>
+
+<div class='text-center py-10'>
+<input type="submit" name="commit" value="Continue" class="base-button base-button--main primary-button js-auth-form_submit-button" />
+</div>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+
+
+<div class='modal fade' id='error-message'>
+<div class='modal-dialog modal-dialog--sm'>
+<div class='modal-content'>
+<div class='modal-header modal-header--new-design'>
+<h4>
+Content unavailable
+</h4>
+</div>
+<div class='modal-body modal-body--new-design' id='access-error'>
+This content is no longer available.
+</div>
+<div class='modal-body modal-body--new-design no-show' id='image-error'>
+<p>
+There was an error loading part of this content. Please try refreshing the page.
+</p>
+<p>
+If you see this error again, try closing your tab and opening a new one.
+</p>
+</div>
+<div class='modal-body modal-body--new-design no-show' id='cookie-error'>
+Please enable cookies then reload the page.
+</div>
+<div class='modal-footer modal-footer--new-design js-error-modal_footer'>
+<a class='base-button primary-button js-reload-button'>
+Reload
+</a>
+</div>
+</div>
+</div>
+</div>
+
+<div class='video-modal modal fade noSlide' id='youtube-modal' tabindex='-1'>
+<div class='modal-dialog'>
+<div class='modal-content'>
+<div class='modal-header'>
+<button class='close' data-dismiss='modal'>&times;</button>
+</div>
+<div class='modal-body'>
+<div id='youtube-container'>
+<div id='player'></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class='video-modal modal fade noSlide' id='vimeo-modal' tabindex='-1'>
+<div class='modal-dialog'>
+<div class='modal-content'>
+<div class='modal-header'>
+<button class='close' data-dismiss='modal'>&times;</button>
+</div>
+<div class='modal-body'>
+<div id='vimeo-container'></div>
+</div>
+</div>
+</div>
+</div>
+
+
+<script src="https://d2qvtfnm75xrxf.cloudfront.net/assets/presentation-01a8b1cf26dcde23ae0443fd1109c961e77c408e1f70f541ba4260629c93ba10.js" nonce="30e82779-989e-43b9-9d52-e770f1085f2f"></script>
+<!--[if lt IE 9]>
+<script src="https://d2qvtfnm75xrxf.cloudfront.net/assets/highcharts/modules/oldie.src-d0702ebfd033c6f5c815978f92a773ff0852ca4f776fb8f415a3c6d961ec8487.js"></script>
+<![endif]-->
+
+<script nonce='30e82779-989e-43b9-9d52-e770f1085f2f' src='/respondjs/respond.proxy.js'></script>
+
+
+
+</body>
+
+</html>
